@@ -5,7 +5,8 @@ Shared plan for two Sekiro rewrites in Rust and Bevy:
 - [AKJama/sekiro-rs](https://github.com/AKJama/sekiro-rs) (Yama)
 - [FFwLo/RustSekiro](https://github.com/FFwLo/RustSekiro) (FwLo)
 
-No code here, just who does what and what's in progress.
+No code here: a reference for who has what and who leads what.
+The real sync is pushing often; this repo is a snapshot, not a process to follow.
 If you are an agent working for either of us, read this first every session.
 
 ## Every session
