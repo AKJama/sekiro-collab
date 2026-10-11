@@ -1,6 +1,6 @@
 # Features
 
-What each project has, as of 11 October 2026.
+What each project has, as of 12 October 2026.
 ✅ done, 🟡 partial, ❌ not yet, ? not checked.
 Keep your own column up to date.
 
@@ -15,15 +15,15 @@ Keep your own column up to date.
 | Movement | Lock-on strafing, kick-jump | ✅ | ✅ |
 | Movement | Sheathed walk and run | 🟡 | ✅ |
 | Movement | Grappling hook | ✅ arcs, air and chained | ✅ incl. enemy targets |
-| Movement | Ledge hang and climb | 🟡 | ? |
-| Movement | Wall hug | ✅ | ? |
+| Movement | Ledge hang and climb | 🟡 | ❌ only the grapple perch landing |
+| Movement | Wall hug | ✅ | ❌ |
 | Movement | Swimming and diving | ✅ | ❌ |
-| Movement | Fall death and respawn | ✅ | ? |
+| Movement | Fall death and respawn | ✅ | 🟡 respawn and resurrection, no fall death |
 | Movement | Upper/lower body layering | ❌ | ✅ |
 | Combat | Attacks, hit reactions, hit stop, guard, deflect, posture | ✅ | ✅ |
 | Combat | Deflect spam penalty | ? | ✅ |
 | Combat | Perilous attacks, Mikiri, sweep counter | ✅ | ✅ |
-| Combat | Super armour | ✅ | ? |
+| Combat | Super armour | ✅ | 🟡 flinch-free swings only, no toughness model |
 | Combat | Status effects (poison, burn) | 🟡 | ✅ |
 | Combat | Resurrection | ❌ | ✅ |
 | Deathblows | Front, after posture break | ✅ | ✅ |
@@ -34,7 +34,7 @@ Keep your own column up to date.
 | Enemies | All 102 placed kinds load | ✅ | ✅ |
 | Enemies | Fights verified | 🟡 soldier, Owl, Genichiro | ✅ most of the roster |
 | Enemies | Great Shinobi Owl | ✅ | ✅ |
-| Enemies | Genichiro rooftop, Tomoe, lightning reversal | ✅ | 🟡 arena and lightning |
+| Enemies | Genichiro rooftop, Tomoe, lightning reversal | ✅ | ✅ castle top arena, Tomoe swap, reversal |
 | Enemies | Other bosses' events (Monk phantoms, summons, warps) | ❌ | ✅ |
 | Enemies | Stealth and perception | ❌ | ✅ |
 | Enemies | Several enemies at once | ❌ | ✅ |
@@ -48,7 +48,7 @@ Keep your own column up to date.
 | Rendering | Fog, exposure, tone mapping, bloom from the game's shaders | ✅ | 🟡 Bevy built-ins |
 | Rendering | Colour grading, layered materials, shadows | ✅ | ✅ |
 | Rendering | GI probes and bounce light | ✅ | 🟡 |
-| Rendering | Point lights | ✅ | ? |
+| Rendering | Point lights | ✅ | ❌ effect lights only |
 | Rendering | Character materials | 🟡 | ✅ |
 | Effects | FXR particle player | 🟡 | ✅ |
 | Effects | Blood, hit stains, clash sparks | ❌ | ✅ |
