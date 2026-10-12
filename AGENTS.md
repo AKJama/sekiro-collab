@@ -10,8 +10,8 @@ If you are an agent working for either of us, read this first every session.
 
 ## Every session
 
-1. Pull this repo, read `AREAS.md` and `WORK.md`.
-2. Pick work in your owner's area, or something marked open to either.
+1. Pull this repo, read `FEATURES.md` and `WORK.md`.
+2. Pick anything not already claimed in `WORK.md`.
 3. Check `FEATURES.md` and the other repo first; if it's already done there, reuse it.
 4. Claim it in `WORK.md` (move it to Claimed with your owner's name and the date), commit and push straight away.
 

@@ -65,7 +65,7 @@ Keep your own column up to date.
 Done means every phase works, from the first bar to the final deathblow.
 Phases are the deathblows needed (bars).
 Codes are the character ids; variants share one code, so one working fight usually covers the rest.
-Fill in your own column; split it in `AREAS.md`.
+Fill in your own column; claim a fight in `WORK.md` before starting it.
 
 <details>
 <summary>Bosses (15)</summary>
