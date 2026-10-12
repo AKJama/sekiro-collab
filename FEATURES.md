@@ -10,7 +10,7 @@ Keep your own column up to date.
 | Data | Player script | ✅ runs the real HKS bytecode | ✅ ported state machine |
 | Data | Enemy Lua AI, EMEVD events | ✅ | ✅ |
 | Data | Models and materials | ✅ | ✅ |
-| Data | Cloth data | ❌ | ✅ |
+| Data | Cloth data | ✅ | ✅ |
 | Movement | Walk, run, sprint, steps, jumps, air control, crouch | ✅ | ✅ |
 | Movement | Lock-on strafing, kick-jump | ✅ | ✅ |
 | Movement | Sheathed walk and run | 🟡 | ✅ |
@@ -49,9 +49,9 @@ Keep your own column up to date.
 | Rendering | Colour grading, layered materials, shadows | ✅ | ✅ |
 | Rendering | GI probes and bounce light | ✅ | 🟡 |
 | Rendering | Point lights | ✅ | ❌ effect lights only |
-| Rendering | Character materials | 🟡 | ✅ |
-| Effects | FXR particle player | 🟡 | ✅ |
-| Effects | Blood, hit stains, clash sparks | ❌ | ✅ |
+| Rendering | Character materials | ✅ | ✅ |
+| Effects | FXR particle player | 🟡 no model particles yet | ✅ |
+| Effects | Blood, hit stains, clash sparks | ✅ | ✅ |
 | Audio | Game's FMOD, TAE sounds, footsteps | ✅ | ✅ |
 | Audio | 3D placement, reverb | 🟡 | ✅ |
 | Audio | Boss music | ❌ | ✅ |
@@ -63,7 +63,7 @@ Keep your own column up to date.
 
 ## Biggest gaps
 
-- **sekiro-rs:** combat arts and prosthetics, gourd, cloth, effects and blood, stealth, deathblows from behind and plunging, boss music, options and death screens, the wider roster.
+- **sekiro-rs:** combat arts and prosthetics, gourd, stealth, deathblows from behind and plunging, boss music, options and death screens, the wider roster.
 - **RustSekiro:** boss brain, swimming, wall hug, shader-accurate rendering (fog, tone mapping, GI, point lights, sky), the rest of the maps, Genichiro's rooftop.
 
 ## Open questions
