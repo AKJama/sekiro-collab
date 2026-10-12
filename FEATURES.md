@@ -131,9 +131,5 @@ Phase counts and codes are from the game data where we've read it; correct any t
 
 ## Biggest gaps
 
-- **sekiro-rs:** the bosses and minibosses below, combat arts and prosthetics, gourd, stealth, deathblows from behind and plunging, boss music, options and death screens, the wider roster.
+- **sekiro-rs:** most bosses and the minibosses, combat arts and prosthetics, gourd, stealth, deathblows from behind and plunging, boss music, options and death screens, the wider roster.
 - **RustSekiro:** boss brain, swimming, wall hug, shader-accurate rendering (fog, tone mapping, GI, point lights, sky), the rest of the maps, Genichiro's rooftop.
-
-## Open questions
-
-- One definition of "enemy works": loads, fights, or passes every phase.
