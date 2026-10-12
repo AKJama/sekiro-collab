@@ -9,7 +9,6 @@
 ## Claimed
 
 - [world] Boss arena fog walls and story-correct time of day per arena (sekiro-rs) - Yama, 2026-10-12
-
 - [rendering] Scene brightness calibration against a real-game screenshot of the castle rooftop (sekiro-rs) - Yama, 2026-10-12
 - [ui] Debug text off by default (sekiro-rs) - Yama, 2026-10-12
 
