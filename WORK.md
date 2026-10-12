@@ -17,18 +17,6 @@ Who's working on what right now, and what's done.
 | world | Boss arena: Ashina Castle castle top, the arena's snow, lightning and dense-fog effects |
 | rendering | Scene brightness calibrated against a real-game screenshot of the castle rooftop |
 | ui | Debug text off by default |
-| world | Boss arena: Ashina Castle, Shura ending |
-| world | Boss arena: Ashina Reservoir, silvergrass field |
-| world | Boss arena: Ashina Outskirts, castle gate |
-| world | Boss arena: Ashina Outskirts, Demon of Hatred |
-| world | Boss arena: Hirata Estate, main hall |
-| world | Boss arena: Hirata Estate, Owl (Father) |
-| world | Boss arena: Senpou Temple, illusion screens |
-| world | Boss arena: Sunken Valley, watering hole |
-| world | Boss arena: Sunken Valley, ape's burrow |
-| world | Boss arena: Ashina Depths, Mibu bridge |
-| world | Boss arena: Fountainhead Palace, bridge |
-| world | Boss arena: Fountainhead Palace, sanctuary |
 
 ## Claimed
 
@@ -46,6 +34,18 @@ Who's working on what right now, and what's done.
 | audio | Remaining mixer events and sound occlusion | RustSekiro | FwLo | 2026-10-12 |
 | enemies | Regular enemies: AI pacing against a recorded fight, armoured servant's armour part | RustSekiro | FwLo | 2026-10-12 |
 | stealth | Shadow hiding, forced crouch, patrol routes | RustSekiro | FwLo | 2026-10-12 |
+| world | Boss arena: Ashina Castle, Shura ending | sekiro-rs | Yama | 2026-10-12 |
+| world | Boss arena: Ashina Reservoir, silvergrass field | sekiro-rs | Yama | 2026-10-12 |
+| world | Boss arena: Ashina Outskirts, castle gate | sekiro-rs | Yama | 2026-10-12 |
+| world | Boss arena: Ashina Outskirts, Demon of Hatred | sekiro-rs | Yama | 2026-10-12 |
+| world | Boss arena: Hirata Estate, main hall | sekiro-rs | Yama | 2026-10-12 |
+| world | Boss arena: Hirata Estate, Owl (Father) | sekiro-rs | Yama | 2026-10-12 |
+| world | Boss arena: Senpou Temple, illusion screens | sekiro-rs | Yama | 2026-10-12 |
+| world | Boss arena: Sunken Valley, watering hole | sekiro-rs | Yama | 2026-10-12 |
+| world | Boss arena: Sunken Valley, ape's burrow | sekiro-rs | Yama | 2026-10-12 |
+| world | Boss arena: Ashina Depths, Mibu bridge | sekiro-rs | Yama | 2026-10-12 |
+| world | Boss arena: Fountainhead Palace, bridge | sekiro-rs | Yama | 2026-10-12 |
+| world | Boss arena: Fountainhead Palace, sanctuary | sekiro-rs | Yama | 2026-10-12 |
 
 ## Done
 
