@@ -17,6 +17,11 @@ Who's working on what right now, and what's done.
 | world | Boss arena: Ashina Castle castle top, the arena's snow, lightning and dense-fog effects |
 | rendering | Scene brightness calibrated against a real-game screenshot of the castle rooftop |
 | ui | Debug text off by default |
+| boss | Divine Dragon: the authored grapple targets, so lightning charging and reversal work |
+| boss | Folding Screen Monkeys: darkness, hearing history, roof navigation, footprints, natural victory |
+| boss | Lady Butterfly: illusion homing, navigation and summon recreation; two illusions fall below the floor |
+| boss | Guardian Ape: grabs do not connect |
+| combat | TAE 705 facing correction for enemies (20 Demon of Hatred events use it) |
 
 ## Claimed
 
@@ -34,27 +39,28 @@ Who's working on what right now, and what's done.
 | audio | Remaining mixer events and sound occlusion | RustSekiro | FwLo | 2026-10-12 |
 | enemies | Regular enemies: AI pacing against a recorded fight, armoured servant's armour part | RustSekiro | FwLo | 2026-10-12 |
 | stealth | Shadow hiding, forced crouch, patrol routes | RustSekiro | FwLo | 2026-10-12 |
-| boss | Lady Butterfly (c5090), both phases, in the Hirata main hall | sekiro-rs | Yama | 2026-10-12 |
-| boss | Gyoubu Oniwa (c5080) on the castle gate | sekiro-rs | Yama | 2026-10-12 |
-| boss | Folding Screen Monkeys (c1260), four monkeys with the screen illusions | sekiro-rs | Yama | 2026-10-12 |
-| boss | Guardian Ape (c5100), both phases, in the watering hole | sekiro-rs | Yama | 2026-10-12 |
-| boss | Headless Ape (c5100, c5001), both apes, in the burrow | sekiro-rs | Yama | 2026-10-12 |
-| boss | Corrupted Monk ghost (c5000) on the Mibu bridge | sekiro-rs | Yama | 2026-10-12 |
-| boss | True Corrupted Monk (c5000, c5005), all three phases, on the Fountainhead bridge | sekiro-rs | Yama | 2026-10-12 |
-| boss | Emma, the Gentle Blade (c7400) in the Shura ending | sekiro-rs | Yama | 2026-10-12 |
-| boss | Isshin Ashina (c5430) in the Shura ending | sekiro-rs | Yama | 2026-10-12 |
-| boss | Demon of Hatred (c7020), all three phases | sekiro-rs | Yama | 2026-10-12 |
-| boss | Great Shinobi Owl, Father (c5060, c5070), both phases, in the Hirata Estate | sekiro-rs | Yama | 2026-10-12 |
-| boss | Divine Dragon and the Old Dragons (c5200, c5300, c5310, c5320), both phases | sekiro-rs | Yama | 2026-10-12 |
-| boss | Isshin, the Sword Saint (c5400), all four phases including Genichiro, in the silvergrass field | sekiro-rs | Yama | 2026-10-12 |
 
 ## Done
 
 <details>
-<summary>Done (21)</summary>
+<summary>Done (35)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| boss | Lady Butterfly (c5090), both phases, in the Hirata main hall: every phase playable in its arena (gaps in that boss's docs/BOSSES-*.md) | sekiro-rs | Yama | 2026-10-12 | [e964560](https://github.com/AKJama/sekiro-rs/commit/e964560) |
+| boss | Gyoubu Oniwa (c5080) on the castle gate: every phase playable in its arena (gaps in that boss's docs/BOSSES-*.md) | sekiro-rs | Yama | 2026-10-12 | [e964560](https://github.com/AKJama/sekiro-rs/commit/e964560) |
+| boss | Guardian Ape (c5100), both phases, in the watering hole: every phase playable in its arena (gaps in that boss's docs/BOSSES-*.md) | sekiro-rs | Yama | 2026-10-12 | [e964560](https://github.com/AKJama/sekiro-rs/commit/e964560) |
+| boss | Headless Ape (c5100, c5001), both apes, in the burrow: every phase playable in its arena (gaps in that boss's docs/BOSSES-*.md) | sekiro-rs | Yama | 2026-10-12 | [e964560](https://github.com/AKJama/sekiro-rs/commit/e964560) |
+| boss | Corrupted Monk ghost (c5000) on the Mibu bridge: every phase playable in its arena (gaps in that boss's docs/BOSSES-*.md) | sekiro-rs | Yama | 2026-10-12 | [e964560](https://github.com/AKJama/sekiro-rs/commit/e964560) |
+| boss | True Corrupted Monk (c5000, c5005), all three phases, on the Fountainhead bridge: every phase playable in its arena (gaps in that boss's docs/BOSSES-*.md) | sekiro-rs | Yama | 2026-10-12 | [e964560](https://github.com/AKJama/sekiro-rs/commit/e964560) |
+| boss | Emma, the Gentle Blade (c7400) in the Shura ending: every phase playable in its arena (gaps in that boss's docs/BOSSES-*.md) | sekiro-rs | Yama | 2026-10-12 | [e964560](https://github.com/AKJama/sekiro-rs/commit/e964560) |
+| boss | Isshin Ashina (c5430) in the Shura ending: every phase playable in its arena (gaps in that boss's docs/BOSSES-*.md) | sekiro-rs | Yama | 2026-10-12 | [e964560](https://github.com/AKJama/sekiro-rs/commit/e964560) |
+| boss | Demon of Hatred (c7020), all three phases: every phase playable in its arena (gaps in that boss's docs/BOSSES-*.md) | sekiro-rs | Yama | 2026-10-12 | [e964560](https://github.com/AKJama/sekiro-rs/commit/e964560) |
+| boss | Great Shinobi Owl, Father (c5060, c5070), both phases, in the Hirata Estate: every phase playable in its arena (gaps in that boss's docs/BOSSES-*.md) | sekiro-rs | Yama | 2026-10-12 | [e964560](https://github.com/AKJama/sekiro-rs/commit/e964560) |
+| boss | Isshin, the Sword Saint (c5400), all four phases including Genichiro, in the silvergrass field: every phase playable in its arena (gaps in that boss's docs/BOSSES-*.md) | sekiro-rs | Yama | 2026-10-12 | [e964560](https://github.com/AKJama/sekiro-rs/commit/e964560) |
+| combat | A deathblow right after a Mikiri counter now works (Genichiro, Owl, soldier) | sekiro-rs | Yama | 2026-10-12 | [e964560](https://github.com/AKJama/sekiro-rs/commit/e964560) |
+| camera | Hanging blinds in the castle-top tower dither out near the camera, from the game's material fade flags | sekiro-rs | Yama | 2026-10-12 | [e964560](https://github.com/AKJama/sekiro-rs/commit/e964560) |
+| brain | Every bad outcome counts as failure; per-move bandit every two attacks; moves table, ten-fight digest and coach review mode | sekiro-rs | Yama | 2026-10-12 | [e964560](https://github.com/AKJama/sekiro-rs/commit/e964560) |
 | tests | Bug hunt rounds 10-20: finder plus skeptic per area, each confirmed defect fixed with a test that fails without it (combat, deflect, plunges, grapple, respawn and reset, AI queries, status, menus, camera, extractor export) | RustSekiro | FwLo | 2026-10-12 | [265e142](https://github.com/FFwLo/RustSekiro/commit/265e142) |
 | rendering | Fog density over GameScale, the game's metering and adaptation, height fog pass, sky domes by story hour, bloom level weights (after sekiro-rs, credited) | RustSekiro | FwLo | 2026-10-12 | [265e142](https://github.com/FFwLo/RustSekiro/commit/265e142) |
 | world | Fog walls from common events 20005820 / 20005825, data-driven (after sekiro-rs fogwall.rs, credited) | RustSekiro | FwLo | 2026-10-12 | [265e142](https://github.com/FFwLo/RustSekiro/commit/265e142) |
