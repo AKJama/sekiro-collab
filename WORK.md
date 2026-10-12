@@ -34,26 +34,39 @@ Who's working on what right now, and what's done.
 | audio | Remaining mixer events and sound occlusion | RustSekiro | FwLo | 2026-10-12 |
 | enemies | Regular enemies: AI pacing against a recorded fight, armoured servant's armour part | RustSekiro | FwLo | 2026-10-12 |
 | stealth | Shadow hiding, forced crouch, patrol routes | RustSekiro | FwLo | 2026-10-12 |
-| world | Boss arena: Ashina Castle, Shura ending | sekiro-rs | Yama | 2026-10-12 |
-| world | Boss arena: Ashina Reservoir, silvergrass field | sekiro-rs | Yama | 2026-10-12 |
-| world | Boss arena: Ashina Outskirts, castle gate | sekiro-rs | Yama | 2026-10-12 |
-| world | Boss arena: Ashina Outskirts, Demon of Hatred | sekiro-rs | Yama | 2026-10-12 |
-| world | Boss arena: Hirata Estate, main hall | sekiro-rs | Yama | 2026-10-12 |
-| world | Boss arena: Hirata Estate, Owl (Father) | sekiro-rs | Yama | 2026-10-12 |
-| world | Boss arena: Senpou Temple, illusion screens | sekiro-rs | Yama | 2026-10-12 |
-| world | Boss arena: Sunken Valley, watering hole | sekiro-rs | Yama | 2026-10-12 |
-| world | Boss arena: Sunken Valley, ape's burrow | sekiro-rs | Yama | 2026-10-12 |
-| world | Boss arena: Ashina Depths, Mibu bridge | sekiro-rs | Yama | 2026-10-12 |
-| world | Boss arena: Fountainhead Palace, bridge | sekiro-rs | Yama | 2026-10-12 |
-| world | Boss arena: Fountainhead Palace, sanctuary | sekiro-rs | Yama | 2026-10-12 |
+| boss | Lady Butterfly (c5090), both phases, in the Hirata main hall | sekiro-rs | Yama | 2026-10-12 |
+| boss | Gyoubu Oniwa (c5080) on the castle gate | sekiro-rs | Yama | 2026-10-12 |
+| boss | Folding Screen Monkeys (c1260), four monkeys with the screen illusions | sekiro-rs | Yama | 2026-10-12 |
+| boss | Guardian Ape (c5100), both phases, in the watering hole | sekiro-rs | Yama | 2026-10-12 |
+| boss | Headless Ape (c5100, c5001), both apes, in the burrow | sekiro-rs | Yama | 2026-10-12 |
+| boss | Corrupted Monk ghost (c5000) on the Mibu bridge | sekiro-rs | Yama | 2026-10-12 |
+| boss | True Corrupted Monk (c5000, c5005), all three phases, on the Fountainhead bridge | sekiro-rs | Yama | 2026-10-12 |
+| boss | Emma, the Gentle Blade (c7400) in the Shura ending | sekiro-rs | Yama | 2026-10-12 |
+| boss | Isshin Ashina (c5430) in the Shura ending | sekiro-rs | Yama | 2026-10-12 |
+| boss | Demon of Hatred (c7020), all three phases | sekiro-rs | Yama | 2026-10-12 |
+| boss | Great Shinobi Owl, Father (c5060, c5070), both phases, in the Hirata Estate | sekiro-rs | Yama | 2026-10-12 |
+| boss | Divine Dragon and the Old Dragons (c5200, c5300, c5310, c5320), both phases | sekiro-rs | Yama | 2026-10-12 |
+| boss | Isshin, the Sword Saint (c5400), all four phases including Genichiro, in the silvergrass field | sekiro-rs | Yama | 2026-10-12 |
 
 ## Done
 
 <details>
-<summary>Done (6)</summary>
+<summary>Done (18)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| world | Boss arena staged (story spot, collision, fog walls, story time, map events): Ashina Castle, Shura ending | sekiro-rs | Yama | 2026-10-12 | [b082d8a](https://github.com/AKJama/sekiro-rs/commit/b082d8a) |
+| world | Boss arena staged (story spot, collision, fog walls, story time, map events): Ashina Reservoir, silvergrass field | sekiro-rs | Yama | 2026-10-12 | [b082d8a](https://github.com/AKJama/sekiro-rs/commit/b082d8a) |
+| world | Boss arena staged (story spot, collision, fog walls, story time, map events): Ashina Outskirts, castle gate | sekiro-rs | Yama | 2026-10-12 | [b082d8a](https://github.com/AKJama/sekiro-rs/commit/b082d8a) |
+| world | Boss arena staged (story spot, collision, fog walls, story time, map events): Ashina Outskirts, Demon of Hatred | sekiro-rs | Yama | 2026-10-12 | [b082d8a](https://github.com/AKJama/sekiro-rs/commit/b082d8a) |
+| world | Boss arena staged (story spot, collision, fog walls, story time, map events): Hirata Estate, main hall | sekiro-rs | Yama | 2026-10-12 | [b082d8a](https://github.com/AKJama/sekiro-rs/commit/b082d8a) |
+| world | Boss arena staged (story spot, collision, fog walls, story time, map events): Hirata Estate, Owl (Father) | sekiro-rs | Yama | 2026-10-12 | [b082d8a](https://github.com/AKJama/sekiro-rs/commit/b082d8a) |
+| world | Boss arena staged (story spot, collision, fog walls, story time, map events): Senpou Temple, illusion screens | sekiro-rs | Yama | 2026-10-12 | [b082d8a](https://github.com/AKJama/sekiro-rs/commit/b082d8a) |
+| world | Boss arena staged (story spot, collision, fog walls, story time, map events): Sunken Valley, watering hole | sekiro-rs | Yama | 2026-10-12 | [b082d8a](https://github.com/AKJama/sekiro-rs/commit/b082d8a) |
+| world | Boss arena staged (story spot, collision, fog walls, story time, map events): Sunken Valley, ape's burrow | sekiro-rs | Yama | 2026-10-12 | [b082d8a](https://github.com/AKJama/sekiro-rs/commit/b082d8a) |
+| world | Boss arena staged (story spot, collision, fog walls, story time, map events): Ashina Depths, Mibu bridge | sekiro-rs | Yama | 2026-10-12 | [b082d8a](https://github.com/AKJama/sekiro-rs/commit/b082d8a) |
+| world | Boss arena staged (story spot, collision, fog walls, story time, map events): Fountainhead Palace, bridge | sekiro-rs | Yama | 2026-10-12 | [b082d8a](https://github.com/AKJama/sekiro-rs/commit/b082d8a) |
+| world | Boss arena staged (story spot, collision, fog walls, story time, map events): Fountainhead Palace, sanctuary | sekiro-rs | Yama | 2026-10-12 | [b082d8a](https://github.com/AKJama/sekiro-rs/commit/b082d8a) |
 | tests | Test audit: one integration binary per crate, slow tier opt-in, full run about 90 s | sekiro-rs | Yama | 2026-10-12 | [6fe0ad5](https://github.com/AKJama/sekiro-rs/commit/6fe0ad5) |
 | world | Castle top arena: fog walls from the event script and story time of day for Owl and Genichiro | sekiro-rs | Yama | 2026-10-12 | [5f6dc64](https://github.com/AKJama/sekiro-rs/commit/5f6dc64) |
 | cloth | Port RustSekiro's Havok cloth: Wolf, Owl, Genichiro, Tomoe, soldier | sekiro-rs | Yama | 2026-10-12 | [85a8029](https://github.com/AKJama/sekiro-rs/commit/85a8029) |

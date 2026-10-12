@@ -40,7 +40,7 @@ Keep your own column up to date, and be strict: a feature that works but doesn't
 | Enemies | All 102 placed kinds load | ✅ | ✅ |
 | Enemies | Fights verified | 🟡 soldier, Owl, Genichiro | ✅ most of the roster |
 | Enemies | Bosses, all phases (see [Bosses](#bosses)) | 🟡 2 of 15 | ? |
-| World | Boss arenas (see [Boss arenas](#boss-arenas)) | 🟡 1 of 13 | ? |
+| World | Boss arenas (see [Boss arenas](#boss-arenas)) | 🟡 13 of 13 staged, bosses not in them yet | ? |
 | Enemies | Minibosses, all phases (see [Bosses](#bosses)) | ❌ 0 of 29 | ? |
 | Enemies | Stealth and perception | ❌ | ✅ |
 | Enemies | Several enemies at once | ❌ | ✅ |
@@ -108,8 +108,8 @@ Fill in your own column; claim a fight in `WORK.md` before starting it.
 | Leader Shigenori Yamauchi | c1020 | Ashina Reservoir | 2 | ❌ | ? |
 | Seven Ashina Spears - Shikibu Toshikatsu Yamauchi | c1021 | Ashina Reservoir | 2 | ❌ | ? |
 | Seven Ashina Spears - Shume Masaji Oniwa | c1021 | Ashina Reservoir (invasion) | 2 | ❌ | ? |
-| Ashina Elite - Jinsuke Saze | c1400 | Ashina Castle | 2 | ❌ | ? |
-| Ashina Elite - Ujinari Mizuo | c1400 | Ashina Castle (invasion) | 2 | ❌ | ? |
+| Ashina Elite - Jinsuke Saze | c1400 | Ashina Castle | 2 | 🟡 staged: story spot, collision, fog walls, story time, map events; boss not in it yet | ? |
+| Ashina Elite - Ujinari Mizuo | c1400 | Ashina Castle (invasion) | 2 | 🟡 staged: story spot, collision, fog walls, story time, map events; boss not in it yet | ? |
 | Chained Ogre (Outskirts) | c5020 | Ashina Outskirts | 2 | ❌ | ? |
 | Chained Ogre (Castle) | c5020 | Ashina Castle (invasion) | 2 | ❌ | ? |
 | Blazing Bull | c1370 | Ashina Outskirts | 1 | ❌ | ? |
@@ -147,18 +147,18 @@ Map ids are the game's; boss-bar entity ids are in brackets.
 | Arena | Map | Fights there | sekiro-rs | RustSekiro |
 |---|---|---|---|---|
 | Ashina Castle, castle top | m11_01 | Genichiro and Tomoe (1110800, 1110801), Great Shinobi Owl (1110850) | 🟡 fog walls, story time of day; arena snow and lightning effects not drawn yet | ? |
-| Ashina Castle, Shura ending | m11_01 | Emma (1110900), Isshin Ashina (1110920) | ❌ | ? |
-| Ashina Reservoir, silvergrass field | m11_02 | Genichiro and Tomoe (1120800, 1120830), Isshin, the Sword Saint (1120860, 1120890) | ❌ | ? |
-| Ashina Outskirts, castle gate | m11 | Gyoubu Oniwa (1100800) | ❌ | ? |
-| Ashina Outskirts, Demon of Hatred | m11 | Demon of Hatred (1100900) | ❌ | ? |
-| Hirata Estate, main hall | m10 | Lady Butterfly (1000800, 1000810) | ❌ | ? |
-| Hirata Estate, Owl (Father) | m10 | Owl (Father) (1000900), Inner Father (1000990) | ❌ | ? |
-| Senpou Temple, illusion screens | m20 | Folding Screen Monkeys (2000800) | ❌ | ? |
-| Sunken Valley, watering hole | m17 | Guardian Ape (1700800) | ❌ | ? |
-| Sunken Valley, ape's burrow | m17 | Headless Ape (1700850) | ❌ | ? |
-| Ashina Depths, Mibu bridge | m15 | Corrupted Monk ghost (1500800) | ❌ | ? |
-| Fountainhead Palace, bridge | m25 | True Corrupted Monk (2500850) | ❌ | ? |
-| Fountainhead Palace, sanctuary | m25 | Divine Dragon and the Old Dragons (2500800, 2500810) | ❌ | ? |
+| Ashina Castle, Shura ending | m11_01 | Emma (1110900), Isshin Ashina (1110920) | 🟡 staged: story spot, collision, fog walls, story time, map events; boss not in it yet | ? |
+| Ashina Reservoir, silvergrass field | m11_02 | Genichiro and Tomoe (1120800, 1120830), Isshin, the Sword Saint (1120860, 1120890) | 🟡 staged: story spot, collision, fog walls, story time, map events; boss not in it yet | ? |
+| Ashina Outskirts, castle gate | m11 | Gyoubu Oniwa (1100800) | 🟡 staged: story spot, collision, fog walls, story time, map events; boss not in it yet | ? |
+| Ashina Outskirts, Demon of Hatred | m11 | Demon of Hatred (1100900) | 🟡 staged: story spot, collision, fog walls, story time, map events; boss not in it yet | ? |
+| Hirata Estate, main hall | m10 | Lady Butterfly (1000800, 1000810) | 🟡 staged: story spot, collision, fog walls, story time, map events; boss not in it yet | ? |
+| Hirata Estate, Owl (Father) | m10 | Owl (Father) (1000900), Inner Father (1000990) | 🟡 staged: story spot, collision, fog walls, story time, map events; boss not in it yet | ? |
+| Senpou Temple, illusion screens | m20 | Folding Screen Monkeys (2000800) | 🟡 staged: story spot, collision, fog walls, story time, map events; boss not in it yet | ? |
+| Sunken Valley, watering hole | m17 | Guardian Ape (1700800) | 🟡 staged: story spot, collision, fog walls, story time, map events; boss not in it yet | ? |
+| Sunken Valley, ape's burrow | m17 | Headless Ape (1700850) | 🟡 staged: story spot, collision, fog walls, story time, map events; boss not in it yet | ? |
+| Ashina Depths, Mibu bridge | m15 | Corrupted Monk ghost (1500800) | 🟡 staged: story spot, collision, fog walls, story time, map events; boss not in it yet | ? |
+| Fountainhead Palace, bridge | m25 | True Corrupted Monk (2500850) | 🟡 staged: story spot, collision, fog walls, story time, map events; boss not in it yet | ? |
+| Fountainhead Palace, sanctuary | m25 | Divine Dragon and the Old Dragons (2500800, 2500810) | 🟡 staged: story spot, collision, fog walls, story time, map events; boss not in it yet | ? |
 
 </details>
 
