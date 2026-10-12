@@ -51,10 +51,13 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (18)</summary>
+<summary>Done (21)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| tests | Bug hunt rounds 10-20: finder plus skeptic per area, each confirmed defect fixed with a test that fails without it (combat, deflect, plunges, grapple, respawn and reset, AI queries, status, menus, camera, extractor export) | RustSekiro | FwLo | 2026-10-12 | [265e142](https://github.com/FFwLo/RustSekiro/commit/265e142) |
+| rendering | Fog density over GameScale, the game's metering and adaptation, height fog pass, sky domes by story hour, bloom level weights (after sekiro-rs, credited) | RustSekiro | FwLo | 2026-10-12 | [265e142](https://github.com/FFwLo/RustSekiro/commit/265e142) |
+| world | Fog walls from common events 20005820 / 20005825, data-driven (after sekiro-rs fogwall.rs, credited) | RustSekiro | FwLo | 2026-10-12 | [265e142](https://github.com/FFwLo/RustSekiro/commit/265e142) |
 | world | Boss arena staged (story spot, collision, fog walls, story time, map events): Ashina Castle, Shura ending | sekiro-rs | Yama | 2026-10-12 | [b082d8a](https://github.com/AKJama/sekiro-rs/commit/b082d8a) |
 | world | Boss arena staged (story spot, collision, fog walls, story time, map events): Ashina Reservoir, silvergrass field | sekiro-rs | Yama | 2026-10-12 | [b082d8a](https://github.com/AKJama/sekiro-rs/commit/b082d8a) |
 | world | Boss arena staged (story spot, collision, fog walls, story time, map events): Ashina Outskirts, castle gate | sekiro-rs | Yama | 2026-10-12 | [b082d8a](https://github.com/AKJama/sekiro-rs/commit/b082d8a) |
