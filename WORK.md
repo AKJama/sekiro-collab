@@ -26,6 +26,7 @@
 
 ## Done
 
+- [tests] Test audit: one integration binary per crate, slow tier opt-in, full run about 90 s (sekiro-rs) - Yama, 2026-10-12 - https://github.com/AKJama/sekiro-rs/commit/6fe0ad5
 - [world] Castle top arena: fog walls from the event script and story time of day for Owl and Genichiro (sekiro-rs) - Yama, 2026-10-12 - https://github.com/AKJama/sekiro-rs/commit/5f6dc64
 - [cloth] Port RustSekiro's Havok cloth: Wolf, Owl, Genichiro, Tomoe, soldier (sekiro-rs) - Yama, 2026-10-12 - https://github.com/AKJama/sekiro-rs/commit/85a8029
 - [effects] Port RustSekiro's FXR player, blood and hit stains for the Owl and Genichiro fights (sekiro-rs) - Yama, 2026-10-12 - https://github.com/AKJama/sekiro-rs/commit/85a8029
