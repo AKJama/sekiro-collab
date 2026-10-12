@@ -1,8 +1,14 @@
 # Features
 
-What each project has, as of 12 October 2026.
-✅ done, 🟡 partial, ❌ not yet, ? not checked.
-Keep your own column up to date.
+What each project has, and what's left to do.
+This is the backlog: anything not ✅ is up for grabs, so claim it in `WORK.md` before starting.
+
+- ✅ works and matches the real game, in behaviour and in look (the game's own data and art, not a stand-in).
+- 🟡 works but differs from the game, or only part of it is done; say what's missing in the cell.
+- ❌ not started.
+- ? not checked.
+
+Keep your own column up to date, and be strict: a feature that works but doesn't look or behave like the game is 🟡.
 
 | Area | Feature | sekiro-rs (Yama) | RustSekiro (FwLo) |
 |---|---|---|---|
@@ -55,7 +61,7 @@ Keep your own column up to date.
 | Audio | Game's FMOD, TAE sounds, footsteps | ✅ | ✅ |
 | Audio | 3D placement, reverb | 🟡 | ✅ |
 | Audio | Boss music | ❌ | ✅ |
-| UI | HUD and boss bars | ✅ | ✅ |
+| UI | HUD and boss bars | 🟡 working bars, not the game's art | ✅ |
 | UI | Title, pause, death, victory screens | 🟡 start and pause menus | ✅ |
 | UI | Boss and enemy picker | ✅ start menu | ✅ in game |
 | UI | Options screen | ❌ | ✅ |
