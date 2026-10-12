@@ -10,7 +10,8 @@ Change it when both of us agree.
 | Rendering (fog, tone mapping, GI, sky, lights) | Yama |
 | Maps | Yama |
 | Genichiro rooftop | Yama |
-| Enemy and boss roster, boss mechanics | FwLo |
+| Minibosses (FwLo's split, list in `FEATURES.md`) | Yama |
+| Bosses and the rest of the roster, boss mechanics | FwLo |
 | Combat arts, prosthetics, items | FwLo |
 | Stealth | FwLo |
 | Cloth | FwLo |
