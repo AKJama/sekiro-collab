@@ -34,6 +34,7 @@ Keep your own column up to date.
 | Enemies | All 102 placed kinds load | ✅ | ✅ |
 | Enemies | Fights verified | 🟡 soldier, Owl, Genichiro | ✅ most of the roster |
 | Enemies | Bosses, all phases (see [Bosses](#bosses)) | 🟡 2 of 15 | ? |
+| World | Boss arenas (see [Boss arenas](#boss-arenas)) | 🟡 1 of 13 | ? |
 | Enemies | Minibosses, all phases (see [Bosses](#bosses)) | ❌ 0 of 29 | ? |
 | Enemies | Stealth and perception | ❌ | ✅ |
 | Enemies | Several enemies at once | ❌ | ✅ |
@@ -128,6 +129,34 @@ Fill in your own column; claim a fight in `WORK.md` before starting it.
 </details>
 
 Phase counts and codes are from the game data where we've read it; correct any that are wrong.
+
+## Boss arenas
+
+Done means the fight happens at its story spot in the full map: fog walls in and out, the story's time of day, and the arena's own events (illusions, screens, collapses).
+Map ids are the game's; boss-bar entity ids are in brackets.
+
+<details>
+<summary>Boss arenas (13)</summary>
+
+| Arena | Map | Fights there | sekiro-rs | RustSekiro |
+|---|---|---|---|---|
+| Ashina Castle, castle top | m11_01 | Genichiro and Tomoe (1110800, 1110801), Great Shinobi Owl (1110850) | 🟡 fog walls and time of day in progress | ? |
+| Ashina Castle, Shura ending | m11_01 | Emma (1110900), Isshin Ashina (1110920) | ❌ | ? |
+| Ashina Reservoir, silvergrass field | m11_02 | Genichiro and Tomoe (1120800, 1120830), Isshin, the Sword Saint (1120860, 1120890) | ❌ | ? |
+| Ashina Outskirts, castle gate | m11 | Gyoubu Oniwa (1100800) | ❌ | ? |
+| Ashina Outskirts, Demon of Hatred | m11 | Demon of Hatred (1100900) | ❌ | ? |
+| Hirata Estate, main hall | m10 | Lady Butterfly (1000800, 1000810) | ❌ | ? |
+| Hirata Estate, Owl (Father) | m10 | Owl (Father) (1000900), Inner Father (1000990) | ❌ | ? |
+| Senpou Temple, illusion screens | m20 | Folding Screen Monkeys (2000800) | ❌ | ? |
+| Sunken Valley, watering hole | m17 | Guardian Ape (1700800) | ❌ | ? |
+| Sunken Valley, ape's burrow | m17 | Headless Ape (1700850) | ❌ | ? |
+| Ashina Depths, Mibu bridge | m15 | Corrupted Monk ghost (1500800) | ❌ | ? |
+| Fountainhead Palace, bridge | m25 | True Corrupted Monk (2500850) | ❌ | ? |
+| Fountainhead Palace, sanctuary | m25 | Divine Dragon and the Old Dragons (2500800, 2500810) | ❌ | ? |
+
+</details>
+
+Arena names are descriptive; the map and entity ids are from the game data.
 
 ## Biggest gaps
 
