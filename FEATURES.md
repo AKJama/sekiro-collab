@@ -33,9 +33,8 @@ Keep your own column up to date.
 | Skills | Gourd, spirit emblems | ❌ | ✅ |
 | Enemies | All 102 placed kinds load | ✅ | ✅ |
 | Enemies | Fights verified | 🟡 soldier, Owl, Genichiro | ✅ most of the roster |
-| Enemies | Great Shinobi Owl | ✅ | ✅ |
-| Enemies | Genichiro rooftop, Tomoe, lightning reversal | ✅ | ✅ castle top arena, Tomoe swap, reversal |
-| Enemies | Other bosses' events (Monk phantoms, summons, warps) | ❌ | ✅ |
+| Enemies | Bosses, all phases (see [Bosses](#bosses)) | 🟡 2 of 15 | ? |
+| Enemies | Minibosses, all phases (see [Bosses](#bosses)) | ❌ 0 of 29 | ? |
 | Enemies | Stealth and perception | ❌ | ✅ |
 | Enemies | Several enemies at once | ❌ | ✅ |
 | AI | Boss brain (learns the player, memory, coach) | ✅ Owl, Genichiro, soldier | ❌ |
@@ -61,9 +60,78 @@ Keep your own column up to date.
 | UI | Options screen | ❌ | ✅ |
 | Release | Packaged build | ❌ | ✅ |
 
+## Bosses
+
+Done means every phase works, from the first bar to the final deathblow.
+Phases are the deathblows needed (bars).
+Codes are the character ids; variants share one code, so one working fight usually covers the rest.
+Fill in your own column; split it in `AREAS.md`.
+
+<details>
+<summary>Bosses (15)</summary>
+
+| Boss | Code | Area | Phases | sekiro-rs | RustSekiro |
+|---|---|---|---|---|---|
+| Gyoubu Oniwa | c5080 | Ashina Outskirts | 2 | ❌ | ? |
+| Lady Butterfly | c5090 | Hirata Estate | 2 | ❌ | ? |
+| Genichiro Ashina (rooftop) | c7100, c7110 | Ashina Castle | 3 (2 + Way of Tomoe) | ✅ | ? |
+| Great Shinobi Owl | c5060 | Ashina Castle | 2 | ✅ | ? |
+| Folding Screen Monkeys | c1260 | Senpou Temple | 1 (four monkeys) | ❌ | ? |
+| Guardian Ape | c5100 | Sunken Valley | 2 (revives headless) | ❌ | ? |
+| Headless Ape | c5100 | Ashina Depths | 2 (two apes) | ❌ | ? |
+| Corrupted Monk (ghost) | c5000 | Ashina Depths | 1 | ❌ | ? |
+| True Corrupted Monk | c5000, c5005 | Fountainhead Palace | 3 | ❌ | ? |
+| Emma, the Gentle Blade | c7400 | Ashina Castle | 1 | ❌ | ? |
+| Isshin Ashina | c5430 | Ashina Castle | 1 | ❌ | ? |
+| Demon of Hatred | c7020 | Ashina Outskirts | 3 | ❌ | ? |
+| Great Shinobi Owl (Father) | c5060 | Hirata Estate | 2 | ❌ | ? |
+| Divine Dragon | c5200, c5300 | Fountainhead Palace | 2 | ❌ | ? |
+| Isshin, the Sword Saint | c7100, c5400 | Ashina Reservoir | 4 (Genichiro + 3) | ❌ | ? |
+
+</details>
+
+<details>
+<summary>Minibosses (29)</summary>
+
+| Miniboss | Code | Area | Phases | sekiro-rs | RustSekiro |
+|---|---|---|---|---|---|
+| General Naomori Kawarada | c1021 | Ashina Outskirts | 2 | ❌ | ? |
+| General Tenzen Yamauchi | c1020 | Ashina Outskirts | 2 | ❌ | ? |
+| General Kuranosuke Matsumoto | c1020 | Ashina Castle | 2 | ❌ | ? |
+| Leader Shigenori Yamauchi | c1020 | Ashina Reservoir | 2 | ❌ | ? |
+| Seven Ashina Spears - Shikibu Toshikatsu Yamauchi | c1021 | Ashina Reservoir | 2 | ❌ | ? |
+| Seven Ashina Spears - Shume Masaji Oniwa | c1021 | Ashina Reservoir (invasion) | 2 | ❌ | ? |
+| Ashina Elite - Jinsuke Saze | c1400 | Ashina Castle | 2 | ❌ | ? |
+| Ashina Elite - Ujinari Mizuo | c1400 | Ashina Castle (invasion) | 2 | ❌ | ? |
+| Chained Ogre (Outskirts) | c5020 | Ashina Outskirts | 2 | ❌ | ? |
+| Chained Ogre (Castle) | c5020 | Ashina Castle (invasion) | 2 | ❌ | ? |
+| Blazing Bull | c1370 | Ashina Outskirts | 1 | ❌ | ? |
+| Shigekichi of the Red Guard | c1070 | Ashina Outskirts | 2 | ❌ | ? |
+| Juzou the Drunkard | c1070 | Hirata Estate | 2 | ❌ | ? |
+| Tokujiro the Glutton | c1070 | Ashina Depths (Mibu Village) | 2 | ❌ | ? |
+| Shinobi Hunter Enshin of Misen | c1060 | Hirata Estate | 2 | ❌ | ? |
+| Lone Shadow Masanaga the Spear-bearer | c1470 | Hirata Estate | 2 | ❌ | ? |
+| Lone Shadow Vilehand | c1470 | Ashina Castle (invasion) | 2 | ❌ | ? |
+| Lone Shadow Longswordsman | c1470 | Ashina Reservoir | 2 | ❌ | ? |
+| Long-arm Centipede Sen'un | c1040 | Senpou Temple | 2 | ❌ | ? |
+| Long-arm Centipede Giraffe | c1040 | Sunken Valley | 2 | ❌ | ? |
+| Snake Eyes Shirafuji | c1191 | Sunken Valley | 2 | ❌ | ? |
+| Snake Eyes Shirahagi | c1191 | Sunken Valley | 2 | ❌ | ? |
+| Mist Noble | c1300 | Ashina Depths (Mibu Village) | 1 | ❌ | ? |
+| O'Rin of the Water | c7000 | Ashina Depths (Mibu Village) | 2 | ❌ | ? |
+| Okami Leader Shizu | c1310 | Fountainhead Palace | 1 | ❌ | ? |
+| Sakura Bull of the Palace | c1380 | Fountainhead Palace | 2 | ❌ | ? |
+| Armored Warrior | c1130 | Ashina Castle (invasion) | 1 | ❌ | ? |
+| Headless (5 fights) | c1340, c1350 | Outskirts, Sunken Valley, Ashina Depths and more | 1 each | ❌ | ? |
+| Shichimen Warrior (3 fights) | c1080 | Abandoned Dungeon, Sunken Valley, Fountainhead | 1 each | ❌ | ? |
+
+</details>
+
+Phase counts and codes are from the game data where we've read it; correct any that are wrong.
+
 ## Biggest gaps
 
-- **sekiro-rs:** combat arts and prosthetics, gourd, stealth, deathblows from behind and plunging, boss music, options and death screens, the wider roster.
+- **sekiro-rs:** the bosses and minibosses below, combat arts and prosthetics, gourd, stealth, deathblows from behind and plunging, boss music, options and death screens, the wider roster.
 - **RustSekiro:** boss brain, swimming, wall hug, shader-accurate rendering (fog, tone mapping, GI, point lights, sky), the rest of the maps, Genichiro's rooftop.
 
 ## Open questions
