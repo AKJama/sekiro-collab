@@ -34,7 +34,7 @@ Keep your own column up to date.
 | Enemies | All 102 placed kinds load | ✅ | ✅ |
 | Enemies | Fights verified | 🟡 soldier, Owl, Genichiro | ✅ most of the roster |
 | Enemies | Bosses, all phases (see [Bosses](#bosses)) | 🟡 2 of 15 | ? |
-| World | Boss arenas (see [Boss arenas](#boss-arenas)) | 🟡 1 of 13 | ? |
+| World | Boss arenas (see [Boss arenas](#boss-arenas)) | ✅ 1 of 13 | ? |
 | Enemies | Minibosses, all phases (see [Bosses](#bosses)) | ❌ 0 of 29 | ? |
 | Enemies | Stealth and perception | ❌ | ✅ |
 | Enemies | Several enemies at once | ❌ | ✅ |
@@ -140,7 +140,7 @@ Map ids are the game's; boss-bar entity ids are in brackets.
 
 | Arena | Map | Fights there | sekiro-rs | RustSekiro |
 |---|---|---|---|---|
-| Ashina Castle, castle top | m11_01 | Genichiro and Tomoe (1110800, 1110801), Great Shinobi Owl (1110850) | 🟡 fog walls and time of day in progress | ? |
+| Ashina Castle, castle top | m11_01 | Genichiro and Tomoe (1110800, 1110801), Great Shinobi Owl (1110850) | ✅ fog walls, story time of day | ? |
 | Ashina Castle, Shura ending | m11_01 | Emma (1110900), Isshin Ashina (1110920) | ❌ | ? |
 | Ashina Reservoir, silvergrass field | m11_02 | Genichiro and Tomoe (1120800, 1120830), Isshin, the Sword Saint (1120860, 1120890) | ❌ | ? |
 | Ashina Outskirts, castle gate | m11 | Gyoubu Oniwa (1100800) | ❌ | ? |
