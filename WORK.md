@@ -44,6 +44,7 @@ Who's working on what right now, and what's done.
 | brain | Wolf wins against multi-phase bosses not recorded in the brain memory (Genichiro win around fight 18 counted as 0) | sekiro-rs | Yama | 2026-10-13 |
 | combat | Deathblow near an edge pushes Wolf through doors or off the castle tower, out of the arena | sekiro-rs | Yama | 2026-10-13 |
 | brain | Break punish: code lists the viable punishes (lands before the stun ends, incl. ranged) with their damage and follow-ups; the coach picks | sekiro-rs | Yama | 2026-10-13 |
+| rendering | Research only: what FSR and DLSS (upscaling, frame generation) need from our renderer and Bevy/wgpu, and what to start doing now | sekiro-rs | Yama | 2026-10-13 |
 
 ## Done
 
