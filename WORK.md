@@ -40,6 +40,16 @@ Who's working on what right now, and what's done.
 | enemies | Regular enemies: AI pacing against a recorded fight, armoured servant's armour part | RustSekiro | FwLo | 2026-10-12 |
 | stealth | Shadow hiding, forced crouch, patrol routes | RustSekiro | FwLo | 2026-10-12 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
+| rendering | Map lighting check and fix, Hirata Estate (m10_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 |
+| rendering | Map lighting check and fix, Ashina Outskirts (m11_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 |
+| rendering | Map lighting check and fix, Ashina Castle (m11_01): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 |
+| rendering | Map lighting check and fix, Ashina Reservoir (m11_02): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 |
+| rendering | Map lighting check and fix, Abandoned Dungeon (m13_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 |
+| rendering | Map lighting check and fix, Ashina Depths (m15_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 |
+| rendering | Map lighting check and fix, Sunken Valley (m17_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 |
+| rendering | Map lighting check and fix, Senpou Temple (m20_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 |
+| rendering | Map lighting check and fix, Fountainhead Palace (m25_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 |
+| rendering | Map material layers (multi-material ground, masks, tint, detail normals, wetness, snow), adapted from RustSekiro | sekiro-rs | Yama | 2026-10-13 |
 
 ## Done
 
