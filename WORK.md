@@ -39,20 +39,21 @@ Who's working on what right now, and what's done.
 | audio | Remaining mixer events and sound occlusion | RustSekiro | FwLo | 2026-10-12 |
 | enemies | Regular enemies: AI pacing against a recorded fight, armoured servant's armour part | RustSekiro | FwLo | 2026-10-12 |
 | stealth | Shadow hiding, forced crouch, patrol routes | RustSekiro | FwLo | 2026-10-12 |
-| rendering | Story lighting per map selected from the game data: time-of-day flags, area gparam sub-ids from map events, collision-part light, fog and env-map ids (selection only; tone curve and exposure stay with RustSekiro) | sekiro-rs | Yama | 2026-10-13 |
-| brain | Move sheet as a gate: attacks only when reach and first-hit time fit, fastest break punish, idle penalties | sekiro-rs | Yama | 2026-10-13 |
-| brain | Wolf wins against multi-phase bosses not recorded in the brain memory (Genichiro win around fight 18 counted as 0) | sekiro-rs | Yama | 2026-10-13 |
-| combat | Deathblow near an edge pushes Wolf through doors or off the castle tower, out of the arena | sekiro-rs | Yama | 2026-10-13 |
-| brain | Break punish: code lists the viable punishes (lands before the stun ends, incl. ranged) with their damage and follow-ups; the coach picks | sekiro-rs | Yama | 2026-10-13 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
 
 ## Done
 
 <details>
-<summary>Done (36)</summary>
+<summary>Done (42)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| performance | GPU frame-time regression: camera fade only on fading materials; material cache, decal and FX hold leaks; Tomoe storm resets on restart | sekiro-rs | Yama | 2026-10-13 | [f99e8b7](https://github.com/AKJama/sekiro-rs/commit/f99e8b7) |
+| rendering | Story lighting per map selected from the game data: time-of-day flags, area gparam sub-ids from map events, collision-part light, fog and env-map ids (selection only; tone curve and exposure stay with RustSekiro) | sekiro-rs | Yama | 2026-10-13 | [f99e8b7](https://github.com/AKJama/sekiro-rs/commit/f99e8b7) |
+| brain | Move sheet as a gate: attacks only when reach and first-hit time fit, fastest break punish, idle penalties | sekiro-rs | Yama | 2026-10-13 | [f99e8b7](https://github.com/AKJama/sekiro-rs/commit/f99e8b7) |
+| brain | Wolf wins against multi-phase bosses not recorded in the brain memory (Genichiro win around fight 18 counted as 0) | sekiro-rs | Yama | 2026-10-13 | [f99e8b7](https://github.com/AKJama/sekiro-rs/commit/f99e8b7) |
+| combat | Deathblow near an edge pushes Wolf through doors or off the castle tower, out of the arena | sekiro-rs | Yama | 2026-10-13 | [f99e8b7](https://github.com/AKJama/sekiro-rs/commit/f99e8b7) |
+| brain | Break punish: code lists the viable punishes (lands before the stun ends, incl. ranged) with their damage and follow-ups; the coach picks | sekiro-rs | Yama | 2026-10-13 | [f99e8b7](https://github.com/AKJama/sekiro-rs/commit/f99e8b7) |
 | rendering | Research: what FSR and DLSS (upscaling, frame generation) need from the renderer, what Bevy 0.19 and wgpu 29 offer, and what to start doing now ([docs/UPSCALING.md](https://github.com/AKJama/sekiro-rs/blob/main/docs/UPSCALING.md)) | sekiro-rs | Yama | 2026-10-13 | [56c4f57](https://github.com/AKJama/sekiro-rs/commit/56c4f57) |
 | boss | Lady Butterfly (c5090), both phases, in the Hirata main hall: every phase playable in its arena (gaps in that boss's docs/BOSSES-*.md) | sekiro-rs | Yama | 2026-10-12 | [e964560](https://github.com/AKJama/sekiro-rs/commit/e964560) |
 | boss | Gyoubu Oniwa (c5080) on the castle gate: every phase playable in its arena (gaps in that boss's docs/BOSSES-*.md) | sekiro-rs | Yama | 2026-10-12 | [e964560](https://github.com/AKJama/sekiro-rs/commit/e964560) |
