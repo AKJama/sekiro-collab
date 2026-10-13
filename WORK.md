@@ -44,15 +44,16 @@ Who's working on what right now, and what's done.
 | brain | Wolf wins against multi-phase bosses not recorded in the brain memory (Genichiro win around fight 18 counted as 0) | sekiro-rs | Yama | 2026-10-13 |
 | combat | Deathblow near an edge pushes Wolf through doors or off the castle tower, out of the arena | sekiro-rs | Yama | 2026-10-13 |
 | brain | Break punish: code lists the viable punishes (lands before the stun ends, incl. ranged) with their damage and follow-ups; the coach picks | sekiro-rs | Yama | 2026-10-13 |
-| rendering | Research only: what FSR and DLSS (upscaling, frame generation) need from our renderer and Bevy/wgpu, and what to start doing now | sekiro-rs | Yama | 2026-10-13 |
+| rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
 
 ## Done
 
 <details>
-<summary>Done (35)</summary>
+<summary>Done (36)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| rendering | Research: what FSR and DLSS (upscaling, frame generation) need from the renderer, what Bevy 0.19 and wgpu 29 offer, and what to start doing now ([docs/UPSCALING.md](https://github.com/AKJama/sekiro-rs/blob/main/docs/UPSCALING.md)) | sekiro-rs | Yama | 2026-10-13 | [56c4f57](https://github.com/AKJama/sekiro-rs/commit/56c4f57) |
 | boss | Lady Butterfly (c5090), both phases, in the Hirata main hall: every phase playable in its arena (gaps in that boss's docs/BOSSES-*.md) | sekiro-rs | Yama | 2026-10-12 | [e964560](https://github.com/AKJama/sekiro-rs/commit/e964560) |
 | boss | Gyoubu Oniwa (c5080) on the castle gate: every phase playable in its arena (gaps in that boss's docs/BOSSES-*.md) | sekiro-rs | Yama | 2026-10-12 | [e964560](https://github.com/AKJama/sekiro-rs/commit/e964560) |
 | boss | Guardian Ape (c5100), both phases, in the watering hole: every phase playable in its arena (gaps in that boss's docs/BOSSES-*.md) | sekiro-rs | Yama | 2026-10-12 | [e964560](https://github.com/AKJama/sekiro-rs/commit/e964560) |

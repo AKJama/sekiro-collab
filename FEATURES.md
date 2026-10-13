@@ -179,4 +179,4 @@ Claim one in `WORK.md` before starting it.
 - **Upscaling and frame generation.**
   Add AMD FSR and NVIDIA DLSS (upscaling, then frame generation) so the game runs well on more PCs.
   The original game has neither, so there is nothing to decompile: both come as SDKs from AMD and NVIDIA (FSR is open source), and we plug them into our renderer.
-  Check first what our Bevy and wgpu version supports; upscaling is likely simpler than frame generation.
+  Research done: [sekiro-rs docs/UPSCALING.md](https://github.com/AKJama/sekiro-rs/blob/main/docs/UPSCALING.md); the rendering rules in `AGENTS.md` keep both projects ready for it.
