@@ -39,6 +39,8 @@ Who's working on what right now, and what's done.
 | audio | Remaining mixer events and sound occlusion | RustSekiro | FwLo | 2026-10-12 |
 | enemies | Regular enemies: AI pacing against a recorded fight, armoured servant's armour part | RustSekiro | FwLo | 2026-10-12 |
 | stealth | Shadow hiding, forced crouch, patrol routes | RustSekiro | FwLo | 2026-10-12 |
+| rendering | Story lighting per map selected from the game data: time-of-day flags, area gparam sub-ids from map events, collision-part light, fog and env-map ids (selection only; tone curve and exposure stay with RustSekiro) | sekiro-rs | Yama | 2026-10-13 |
+| brain | Move sheet as a gate: attacks only when reach and first-hit time fit, fastest break punish, idle penalties | sekiro-rs | Yama | 2026-10-13 |
 
 ## Done
 
