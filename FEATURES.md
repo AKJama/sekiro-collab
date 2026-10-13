@@ -176,3 +176,7 @@ Claim one in `WORK.md` before starting it.
 - **Instant restart.**
   Press R after dying to restart the fight at once, like Hotline Miami, with no death screen or map reload; pick an equivalent controller button later.
   The test restart already does this in part; it needs to be fast enough to feel instant.
+- **Upscaling and frame generation.**
+  Add AMD FSR and NVIDIA DLSS (upscaling, then frame generation) so the game runs well on more PCs.
+  The original game has neither, so there is nothing to decompile: both come as SDKs from AMD and NVIDIA (FSR is open source), and we plug them into our renderer.
+  Check first what our Bevy and wgpu version supports; upscaling is likely simpler than frame generation.
