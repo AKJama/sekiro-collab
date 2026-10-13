@@ -74,8 +74,7 @@ Phases are the deathblows needed (bars).
 Codes are the character ids; variants share one code, so one working fight usually covers the rest.
 Fill in your own column; claim a fight in `WORK.md` before starting it.
 
-<details>
-<summary>Bosses (15)</summary>
+### Bosses (15)
 
 | Boss | Code | Area | Phases | sekiro-rs | RustSekiro |
 |---|---|---|---|---|---|
@@ -95,10 +94,7 @@ Fill in your own column; claim a fight in `WORK.md` before starting it.
 | Divine Dragon | c5200, c5300 | Fountainhead Palace | 2 | 🟡 partial: Old Dragons and Divine Dragon attacks work; grapple targets, lightning reversal missing | ? |
 | Isshin, the Sword Saint | c7100, c5400 | Ashina Reservoir | 4 (Genichiro + 3) | 🟡 every phase playable in its arena; not yet checked against the real game, gaps in docs/BOSSES-*.md | ? |
 
-</details>
-
-<details>
-<summary>Minibosses (29)</summary>
+### Minibosses (29)
 
 | Miniboss | Code | Area | Phases | sekiro-rs | RustSekiro |
 |---|---|---|---|---|---|
@@ -132,8 +128,6 @@ Fill in your own column; claim a fight in `WORK.md` before starting it.
 | Headless (5 fights) | c1340, c1350 | Outskirts, Sunken Valley, Ashina Depths and more | 1 each | ❌ | ? |
 | Shichimen Warrior (3 fights) | c1080 | Abandoned Dungeon, Sunken Valley, Fountainhead | 1 each | ❌ | ? |
 
-</details>
-
 Phase counts and codes are from the game data where we've read it; correct any that are wrong.
 
 ## Boss arenas
@@ -166,5 +160,19 @@ Arena names are descriptive; the map and entity ids are from the game data.
 
 ## Biggest gaps
 
-- **sekiro-rs:** most bosses and the minibosses, combat arts and prosthetics, gourd, stealth, deathblows from behind and plunging, boss music, options and death screens, the wider roster.
+- **sekiro-rs:** the minibosses, boss gaps listed in `WORK.md`, combat arts and prosthetics, gourd, stealth, deathblows from behind and plunging, boss music, options and death screens, the wider roster.
 - **RustSekiro:** boss brain, swimming, wall hug, shader-accurate rendering (fog, tone mapping, GI, point lights, sky), the rest of the maps.
+
+## Beyond the base game
+
+Ideas that are new, not in the original game.
+Not for now: the baseline comes first.
+Claim one in `WORK.md` before starting it.
+
+- **Fights that spill out of the arena.**
+  A deathblow near an edge can push both fighters outside, and on the castle tower it felt cinematic.
+  Allow it within limits: on the tower, at most one or two levels down, with a wall that stops the fall to the bottom, and the boss can follow you into the house below.
+  If you still end up stuck, a start-menu option sends you back and restarts the fight.
+- **Instant restart.**
+  Press R after dying to restart the fight at once, like Hotline Miami, with no death screen or map reload; pick an equivalent controller button later.
+  The test restart already does this in part; it needs to be fast enough to feel instant.

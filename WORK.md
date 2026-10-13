@@ -42,6 +42,7 @@ Who's working on what right now, and what's done.
 | rendering | Story lighting per map selected from the game data: time-of-day flags, area gparam sub-ids from map events, collision-part light, fog and env-map ids (selection only; tone curve and exposure stay with RustSekiro) | sekiro-rs | Yama | 2026-10-13 |
 | brain | Move sheet as a gate: attacks only when reach and first-hit time fit, fastest break punish, idle penalties | sekiro-rs | Yama | 2026-10-13 |
 | brain | Wolf wins against multi-phase bosses not recorded in the brain memory (Genichiro win around fight 18 counted as 0) | sekiro-rs | Yama | 2026-10-13 |
+| combat | Deathblow near an edge pushes Wolf through doors or off the castle tower, out of the arena | sekiro-rs | Yama | 2026-10-13 |
 
 ## Done
 
