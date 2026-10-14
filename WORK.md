@@ -40,24 +40,28 @@ Who's working on what right now, and what's done.
 | enemies | Regular enemies: AI pacing against a recorded fight, armoured servant's armour part | RustSekiro | FwLo | 2026-10-12 |
 | stealth | Shadow hiding, forced crouch, patrol routes | RustSekiro | FwLo | 2026-10-12 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
-| rendering | Map lighting check and fix, Hirata Estate (m10_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 |
-| rendering | Map lighting check and fix, Ashina Outskirts (m11_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 |
-| rendering | Map lighting check and fix, Ashina Castle (m11_01): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 |
-| rendering | Map lighting check and fix, Ashina Reservoir (m11_02): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 |
-| rendering | Map lighting check and fix, Abandoned Dungeon (m13_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 |
-| rendering | Map lighting check and fix, Ashina Depths (m15_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 |
-| rendering | Map lighting check and fix, Sunken Valley (m17_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 |
-| rendering | Map lighting check and fix, Senpou Temple (m20_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 |
-| rendering | Map lighting check and fix, Fountainhead Palace (m25_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 |
-| rendering | Map material layers (multi-material ground, masks, tint, detail normals, wetness, snow), adapted from RustSekiro | sekiro-rs | Yama | 2026-10-13 |
+| rendering | Shared fix: GI volume lookup per pixel scans every volume (Hirata 142); filter spatially | sekiro-rs | Yama | 2026-10-14 |
+| rendering | Shared fix: fog switched off by a wrong-name lookup; fog banks use the sun; sky continuation | sekiro-rs | Yama | 2026-10-14 |
+| rendering | Shared fix: sky dome mapping overwritten by cloud models | sekiro-rs | Yama | 2026-10-14 |
+| tools | Shared fix: captures wait for finished pipelines; --uncapped really uncapped | sekiro-rs | Yama | 2026-10-14 |
 
 ## Done
 
 <details>
-<summary>Done (42)</summary>
+<summary>Done (52)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| rendering | Map lighting check and fix, Hirata Estate (m10_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 | [24bc46d](https://github.com/AKJama/sekiro-rs/commit/24bc46d) |
+| rendering | Map lighting check and fix, Ashina Outskirts (m11_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 | [24bc46d](https://github.com/AKJama/sekiro-rs/commit/24bc46d) |
+| rendering | Map lighting check and fix, Ashina Castle (m11_01): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 | [24bc46d](https://github.com/AKJama/sekiro-rs/commit/24bc46d) |
+| rendering | Map lighting check and fix, Ashina Reservoir (m11_02): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 | [24bc46d](https://github.com/AKJama/sekiro-rs/commit/24bc46d) |
+| rendering | Map lighting check and fix, Abandoned Dungeon (m13_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 | [24bc46d](https://github.com/AKJama/sekiro-rs/commit/24bc46d) |
+| rendering | Map lighting check and fix, Ashina Depths (m15_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 | [24bc46d](https://github.com/AKJama/sekiro-rs/commit/24bc46d) |
+| rendering | Map lighting check and fix, Sunken Valley (m17_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 | [24bc46d](https://github.com/AKJama/sekiro-rs/commit/24bc46d) |
+| rendering | Map lighting check and fix, Senpou Temple (m20_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 | [24bc46d](https://github.com/AKJama/sekiro-rs/commit/24bc46d) |
+| rendering | Map lighting check and fix, Fountainhead Palace (m25_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 | [24bc46d](https://github.com/AKJama/sekiro-rs/commit/24bc46d) |
+| rendering | Map material layers (multi-material ground, masks, tint, detail normals, wetness, snow), adapted from RustSekiro | sekiro-rs | Yama | 2026-10-13 | [24bc46d](https://github.com/AKJama/sekiro-rs/commit/24bc46d) |
 | performance | GPU frame-time regression: camera fade only on fading materials; material cache, decal and FX hold leaks; Tomoe storm resets on restart | sekiro-rs | Yama | 2026-10-13 | [f99e8b7](https://github.com/AKJama/sekiro-rs/commit/f99e8b7) |
 | rendering | Story lighting per map selected from the game data: time-of-day flags, area gparam sub-ids from map events, collision-part light, fog and env-map ids (selection only; tone curve and exposure stay with RustSekiro) | sekiro-rs | Yama | 2026-10-13 | [f99e8b7](https://github.com/AKJama/sekiro-rs/commit/f99e8b7) |
 | brain | Move sheet as a gate: attacks only when reach and first-hit time fit, fastest break punish, idle penalties | sekiro-rs | Yama | 2026-10-13 | [f99e8b7](https://github.com/AKJama/sekiro-rs/commit/f99e8b7) |
