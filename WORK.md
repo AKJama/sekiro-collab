@@ -49,6 +49,9 @@ Who's working on what right now, and what's done.
 | ui | Menu: Explore map option first, no hour row (story state from the data) | sekiro-rs | Yama | 2026-10-14 |
 | world | Castle top snow during the Genichiro fight checked against the game data | sekiro-rs | Yama | 2026-10-14 |
 | tools | Game data found from the cache folder at runtime, not the build folder | sekiro-rs | Yama | 2026-10-14 |
+| world | Map layout reader keeps every visibility, loading and connection field (map completeness job A) | sekiro-rs | Yama | 2026-10-14 |
+| world | Missing map textures, grey stand-ins and missing object models accounted for (map completeness job G) | sekiro-rs | Yama | 2026-10-14 |
+| world | Map streaming, detail level and visibility rules from the exe (map completeness research) | sekiro-rs | Yama | 2026-10-14 |
 
 ## Done
 
