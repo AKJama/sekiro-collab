@@ -45,6 +45,7 @@ Who's working on what right now, and what's done.
 | rendering | Shared fix: sky dome mapping overwritten by cloud models | sekiro-rs | Yama | 2026-10-14 |
 | tools | Shared fix: captures wait for finished pipelines; --uncapped really uncapped | sekiro-rs | Yama | 2026-10-14 |
 | world | Map test gates (fast data checks over all maps, a few render views per area) and the Ashina Outskirts regression | sekiro-rs | Yama | 2026-10-14 |
+| tools | Real-game reference screenshots of Ashina Outskirts and Castle indexed by position (tool only; the images stay local) | sekiro-rs | Yama | 2026-10-14 |
 
 ## Done
 
