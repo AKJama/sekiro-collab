@@ -57,6 +57,7 @@ Who's working on what right now, and what's done.
 | world | Ashina Outskirts and Castle: neighbouring map blocks loaded, map objects on (map completeness job D) | sekiro-rs | Yama | 2026-10-14 |
 | world | Ashina Outskirts and Castle: one visibility decision per map part, by the exe's rules (map completeness job E) | sekiro-rs | Yama | 2026-10-14 |
 | world | Ashina Outskirts and Castle: every detail level exported and picked by distance (map completeness job F) | sekiro-rs | Yama | 2026-10-14 |
+| world | Ashina Outskirts and Castle: ground fog and cloud surfaces below the cliffs (map completeness) | sekiro-rs | Yama | 2026-10-14 |
 
 ## Done
 
