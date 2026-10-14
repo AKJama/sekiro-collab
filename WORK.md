@@ -52,6 +52,7 @@ Who's working on what right now, and what's done.
 | world | Map layout reader keeps every visibility, loading and connection field (map completeness job A) | sekiro-rs | Yama | 2026-10-14 |
 | world | Missing map textures, grey stand-ins and missing object models accounted for (map completeness job G) | sekiro-rs | Yama | 2026-10-14 |
 | world | Map streaming, detail level and visibility rules from the exe (map completeness research) | sekiro-rs | Yama | 2026-10-14 |
+| world | Exported map layout keeps every part, connection and the reason anything is not drawn (map completeness job B) | sekiro-rs | Yama | 2026-10-14 |
 
 ## Done
 
