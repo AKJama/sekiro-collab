@@ -53,6 +53,10 @@ Who's working on what right now, and what's done.
 | world | Missing map textures, grey stand-ins and missing object models accounted for (map completeness job G) | sekiro-rs | Yama | 2026-10-14 |
 | world | Map streaming, detail level and visibility rules from the exe (map completeness research) | sekiro-rs | Yama | 2026-10-14 |
 | world | Exported map layout keeps every part, connection and the reason anything is not drawn (map completeness job B) | sekiro-rs | Yama | 2026-10-14 |
+| world | Ashina Outskirts and Castle: story state at the first visit from the event scripts (map completeness job C) | sekiro-rs | Yama | 2026-10-14 |
+| world | Ashina Outskirts and Castle: neighbouring map blocks loaded, map objects on (map completeness job D) | sekiro-rs | Yama | 2026-10-14 |
+| world | Ashina Outskirts and Castle: one visibility decision per map part, by the exe's rules (map completeness job E) | sekiro-rs | Yama | 2026-10-14 |
+| world | Ashina Outskirts and Castle: every detail level exported and picked by distance (map completeness job F) | sekiro-rs | Yama | 2026-10-14 |
 
 ## Done
 
