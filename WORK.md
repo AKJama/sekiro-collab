@@ -44,6 +44,11 @@ Who's working on what right now, and what's done.
 | rendering | Shared fix: fog switched off by a wrong-name lookup; fog banks use the sun; sky continuation | sekiro-rs | Yama | 2026-10-14 |
 | rendering | Shared fix: sky dome mapping overwritten by cloud models | sekiro-rs | Yama | 2026-10-14 |
 | tools | Shared fix: captures wait for finished pipelines; --uncapped really uncapped | sekiro-rs | Yama | 2026-10-14 |
+| world | Map completeness research: how map blocks connect, draw groups and detail levels, from Smithbox, DSMapStudio, SoulsFormats and RustSekiro | sekiro-rs | Yama | 2026-10-14 |
+| world | Automated hole sweep for one map area (Ashina Castle first): holes, void below the horizon, pop-in | sekiro-rs | Yama | 2026-10-14 |
+| ui | Menu: Explore map option first, no hour row (story state from the data) | sekiro-rs | Yama | 2026-10-14 |
+| world | Castle top snow during the Genichiro fight checked against the game data | sekiro-rs | Yama | 2026-10-14 |
+| tools | Game data found from the cache folder at runtime, not the build folder | sekiro-rs | Yama | 2026-10-14 |
 
 ## Done
 
