@@ -44,20 +44,7 @@ Who's working on what right now, and what's done.
 | rendering | Shared fix: fog switched off by a wrong-name lookup; fog banks use the sun; sky continuation | sekiro-rs | Yama | 2026-10-14 |
 | rendering | Shared fix: sky dome mapping overwritten by cloud models | sekiro-rs | Yama | 2026-10-14 |
 | tools | Shared fix: captures wait for finished pipelines; --uncapped really uncapped | sekiro-rs | Yama | 2026-10-14 |
-| world | Map completeness research: how map blocks connect, draw groups and detail levels, from Smithbox, DSMapStudio, SoulsFormats and RustSekiro | sekiro-rs | Yama | 2026-10-14 |
-| world | Automated hole sweep for one map area (Ashina Castle first): holes, void below the horizon, pop-in | sekiro-rs | Yama | 2026-10-14 |
-| ui | Menu: Explore map option first, no hour row (story state from the data) | sekiro-rs | Yama | 2026-10-14 |
-| world | Castle top snow during the Genichiro fight checked against the game data | sekiro-rs | Yama | 2026-10-14 |
-| tools | Game data found from the cache folder at runtime, not the build folder | sekiro-rs | Yama | 2026-10-14 |
-| world | Map layout reader keeps every visibility, loading and connection field (map completeness job A) | sekiro-rs | Yama | 2026-10-14 |
-| world | Missing map textures, grey stand-ins and missing object models accounted for (map completeness job G) | sekiro-rs | Yama | 2026-10-14 |
-| world | Map streaming, detail level and visibility rules from the exe (map completeness research) | sekiro-rs | Yama | 2026-10-14 |
-| world | Exported map layout keeps every part, connection and the reason anything is not drawn (map completeness job B) | sekiro-rs | Yama | 2026-10-14 |
-| world | Ashina Outskirts and Castle: story state at the first visit from the event scripts (map completeness job C) | sekiro-rs | Yama | 2026-10-14 |
-| world | Ashina Outskirts and Castle: neighbouring map blocks loaded, map objects on (map completeness job D) | sekiro-rs | Yama | 2026-10-14 |
-| world | Ashina Outskirts and Castle: one visibility decision per map part, by the exe's rules (map completeness job E) | sekiro-rs | Yama | 2026-10-14 |
-| world | Ashina Outskirts and Castle: every detail level exported and picked by distance (map completeness job F) | sekiro-rs | Yama | 2026-10-14 |
-| world | Ashina Outskirts and Castle: ground fog and cloud surfaces below the cliffs (map completeness) | sekiro-rs | Yama | 2026-10-14 |
+| world | Map test gates (fast data checks over all maps, a few render views per area) and the Ashina Outskirts regression | sekiro-rs | Yama | 2026-10-14 |
 
 ## Done
 
@@ -66,6 +53,20 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| world | Map completeness research: how map blocks connect, draw groups and detail levels, from Smithbox, DSMapStudio, SoulsFormats and RustSekiro | sekiro-rs | Yama | 2026-10-14 | [d76523f](https://github.com/AKJama/sekiro-rs/commit/d76523f) |
+| world | Automated hole sweep for one map area (Ashina Castle first): holes, void below the horizon, pop-in | sekiro-rs | Yama | 2026-10-14 | [d76523f](https://github.com/AKJama/sekiro-rs/commit/d76523f) |
+| ui | Menu: Explore map option first, no hour row (story state from the data) | sekiro-rs | Yama | 2026-10-14 | [d76523f](https://github.com/AKJama/sekiro-rs/commit/d76523f) |
+| world | Castle top snow during the Genichiro fight checked against the game data | sekiro-rs | Yama | 2026-10-14 | [d76523f](https://github.com/AKJama/sekiro-rs/commit/d76523f) |
+| tools | Game data found from the cache folder at runtime, not the build folder | sekiro-rs | Yama | 2026-10-14 | [d76523f](https://github.com/AKJama/sekiro-rs/commit/d76523f) |
+| world | Map layout reader keeps every visibility, loading and connection field (map completeness job A) | sekiro-rs | Yama | 2026-10-14 | [d76523f](https://github.com/AKJama/sekiro-rs/commit/d76523f) |
+| world | Missing map textures, grey stand-ins and missing object models accounted for (map completeness job G) | sekiro-rs | Yama | 2026-10-14 | [d76523f](https://github.com/AKJama/sekiro-rs/commit/d76523f) |
+| world | Map streaming, detail level and visibility rules from the exe (map completeness research) | sekiro-rs | Yama | 2026-10-14 | [d76523f](https://github.com/AKJama/sekiro-rs/commit/d76523f) |
+| world | Exported map layout keeps every part, connection and the reason anything is not drawn (map completeness job B) | sekiro-rs | Yama | 2026-10-14 | [d76523f](https://github.com/AKJama/sekiro-rs/commit/d76523f) |
+| world | Ashina Outskirts and Castle: story state at the first visit from the event scripts (map completeness job C) | sekiro-rs | Yama | 2026-10-14 | [d76523f](https://github.com/AKJama/sekiro-rs/commit/d76523f) |
+| world | Ashina Outskirts and Castle: neighbouring map blocks loaded, map objects on (map completeness job D) | sekiro-rs | Yama | 2026-10-14 | [d76523f](https://github.com/AKJama/sekiro-rs/commit/d76523f) |
+| world | Ashina Outskirts and Castle: one visibility decision per map part, by the exe's rules (map completeness job E) | sekiro-rs | Yama | 2026-10-14 | [d76523f](https://github.com/AKJama/sekiro-rs/commit/d76523f) |
+| world | Ashina Outskirts and Castle: every detail level exported and picked by distance (map completeness job F) | sekiro-rs | Yama | 2026-10-14 | [d76523f](https://github.com/AKJama/sekiro-rs/commit/d76523f) |
+| world | Ashina Outskirts and Castle: ground fog and cloud surfaces below the cliffs (map completeness) | sekiro-rs | Yama | 2026-10-14 | [d76523f](https://github.com/AKJama/sekiro-rs/commit/d76523f) |
 | rendering | Map lighting check and fix, Hirata Estate (m10_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 | [24bc46d](https://github.com/AKJama/sekiro-rs/commit/24bc46d) |
 | rendering | Map lighting check and fix, Ashina Outskirts (m11_00): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 | [24bc46d](https://github.com/AKJama/sekiro-rs/commit/24bc46d) |
 | rendering | Map lighting check and fix, Ashina Castle (m11_01): every story state against the game data, real frame time | sekiro-rs | Yama | 2026-10-13 | [24bc46d](https://github.com/AKJama/sekiro-rs/commit/24bc46d) |
