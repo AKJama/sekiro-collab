@@ -43,6 +43,7 @@ Who's working on what right now, and what's done.
 | rendering | Shared fix: GI volume lookup per pixel scans every volume (Hirata 142); filter spatially | sekiro-rs | Yama | 2026-10-14 |
 | rendering | Shared fix: sky dome mapping overwritten by cloud models | sekiro-rs | Yama | 2026-10-14 |
 | tools | Shared fix: captures wait for finished pipelines; --uncapped really uncapped | sekiro-rs | Yama | 2026-10-14 |
+| world | Ashina Outskirts and Castle: grass and weed clumps from the game's grass data (visual parity G1) | sekiro-rs | Yama | 2026-10-15 |
 
 ## Done
 
