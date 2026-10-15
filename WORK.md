@@ -40,10 +40,6 @@ Who's working on what right now, and what's done.
 | enemies | Regular enemies: AI pacing against a recorded fight, armoured servant's armour part | RustSekiro | FwLo | 2026-10-12 |
 | stealth | Shadow hiding, forced crouch, patrol routes | RustSekiro | FwLo | 2026-10-12 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
-| rendering | Shared fix: GI volume lookup per pixel scans every volume (Hirata 142); filter spatially | sekiro-rs | Yama | 2026-10-14 |
-| rendering | Shared fix: sky dome mapping overwritten by cloud models | sekiro-rs | Yama | 2026-10-14 |
-| tools | Shared fix: captures wait for finished pipelines; --uncapped really uncapped | sekiro-rs | Yama | 2026-10-14 |
-| world | Ashina Outskirts and Castle: grass and weed clumps from the game's grass data (visual parity G1) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Map lights applied from the game data: lanterns, fires and braziers (BTL), all four light-set lights, probe installed once (visual parity L1, E1) | sekiro-rs | Yama | 2026-10-15 |
 
 ## Done
@@ -53,6 +49,10 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| rendering | Shared fix: GI volume lookup per pixel scans every volume (Hirata 142); filter spatially | sekiro-rs | Yama | 2026-10-14 | [7b36fc6](https://github.com/AKJama/sekiro-rs/commit/7b36fc6) |
+| rendering | Shared fix: sky dome mapping overwritten by cloud models | sekiro-rs | Yama | 2026-10-14 | [7b36fc6](https://github.com/AKJama/sekiro-rs/commit/7b36fc6) |
+| tools | Shared fix: captures wait for finished pipelines; --uncapped partly (sustained rate still open) | sekiro-rs | Yama | 2026-10-14 | [7b36fc6](https://github.com/AKJama/sekiro-rs/commit/7b36fc6) |
+| world | Ashina Outskirts and Castle: grass and weed clumps from the game's grass data (visual parity G1) | sekiro-rs | Yama | 2026-10-15 | [7b36fc6](https://github.com/AKJama/sekiro-rs/commit/7b36fc6) |
 | world | Visual parity, Ashina Outskirts and Castle: camera matched to real-game shots, every difference sorted by cause | sekiro-rs | Yama | 2026-10-15 | [8a09abf](https://github.com/AKJama/sekiro-rs/commit/8a09abf) |
 | rendering | Shared fix resumed: fog switched off by a wrong-name lookup; fog banks use the sun; sky continuation | sekiro-rs | Yama | 2026-10-15 | [8a09abf](https://github.com/AKJama/sekiro-rs/commit/8a09abf) |
 | world | Map test gates (fast data checks over all maps, a few render views per area) and the Ashina Outskirts regression | sekiro-rs | Yama | 2026-10-14 | [d229d6c](https://github.com/AKJama/sekiro-rs/commit/d229d6c) |
