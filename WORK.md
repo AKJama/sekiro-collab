@@ -43,8 +43,6 @@ Who's working on what right now, and what's done.
 | rendering | Shared fix: GI volume lookup per pixel scans every volume (Hirata 142); filter spatially | sekiro-rs | Yama | 2026-10-14 |
 | rendering | Shared fix: sky dome mapping overwritten by cloud models | sekiro-rs | Yama | 2026-10-14 |
 | tools | Shared fix: captures wait for finished pipelines; --uncapped really uncapped | sekiro-rs | Yama | 2026-10-14 |
-| world | Visual parity, Ashina Outskirts and Castle: camera matched to real-game shots, every difference sorted by cause | sekiro-rs | Yama | 2026-10-15 |
-| rendering | Shared fix resumed: fog switched off by a wrong-name lookup; fog banks use the sun; sky continuation | sekiro-rs | Yama | 2026-10-15 |
 
 ## Done
 
@@ -53,6 +51,8 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| world | Visual parity, Ashina Outskirts and Castle: camera matched to real-game shots, every difference sorted by cause | sekiro-rs | Yama | 2026-10-15 | [8a09abf](https://github.com/AKJama/sekiro-rs/commit/8a09abf) |
+| rendering | Shared fix resumed: fog switched off by a wrong-name lookup; fog banks use the sun; sky continuation | sekiro-rs | Yama | 2026-10-15 | [8a09abf](https://github.com/AKJama/sekiro-rs/commit/8a09abf) |
 | world | Map test gates (fast data checks over all maps, a few render views per area) and the Ashina Outskirts regression | sekiro-rs | Yama | 2026-10-14 | [d229d6c](https://github.com/AKJama/sekiro-rs/commit/d229d6c) |
 | tools | Real-game reference screenshots of Ashina Outskirts and Castle indexed by position (tool only; the images stay local) | sekiro-rs | Yama | 2026-10-14 | [d229d6c](https://github.com/AKJama/sekiro-rs/commit/d229d6c) |
 | world | Map completeness research: how map blocks connect, draw groups and detail levels, from Smithbox, DSMapStudio, SoulsFormats and RustSekiro | sekiro-rs | Yama | 2026-10-14 | [d76523f](https://github.com/AKJama/sekiro-rs/commit/d76523f) |
