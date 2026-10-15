@@ -44,6 +44,7 @@ Who's working on what right now, and what's done.
 | rendering | Shared fix: sky dome mapping overwritten by cloud models | sekiro-rs | Yama | 2026-10-14 |
 | tools | Shared fix: captures wait for finished pipelines; --uncapped really uncapped | sekiro-rs | Yama | 2026-10-14 |
 | world | Ashina Outskirts and Castle: grass and weed clumps from the game's grass data (visual parity G1) | sekiro-rs | Yama | 2026-10-15 |
+| rendering | Map lights applied from the game data: lanterns, fires and braziers (BTL), all four light-set lights, probe installed once (visual parity L1, E1) | sekiro-rs | Yama | 2026-10-15 |
 
 ## Done
 
