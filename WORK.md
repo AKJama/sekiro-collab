@@ -40,6 +40,7 @@ Who's working on what right now, and what's done.
 | enemies | Regular enemies: AI pacing against a recorded fight, armoured servant's armour part | RustSekiro | FwLo | 2026-10-12 |
 | stealth | Shadow hiding, forced crouch, patrol routes | RustSekiro | FwLo | 2026-10-12 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
+| rendering | Map lights: the extra light-set lights respect the sun's shadow where the game's data says so (new setup looked flatter than the old one) | sekiro-rs | Yama | 2026-10-15 |
 
 ## Done
 
