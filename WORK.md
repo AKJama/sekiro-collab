@@ -40,7 +40,6 @@ Who's working on what right now, and what's done.
 | enemies | Regular enemies: AI pacing against a recorded fight, armoured servant's armour part | RustSekiro | FwLo | 2026-10-12 |
 | stealth | Shadow hiding, forced crouch, patrol routes | RustSekiro | FwLo | 2026-10-12 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
-| rendering | Map lights: the extra light-set lights respect the sun's shadow where the game's data says so (new setup looked flatter than the old one) | sekiro-rs | Yama | 2026-10-15 |
 
 ## Done
 
@@ -49,6 +48,7 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| rendering | Map lights: the extra light-set lights checked: the game shadows only the sun slot, so no change; remaining gap is overall brightness (about 2.8x too bright), the exposure and tone row | sekiro-rs | Yama | 2026-10-15 | [889f54f](https://github.com/AKJama/sekiro-rs/commit/889f54f) |
 | world | Ashina Outskirts and Castle: neighbouring blocks' textures resolve from the block that owns the model (white neighbour pieces) | sekiro-rs | Yama | 2026-10-15 | [527d210](https://github.com/AKJama/sekiro-rs/commit/527d210) |
 | effects | Ashina Outskirts and Castle: the map's own effects placed from the data - falling snow, flames, smoke and the idol glow (visual parity E1, E2) | sekiro-rs | Yama | 2026-10-15 | [527d210](https://github.com/AKJama/sekiro-rs/commit/527d210) |
 | rendering | Map lights applied from the game data: lanterns, fires and braziers (BTL), all four light-set lights, probe installed once (visual parity L1, E1) | sekiro-rs | Yama | 2026-10-15 | [2da68f2](https://github.com/AKJama/sekiro-rs/commit/2da68f2) |
