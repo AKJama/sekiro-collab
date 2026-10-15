@@ -33,6 +33,7 @@ Who's working on what right now, and what's done.
 | camera | Lock-on camera offsets, target smoothing, look limits, lock-on switch | RustSekiro | FwLo | 2026-10-12 |
 | rendering | The game's tone curve and auto exposure, night snow brightness, light probe blend between hours | RustSekiro | FwLo | 2026-10-12 |
 | rendering | Far mountain range behind Outskirts and Castle: find why the m6* distant parts do not show (clip, sky order, draw mask, lighting) and fix | sekiro-rs | Yama | 2026-10-15 |
+| rendering | Exposure and tone curve in sekiro-rs (checks RustSekiro first, copies his work if pushed, credited): scenes about 2.8x too bright, snow tone | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Layered map materials: each layer's own mask, UV sets, blend data | RustSekiro | FwLo | 2026-10-12 |
 | effects | Hand-made effects moved to the game's FXR files: deflect, guard sparks, hit blood, floor dust, blood decals, lit particles | RustSekiro | FwLo | 2026-10-12 |
 | effects | Regular enemies' attack effects from their TAE events, checked per enemy | RustSekiro | FwLo | 2026-10-12 |
