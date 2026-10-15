@@ -32,8 +32,6 @@ Who's working on what right now, and what's done.
 | cloth | Wolf's cape against a real-game clip, coat detail texture layer | RustSekiro | FwLo | 2026-10-12 |
 | camera | Lock-on camera offsets, target smoothing, look limits, lock-on switch | RustSekiro | FwLo | 2026-10-12 |
 | rendering | The game's tone curve and auto exposure, night snow brightness, light probe blend between hours | RustSekiro | FwLo | 2026-10-12 |
-| rendering | Far mountain range behind Outskirts and Castle: find why the m6* distant parts do not show (clip, sky order, draw mask, lighting) and fix | sekiro-rs | Yama | 2026-10-15 |
-| rendering | Exposure and tone curve in sekiro-rs (checks RustSekiro first, copies his work if pushed, credited): scenes about 2.8x too bright, snow tone | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Layered map materials: each layer's own mask, UV sets, blend data | RustSekiro | FwLo | 2026-10-12 |
 | effects | Hand-made effects moved to the game's FXR files: deflect, guard sparks, hit blood, floor dust, blood decals, lit particles | RustSekiro | FwLo | 2026-10-12 |
 | effects | Regular enemies' attack effects from their TAE events, checked per enemy | RustSekiro | FwLo | 2026-10-12 |
@@ -50,6 +48,8 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| rendering | Far mountains and distant backdrop: mountain materials, far panorama night part loaded, haze and fog fixes (partly done: CloudFog arc and remaining haze open) | sekiro-rs | Yama | 2026-10-15 | [e58ed8e](https://github.com/AKJama/sekiro-rs/commit/e58ed8e) |
+| rendering | Tone curve: base-two exp as in the game's shader, about 30% less bright (parity and snow saturation still open) | sekiro-rs | Yama | 2026-10-15 | [e58ed8e](https://github.com/AKJama/sekiro-rs/commit/e58ed8e) |
 | rendering | Map lights: the extra light-set lights checked: the game shadows only the sun slot, so no change; remaining gap is overall brightness (about 2.8x too bright), the exposure and tone row | sekiro-rs | Yama | 2026-10-15 | [889f54f](https://github.com/AKJama/sekiro-rs/commit/889f54f) |
 | world | Ashina Outskirts and Castle: neighbouring blocks' textures resolve from the block that owns the model (white neighbour pieces) | sekiro-rs | Yama | 2026-10-15 | [527d210](https://github.com/AKJama/sekiro-rs/commit/527d210) |
 | effects | Ashina Outskirts and Castle: the map's own effects placed from the data - falling snow, flames, smoke and the idol glow (visual parity E1, E2) | sekiro-rs | Yama | 2026-10-15 | [527d210](https://github.com/AKJama/sekiro-rs/commit/527d210) |
