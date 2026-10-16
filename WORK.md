@@ -1,4 +1,4 @@
-﻿# Work
+# Work
 
 Who's working on what right now, and what's done.
 `FEATURES.md` is the full backlog; Open below lists specific tasks someone has broken out but nobody has started yet; either of us can take one.
