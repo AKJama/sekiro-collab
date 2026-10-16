@@ -28,7 +28,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| perf | Half-second freeze at the shack doorway: every map material re-prepared on a LightSet change, [#15](https://github.com/AKJama/sekiro-rs/issues/15) | sekiro-rs | Yama | 2026-10-17 |
 | rendering | Shaded cliffs and gully walls lit as if in sun, [#30](https://github.com/AKJama/sekiro-rs/issues/30) | sekiro-rs | Yama | 2026-10-16 |
 | combat | Hit-shape reach and first-hit frames checked against real-game clips: Wolf's swings, Ichimonji, Mortal Draw, regular enemies | RustSekiro | FwLo | 2026-10-12 |
 | combat | Hit-shape priority, knockback facing, armoured enemies' damage cut | RustSekiro | FwLo | 2026-10-12 |
@@ -48,10 +47,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (63)</summary>
+<summary>Done (64)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| perf | Shack doorway freeze: map lighting in one shared buffer, [#15](https://github.com/AKJama/sekiro-rs/issues/15), [PR #51](https://github.com/AKJama/sekiro-rs/pull/51) | sekiro-rs | Yama | 2026-10-17 | [94cfad9](https://github.com/AKJama/sekiro-rs/commit/94cfad9) |
 | docs | Contribution rules: CONTRIBUTING, templates, issue-link check, main protected, project board, [#49](https://github.com/AKJama/sekiro-rs/issues/49), [PR #50](https://github.com/AKJama/sekiro-rs/pull/50) | sekiro-rs | Yama | 2026-10-17 | [9f470c6](https://github.com/AKJama/sekiro-rs/commit/9f470c6) |
 | rendering | Black glossy rock patches: vertex tint gated on mask 6, native specular scale and F0, [#7](https://github.com/AKJama/sekiro-rs/issues/7), [PR #48](https://github.com/AKJama/sekiro-rs/pull/48) | sekiro-rs | Yama | 2026-10-16 | [3cb11e1](https://github.com/AKJama/sekiro-rs/commit/3cb11e1) |
 | docs | README cut to simple getting-started steps, links the collab board, shorter credits, [PR #41](https://github.com/AKJama/sekiro-rs/pull/41) | sekiro-rs | Yama | 2026-10-16 | [d90da6e](https://github.com/AKJama/sekiro-rs/commit/d90da6e) |
