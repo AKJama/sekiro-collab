@@ -48,10 +48,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (62)</summary>
+<summary>Done (63)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| docs | Contribution rules: CONTRIBUTING, templates, issue-link check, main protected, project board, [#49](https://github.com/AKJama/sekiro-rs/issues/49), [PR #50](https://github.com/AKJama/sekiro-rs/pull/50) | sekiro-rs | Yama | 2026-10-17 | [9f470c6](https://github.com/AKJama/sekiro-rs/commit/9f470c6) |
 | rendering | Black glossy rock patches: vertex tint gated on mask 6, native specular scale and F0, [#7](https://github.com/AKJama/sekiro-rs/issues/7), [PR #48](https://github.com/AKJama/sekiro-rs/pull/48) | sekiro-rs | Yama | 2026-10-16 | [3cb11e1](https://github.com/AKJama/sekiro-rs/commit/3cb11e1) |
 | docs | README cut to simple getting-started steps, links the collab board, shorter credits, [PR #41](https://github.com/AKJama/sekiro-rs/pull/41) | sekiro-rs | Yama | 2026-10-16 | [d90da6e](https://github.com/AKJama/sekiro-rs/commit/d90da6e) |
 | tools | Faster PR workflow: enemy registry read once per process (tests 796 s to 154 s), test once at the end, agent time budgets, [#24](https://github.com/AKJama/sekiro-rs/issues/24) | sekiro-rs | Yama | 2026-10-16 | [#36](https://github.com/AKJama/sekiro-rs/pull/36) |
