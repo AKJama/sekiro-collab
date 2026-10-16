@@ -27,6 +27,9 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
+| world | Map visibility follows the collision part Wolf stands on (invisible world after grapple), [#5](https://github.com/AKJama/sekiro-rs/pull/5) | sekiro-rs | Yama | 2026-10-16 |
+| world | Standing on grapple trees and other objects: object collision | sekiro-rs | Yama | 2026-10-16 |
+| rendering | Map specular about 4x too strong (wet-looking rock): 1/pi on specular, native F0 0.03 | sekiro-rs | Yama | 2026-10-16 |
 | combat | Hit-shape reach and first-hit frames checked against real-game clips: Wolf's swings, Ichimonji, Mortal Draw, regular enemies | RustSekiro | FwLo | 2026-10-12 |
 | combat | Hit-shape priority, knockback facing, armoured enemies' damage cut | RustSekiro | FwLo | 2026-10-12 |
 | cloth | Wolf's cape against a real-game clip, coat detail texture layer | RustSekiro | FwLo | 2026-10-12 |
@@ -45,10 +48,13 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (52)</summary>
+<summary>Done (55)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| world | Live loading: loading screen until textures can draw, nearest-first streaming, 60 fps in play, about 45 s to playable, fast exit | sekiro-rs | Yama | 2026-10-16 | [#2](https://github.com/AKJama/sekiro-rs/pull/2) |
+| world | Helper collision follows the exe hit filters: no standing on event walls, fall return from the Outskirts ravine | sekiro-rs | Yama | 2026-10-16 | [#3](https://github.com/AKJama/sekiro-rs/pull/3) |
+| world | Objects export node-bound vertices in model space: bamboo and trees stand up, leaves on stalks (all maps; caches re-exported for m11_00 and m11_01) | sekiro-rs | Yama | 2026-10-16 | [#4](https://github.com/AKJama/sekiro-rs/pull/4) |
 | rendering | Post colour chain: colour matrix, contrast lookup, bloom pyramid | sekiro-rs | Yama | 2026-10-15 | [3c8cc07](https://github.com/AKJama/sekiro-rs/commit/3c8cc07) |
 | effects | Fires: soft-particle fade, premultiplied alpha, UNORM textures, rising flames and sparks; native point/spot light falloff | sekiro-rs | Yama | 2026-10-15 | [1213844](https://github.com/AKJama/sekiro-rs/commit/1213844) |
 | rendering | Reference comparisons and gates use the post-Genichiro afternoon state | sekiro-rs | Yama | 2026-10-15 | [e89596c](https://github.com/AKJama/sekiro-rs/commit/e89596c) |
