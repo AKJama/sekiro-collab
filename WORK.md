@@ -28,6 +28,7 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
+| world | Default start matches the real game's opening (before Gyobu, sunrise), [#47](https://github.com/AKJama/sekiro-rs/issues/47) | sekiro-rs | Yama | 2026-10-17 |
 | rendering | Shaded cliffs and gully walls lit as if in sun, [#30](https://github.com/AKJama/sekiro-rs/issues/30) | sekiro-rs | Yama | 2026-10-16 |
 | combat | Hit-shape reach and first-hit frames checked against real-game clips: Wolf's swings, Ichimonji, Mortal Draw, regular enemies | RustSekiro | FwLo | 2026-10-12 |
 | combat | Hit-shape priority, knockback facing, armoured enemies' damage cut | RustSekiro | FwLo | 2026-10-12 |
@@ -47,10 +48,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (64)</summary>
+<summary>Done (65)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| docs | One issue per PR enforced by the issue-link check, rebase on main before review, [#53](https://github.com/AKJama/sekiro-rs/issues/53), [PR #54](https://github.com/AKJama/sekiro-rs/pull/54) | sekiro-rs | Yama | 2026-10-17 | [672e95c](https://github.com/AKJama/sekiro-rs/commit/672e95c) |
 | perf | Shack doorway freeze: map lighting in one shared buffer, [#15](https://github.com/AKJama/sekiro-rs/issues/15), [PR #51](https://github.com/AKJama/sekiro-rs/pull/51) | sekiro-rs | Yama | 2026-10-17 | [94cfad9](https://github.com/AKJama/sekiro-rs/commit/94cfad9) |
 | docs | Contribution rules: CONTRIBUTING, templates, issue-link check, main protected, project board, [#49](https://github.com/AKJama/sekiro-rs/issues/49), [PR #50](https://github.com/AKJama/sekiro-rs/pull/50) | sekiro-rs | Yama | 2026-10-17 | [9f470c6](https://github.com/AKJama/sekiro-rs/commit/9f470c6) |
 | rendering | Black glossy rock patches: vertex tint gated on mask 6, native specular scale and F0, [#7](https://github.com/AKJama/sekiro-rs/issues/7), [PR #48](https://github.com/AKJama/sekiro-rs/pull/48) | sekiro-rs | Yama | 2026-10-16 | [3cb11e1](https://github.com/AKJama/sekiro-rs/commit/3cb11e1) |
