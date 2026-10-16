@@ -28,7 +28,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| tooling | Faster PR workflow: linker, build profiles, shared test fixtures, test once at the end, [#24](https://github.com/AKJama/sekiro-rs/issues/24) | sekiro-rs | Yama | 2026-10-16 |
 | rendering | Map specular about 4x too strong (wet-looking rock): 1/pi on specular, native F0 0.03, [#7](https://github.com/AKJama/sekiro-rs/issues/7) | sekiro-rs | Yama | 2026-10-16 |
 | combat | Hit-shape reach and first-hit frames checked against real-game clips: Wolf's swings, Ichimonji, Mortal Draw, regular enemies | RustSekiro | FwLo | 2026-10-12 |
 | combat | Hit-shape priority, knockback facing, armoured enemies' damage cut | RustSekiro | FwLo | 2026-10-12 |
@@ -48,10 +47,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (59)</summary>
+<summary>Done (60)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| tools | Faster PR workflow: enemy registry read once per process (tests 796 s to 154 s), test once at the end, agent time budgets, [#24](https://github.com/AKJama/sekiro-rs/issues/24) | sekiro-rs | Yama | 2026-10-16 | [#36](https://github.com/AKJama/sekiro-rs/pull/36) |
 | tools | PR flow: medium code review, one fix pass, full checks once, [#25](https://github.com/AKJama/sekiro-rs/issues/25) | sekiro-rs | Yama | 2026-10-16 | [#28](https://github.com/AKJama/sekiro-rs/pull/28) |
 | world | Standing on grapple trees and other objects: object collision from each object's binder, exe hit-filter groups by collisionType, [#6](https://github.com/AKJama/sekiro-rs/issues/6) | sekiro-rs | Yama | 2026-10-16 | [#22](https://github.com/AKJama/sekiro-rs/pull/22) |
 | tools | Agent live tests: `--script-route` steering and a live-test skill, [#14](https://github.com/AKJama/sekiro-rs/issues/14) | sekiro-rs | Yama | 2026-10-16 | [#21](https://github.com/AKJama/sekiro-rs/pull/21) |
