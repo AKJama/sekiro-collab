@@ -47,10 +47,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (60)</summary>
+<summary>Done (61)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| docs | README cut to simple getting-started steps, links the collab board, shorter credits, [PR #41](https://github.com/AKJama/sekiro-rs/pull/41) | sekiro-rs | Yama | 2026-10-16 | [d90da6e](https://github.com/AKJama/sekiro-rs/commit/d90da6e) |
 | tools | Faster PR workflow: enemy registry read once per process (tests 796 s to 154 s), test once at the end, agent time budgets, [#24](https://github.com/AKJama/sekiro-rs/issues/24) | sekiro-rs | Yama | 2026-10-16 | [#36](https://github.com/AKJama/sekiro-rs/pull/36) |
 | tools | PR flow: medium code review, one fix pass, full checks once, [#25](https://github.com/AKJama/sekiro-rs/issues/25) | sekiro-rs | Yama | 2026-10-16 | [#28](https://github.com/AKJama/sekiro-rs/pull/28) |
 | world | Standing on grapple trees and other objects: object collision from each object's binder, exe hit-filter groups by collisionType, [#6](https://github.com/AKJama/sekiro-rs/issues/6) | sekiro-rs | Yama | 2026-10-16 | [#22](https://github.com/AKJama/sekiro-rs/pull/22) |
