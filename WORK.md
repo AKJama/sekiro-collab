@@ -1,4 +1,4 @@
-# Work
+﻿# Work
 
 Who's working on what right now, and what's done.
 `FEATURES.md` is the full backlog; Open below lists specific tasks someone has broken out but nobody has started yet; either of us can take one.
@@ -22,12 +22,13 @@ Who's working on what right now, and what's done.
 | boss | Lady Butterfly: illusion homing, navigation and summon recreation; two illusions fall below the floor |
 | boss | Guardian Ape: grabs do not connect |
 | combat | TAE 705 facing correction for enemies (20 Demon of Hatred events use it) |
+| world | Grapple tree fall prevention: walls hold where they cover, but only about 40% of the trunk, parked as draft [PR #33](https://github.com/AKJama/sekiro-rs/pull/33), [#17](https://github.com/AKJama/sekiro-rs/issues/17) |
 
 ## Claimed
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| world | Grapple tree: the game holds Wolf on the trunk (fall prevention), [#17](https://github.com/AKJama/sekiro-rs/issues/17) | sekiro-rs | Yama | 2026-10-16 |
+| tooling | Faster PR workflow: linker, build profiles, shared test fixtures, test once at the end, [#24](https://github.com/AKJama/sekiro-rs/issues/24) | sekiro-rs | Yama | 2026-10-16 |
 | rendering | Map specular about 4x too strong (wet-looking rock): 1/pi on specular, native F0 0.03, [#7](https://github.com/AKJama/sekiro-rs/issues/7) | sekiro-rs | Yama | 2026-10-16 |
 | combat | Hit-shape reach and first-hit frames checked against real-game clips: Wolf's swings, Ichimonji, Mortal Draw, regular enemies | RustSekiro | FwLo | 2026-10-12 |
 | combat | Hit-shape priority, knockback facing, armoured enemies' damage cut | RustSekiro | FwLo | 2026-10-12 |
