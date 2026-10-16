@@ -27,7 +27,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| world | Standing on grapple trees and other objects: object collision, [#6](https://github.com/AKJama/sekiro-rs/issues/6) | sekiro-rs | Yama | 2026-10-16 |
 | rendering | Map specular about 4x too strong (wet-looking rock): 1/pi on specular, native F0 0.03, [#7](https://github.com/AKJama/sekiro-rs/issues/7) | sekiro-rs | Yama | 2026-10-16 |
 | combat | Hit-shape reach and first-hit frames checked against real-game clips: Wolf's swings, Ichimonji, Mortal Draw, regular enemies | RustSekiro | FwLo | 2026-10-12 |
 | combat | Hit-shape priority, knockback facing, armoured enemies' damage cut | RustSekiro | FwLo | 2026-10-12 |
@@ -47,10 +46,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (57)</summary>
+<summary>Done (58)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| world | Standing on grapple trees and other objects: object collision from each object's binder, exe hit-filter groups by collisionType, [#6](https://github.com/AKJama/sekiro-rs/issues/6) | sekiro-rs | Yama | 2026-10-16 | [#22](https://github.com/AKJama/sekiro-rs/pull/22) |
 | tools | Agent live tests: `--script-route` steering and a live-test skill, [#14](https://github.com/AKJama/sekiro-rs/issues/14) | sekiro-rs | Yama | 2026-10-16 | [#21](https://github.com/AKJama/sekiro-rs/pull/21) |
 | world | Map visibility follows the collision part Wolf stands on: invisible world after the grapple fixed; crouch no longer toggles the collision overlay | sekiro-rs | Yama | 2026-10-16 | [#5](https://github.com/AKJama/sekiro-rs/pull/5) |
 | world | Live loading: loading screen until textures can draw, nearest-first streaming, 60 fps in play, about 45 s to playable, fast exit | sekiro-rs | Yama | 2026-10-16 | [#2](https://github.com/AKJama/sekiro-rs/pull/2) |
