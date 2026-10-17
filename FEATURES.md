@@ -39,7 +39,7 @@ Keep your own column up to date, and be strict: a feature that works but doesn't
 | Deathblows | Boss deathblow counts and phases | 🟡 Owl, Genichiro | ✅ |
 | Skills | 19 combat arts, 10 prosthetic tools | ❌ | ✅ |
 | Skills | Gourd, spirit emblems | ❌ | ✅ |
-| Items | Quick items (sugars, pellets, persimmon, Homeward Idol ...), inventory of every goods, pickups and the item dialog | ? | 🟡 the game's use states, effects, texts and dialog; Gachiin's Sugar, Divine Confetti, cures, throwables and coin purses have no effect yet |
+| Items | Quick items (sugars, pellets, persimmon, Homeward Idol ...), inventory of every goods, pickups and the item dialog | ? | 🟡 the game's use states, effects, texts and dialog; Divine Confetti, cures, throwables and coin purses have no effect yet |
 | Skills | Prosthetic tool upgrades (Sculptor's Workshop) | ? | 🟡 the game's tree and costs; reached from the idol menu (no Sculptor on the test map) |
 | Enemies | All 102 placed kinds load | ✅ | ✅ |
 | Enemies | Fights verified | 🟡 soldier, Owl, Genichiro | ✅ most of the roster |
@@ -51,8 +51,8 @@ Keep your own column up to date, and be strict: a feature that works but doesn't
 | AI | Boss brain (learns the player, memory, coach) | ✅ Owl, Genichiro, soldier | ❌ |
 | AI | AI debug modes | 🟡 | ✅ |
 | World | Walkable maps | ✅ all 9 gameplay maps | 🟡 gate and boss arenas |
-| World | Sandbox arena | ❌ | ✅ plus a parkour test course (`SHINOBI_MAP=parkour`) |
-| World | Sculptor's Idols: pray, rest, checkpoint, Purchase Spirit Emblems, Travel | ? | 🟡 the game's model, flame, clips, menus and texts, Acquire Skills (skill points set in config, no experience yet) and Change Form; parkour test map only |
+| World | Sandbox arena | ❌ | ✅ plus the Construct test map (`SHINOBI_MAP=construct`): a parkour course, a stealth outpost after the Ashina Outskirts one, a second section for the duel enemy |
+| World | Sculptor's Idols: pray, rest, checkpoint, Purchase Spirit Emblems, Travel | ? | 🟡 the game's model, flame, clips, menus and texts, Acquire Skills (skill points from kill experience) and Change Form; the Construct test map only |
 | World | Sky domes | ✅ | 🟡 |
 | World | Time of day | ✅ | ✅ with blending |
 | World | Water | 🟡 | 🟡 |

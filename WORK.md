@@ -35,10 +35,17 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (86)</summary>
+<summary>Done (93)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| ui | Menus: E is OK and Q is back, mouse wheel scrolls the lists and clicks pick | RustSekiro | Fireguy32 | 2026-10-17 | [a6ebe4e](https://github.com/Fireguy32/RustSekiro/commit/a6ebe4e) |
+| skills | Skill experience and Sen from kills (NpcParam skillPoint / getSoul, the wiki's per-point table), the HUD skill gauge and +N gains, the death penalty | RustSekiro | Fireguy32 | 2026-10-17 | [017029c](https://github.com/Fireguy32/RustSekiro/commit/017029c) |
+| stealth | Off-screen stealth marks beside Wolf; Gachiin's Sugar hides him (3441 in the sight checks); marks shown on every enemy | RustSekiro | Fireguy32 | 2026-10-17 | [d1ad8b9](https://github.com/Fireguy32/RustSekiro/commit/d1ad8b9) |
+| world | The Construct test map (`SHINOBI_MAP=construct`, the parkour map renamed): a stealth outpost after the Ashina Outskirts one (hang ledges, grapple points, tall-grass bushes, patrolling c1010 guards) and a second section for the duel enemy | RustSekiro | Fireguy32 | 2026-10-17 | [1ea6dec](https://github.com/Fireguy32/RustSekiro/commit/1ea6dec) |
+| combat | Enemy mid-swing armour only on ChrActionFlag 73 attacks, from the wind-up's end through the last hit (soldiers' swings and the General's recovery interruptible) | RustSekiro | Fireguy32 | 2026-10-17 | [da5dfa5](https://github.com/Fireguy32/RustSekiro/commit/da5dfa5) |
+| combat | Enemies near a deathblow play the HKS ThrowNearReaction / ThrowFarReaction jump-back as the blade goes in | RustSekiro | Fireguy32 | 2026-10-17 | [1ea6dec](https://github.com/Fireguy32/RustSekiro/commit/1ea6dec) |
+| ai | Guards call their comrades as they spot Wolf (AiSoundParam 2000000) and hear a comrade fall (4060); patrols walk their rounds | RustSekiro | Fireguy32 | 2026-10-17 | [aa3c818](https://github.com/Fireguy32/RustSekiro/commit/aa3c818) |
 | performance | Play gate releases on steady frames and waits only for world meshes, not per-frame FXR rewrites: Genichiro arena 75 s to 17.5 s from launch ([#75](https://github.com/AKJama/sekiro-rs/issues/75)) | sekiro-rs | Yama | 2026-10-17 | [042ca5c](https://github.com/AKJama/sekiro-rs/commit/042ca5c) |
 | performance | Grass tags arena map parts at spawn instead of rescanning every root each frame: Genichiro arena 147 ms to 47 ms ([#77](https://github.com/AKJama/sekiro-rs/issues/77)) | sekiro-rs | Yama | 2026-10-17 | [364b09e](https://github.com/AKJama/sekiro-rs/commit/364b09e) |
 | items | Goods held and five quick-item slots; the game's consumables with their use states (goodsUseAnim) and effects (refId Bullet -> spEffectIDForShooter): sugars, pellets, persimmon, Homeward Idol | RustSekiro | Fireguy32 | 2026-10-17 | [394738e](https://github.com/Fireguy32/RustSekiro/commit/394738e) |
