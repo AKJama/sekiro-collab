@@ -28,17 +28,18 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| performance | Loading screen stalls in the Genichiro arena until the 60 s play-gate timeout ([#75](https://github.com/AKJama/sekiro-rs/issues/75)) | sekiro-rs | Yama | 2026-10-17 |
+| rendering | Cliff textures visibly switch within about 30 m (pop-in), checking whether low-res rock (#45) shares the cause ([#63](https://github.com/AKJama/sekiro-rs/issues/63)) | sekiro-rs | Yama | 2026-10-17 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
 
 ## Done
 
 <details>
-<summary>Done (85)</summary>
+<summary>Done (86)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| performance | Play gate releases on steady frames and waits only for world meshes, not per-frame FXR rewrites: Genichiro arena 75 s to 17.5 s from launch ([#75](https://github.com/AKJama/sekiro-rs/issues/75)) | sekiro-rs | Yama | 2026-10-17 | [042ca5c](https://github.com/AKJama/sekiro-rs/commit/042ca5c) |
 | performance | Grass tags arena map parts at spawn instead of rescanning every root each frame: Genichiro arena 147 ms to 47 ms ([#77](https://github.com/AKJama/sekiro-rs/issues/77)) | sekiro-rs | Yama | 2026-10-17 | [364b09e](https://github.com/AKJama/sekiro-rs/commit/364b09e) |
 | items | Goods held and five quick-item slots; the game's consumables with their use states (goodsUseAnim) and effects (refId Bullet -> spEffectIDForShooter): sugars, pellets, persimmon, Homeward Idol | RustSekiro | Fireguy32 | 2026-10-17 | [394738e](https://github.com/Fireguy32/RustSekiro/commit/394738e) |
 | items | Pickups with the item glint (FFX 61), the Pick Up Item guide and the game's item dialog | RustSekiro | Fireguy32 | 2026-10-17 | [63f2003](https://github.com/Fireguy32/RustSekiro/commit/63f2003) |
