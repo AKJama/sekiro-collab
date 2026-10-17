@@ -28,7 +28,7 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| rendering | Cliff textures visibly switch within about 30 m (pop-in), checking whether low-res rock (#45) shares the cause ([#63](https://github.com/AKJama/sekiro-rs/issues/63)) | sekiro-rs | Yama | 2026-10-17 |
+| rendering | Map rock textures blurry up close: base-colour and normal textures load without anisotropic filtering ([#45](https://github.com/AKJama/sekiro-rs/issues/45)) | sekiro-rs | Yama | 2026-10-17 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
 
@@ -39,6 +39,7 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| rendering | Map LOD levels dissolve over 0.6 s instead of swapping in one frame, at the game's 30 m switch: cliff pop-in gone ([#63](https://github.com/AKJama/sekiro-rs/issues/63)) | sekiro-rs | Yama | 2026-10-17 | [ca76d58](https://github.com/AKJama/sekiro-rs/commit/ca76d58) |
 | ui | Menus: E is OK and Q is back, mouse wheel scrolls the lists and clicks pick | RustSekiro | Fireguy32 | 2026-10-17 | [a6ebe4e](https://github.com/Fireguy32/RustSekiro/commit/a6ebe4e) |
 | skills | Skill experience and Sen from kills (NpcParam skillPoint / getSoul, the wiki's per-point table), the HUD skill gauge and +N gains, the death penalty | RustSekiro | Fireguy32 | 2026-10-17 | [017029c](https://github.com/Fireguy32/RustSekiro/commit/017029c) |
 | stealth | Off-screen stealth marks beside Wolf; Gachiin's Sugar hides him (3441 in the sight checks); marks shown on every enemy | RustSekiro | Fireguy32 | 2026-10-17 | [d1ad8b9](https://github.com/Fireguy32/RustSekiro/commit/d1ad8b9) |
