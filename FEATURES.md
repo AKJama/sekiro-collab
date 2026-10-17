@@ -50,7 +50,7 @@ Keep your own column up to date, and be strict: a feature that works but doesn't
 | AI | AI debug modes | 🟡 | ✅ |
 | World | Walkable maps | ✅ all 9 gameplay maps | 🟡 gate and boss arenas |
 | World | Sandbox arena | ❌ | ✅ plus a parkour test course (`SHINOBI_MAP=parkour`) |
-| World | Sculptor's Idols: pray, rest, checkpoint, Purchase Spirit Emblems, Travel | ? | 🟡 the game's clips, menus and texts; stand-in idol model, parkour test map only; Acquire Skills and Change Form not yet |
+| World | Sculptor's Idols: pray, rest, checkpoint, Purchase Spirit Emblems, Travel | ? | 🟡 the game's model, flame, clips, menus and texts, Acquire Skills (skill points set in config, no experience yet) and Change Form; parkour test map only |
 | World | Sky domes | ✅ | 🟡 |
 | World | Time of day | ✅ | ✅ with blending |
 | World | Water | 🟡 | 🟡 |

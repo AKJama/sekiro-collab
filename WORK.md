@@ -30,15 +30,17 @@ Who's working on what right now, and what's done.
 |---|---|---|---|---|
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
-| ui | Sculptor's Idol: Acquire Skills (the skill tree) and Change Form screens | RustSekiro | Fireguy32 | 2026-10-17 |
 
 ## Done
 
 <details>
-<summary>Done (77)</summary>
+<summary>Done (80)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| ui | Sculptor's Idol: Acquire Skills (the five skill trees from SkillParam, costs, reveals, learned seal) | RustSekiro | Fireguy32 | 2026-10-17 | [1c3fb30](https://github.com/Fireguy32/RustSekiro/commit/1c3fb30) |
+| ui | Sculptor's Idol: Change Form (Wolf / Shura / Ashina / Tengu with the game's parts, icons and pictures) | RustSekiro | Fireguy32 | 2026-10-17 | [ee91f82](https://github.com/Fireguy32/RustSekiro/commit/ee91f82) |
+| world | Sculptor's Idol visuals: the game's model o005000 and textures, its blue flame (FFX 1011 from the idol's TAE) and light | RustSekiro | Fireguy32 | 2026-10-17 | [f53f3db](https://github.com/Fireguy32/RustSekiro/commit/f53f3db) |
 | movement | Wall hug and ledge hang: hug, peek, shimmy, corners, climb, drop, air catch, hug and ledge deathblows, parkour test course | RustSekiro | Fireguy32 | 2026-10-17 | [240b955](https://github.com/Fireguy32/RustSekiro/commit/240b955) |
 | movement | Wall jumps (air, out of a hug or a hang) and the 180 quick turns standing, walking and running | RustSekiro | Fireguy32 | 2026-10-17 | [0c9a520](https://github.com/Fireguy32/RustSekiro/commit/0c9a520) |
 | world | Sculptor's Idols: pray and rest clips, checkpoint on death or retry, Purchase Spirit Emblems, Travel | RustSekiro | Fireguy32 | 2026-10-17 | [240b955](https://github.com/Fireguy32/RustSekiro/commit/240b955) |
