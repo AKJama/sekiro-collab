@@ -28,7 +28,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| rendering | Distant shadow pop: sun shadows to the real game's range, [#9](https://github.com/AKJama/sekiro-rs/issues/9), [PR #64](https://github.com/AKJama/sekiro-rs/pull/64) | sekiro-rs | Yama | 2026-10-17 |
 | rendering | Shaded cliffs and gully walls lit as if in sun, [#30](https://github.com/AKJama/sekiro-rs/issues/30) | sekiro-rs | Yama | 2026-10-16 |
 | combat | Hit-shape reach and first-hit frames checked against real-game clips: Wolf's swings, Ichimonji, Mortal Draw, regular enemies | RustSekiro | FwLo | 2026-10-12 |
 | combat | Hit-shape priority, knockback facing, armoured enemies' damage cut | RustSekiro | FwLo | 2026-10-12 |
@@ -48,10 +47,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (67)</summary>
+<summary>Done (68)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| rendering | Distant shadow pop: native sun shadow cascades to 1000 m, casters to 300 m, [#9](https://github.com/AKJama/sekiro-rs/issues/9), [PR #64](https://github.com/AKJama/sekiro-rs/pull/64) | sekiro-rs | Yama | 2026-10-17 | [7afc275](https://github.com/AKJama/sekiro-rs/commit/7afc275) |
 | world | Fresh menu starts on the Outskirts before Gyoubu, like the real game's opening, [#47](https://github.com/AKJama/sekiro-rs/issues/47), [PR #55](https://github.com/AKJama/sekiro-rs/pull/55) | sekiro-rs | Yama | 2026-10-17 | [59061d8](https://github.com/AKJama/sekiro-rs/commit/59061d8) |
 | docs | PR template with testing and risk sections, checked in CI from the template itself, test budget, Claude Code reviews required, [#56](https://github.com/AKJama/sekiro-rs/issues/56), [PR #57](https://github.com/AKJama/sekiro-rs/pull/57) | sekiro-rs | Yama | 2026-10-17 | [f46aa37](https://github.com/AKJama/sekiro-rs/commit/f46aa37) |
 | docs | One issue per PR enforced by the issue-link check, rebase on main before review, [#53](https://github.com/AKJama/sekiro-rs/issues/53), [PR #54](https://github.com/AKJama/sekiro-rs/pull/54) | sekiro-rs | Yama | 2026-10-17 | [672e95c](https://github.com/AKJama/sekiro-rs/commit/672e95c) |
