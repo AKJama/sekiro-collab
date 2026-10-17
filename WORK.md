@@ -28,7 +28,8 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| world | Default start matches the real game's opening (before Gyobu, sunrise), [#47](https://github.com/AKJama/sekiro-rs/issues/47) | sekiro-rs | Yama | 2026-10-17 |
+| world | Default start matches the real game's opening (before Gyobu, sunrise), [#47](https://github.com/AKJama/sekiro-rs/issues/47), [PR #55](https://github.com/AKJama/sekiro-rs/pull/55) |
+| docs | PR template with testing and risk sections, checked in CI, limits on new tests, [#56](https://github.com/AKJama/sekiro-rs/issues/56), [PR #57](https://github.com/AKJama/sekiro-rs/pull/57) | sekiro-rs | Yama | 2026-10-17 | sekiro-rs | Yama | 2026-10-17 |
 | rendering | Shaded cliffs and gully walls lit as if in sun, [#30](https://github.com/AKJama/sekiro-rs/issues/30) | sekiro-rs | Yama | 2026-10-16 |
 | combat | Hit-shape reach and first-hit frames checked against real-game clips: Wolf's swings, Ichimonji, Mortal Draw, regular enemies | RustSekiro | FwLo | 2026-10-12 |
 | combat | Hit-shape priority, knockback facing, armoured enemies' damage cut | RustSekiro | FwLo | 2026-10-12 |
