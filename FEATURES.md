@@ -39,6 +39,8 @@ Keep your own column up to date, and be strict: a feature that works but doesn't
 | Deathblows | Boss deathblow counts and phases | 🟡 Owl, Genichiro | ✅ |
 | Skills | 19 combat arts, 10 prosthetic tools | ❌ | ✅ |
 | Skills | Gourd, spirit emblems | ❌ | ✅ |
+| Items | Quick items (sugars, pellets, persimmon, Homeward Idol ...), inventory of every goods, pickups and the item dialog | ? | 🟡 the game's use states, effects, texts and dialog; Gachiin's Sugar, Divine Confetti, cures, throwables and coin purses have no effect yet |
+| Skills | Prosthetic tool upgrades (Sculptor's Workshop) | ? | 🟡 the game's tree and costs; reached from the idol menu (no Sculptor on the test map) |
 | Enemies | All 102 placed kinds load | ✅ | ✅ |
 | Enemies | Fights verified | 🟡 soldier, Owl, Genichiro | ✅ most of the roster |
 | Enemies | Bosses, all phases (see [Bosses](#bosses)) | 🟡 15 of 15 in their arenas, 13 with every phase playable, none checked against the real game yet | ? |
@@ -66,7 +68,7 @@ Keep your own column up to date, and be strict: a feature that works but doesn't
 | Audio | Boss music | ❌ | ✅ |
 | UI | HUD and boss bars | 🟡 working bars, not the game's art | ✅ |
 | UI | Title, pause, death, victory screens | 🟡 start and pause menus | ✅ |
-| UI | In-game menu: Equipment, Inventory, Skills, Options, Equipped Items | ? | 🟡 the game's art and layout from captures; lists only what Wolf starts with |
+| UI | In-game menu: Equipment, Inventory, Skills, Options, Equipped Items | ? | 🟡 the game's art and layout from captures; Inventory and quick slots from the goods held |
 | UI | Boss and enemy picker | ✅ start menu | ✅ in game |
 | UI | Options screen | ❌ | ✅ |
 | Release | Packaged build | ❌ | ✅ |

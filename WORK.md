@@ -35,10 +35,13 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (81)</summary>
+<summary>Done (84)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| items | Goods held and five quick-item slots; the game's consumables with their use states (goodsUseAnim) and effects (refId Bullet -> spEffectIDForShooter): sugars, pellets, persimmon, Homeward Idol | RustSekiro | Fireguy32 | 2026-10-17 | [394738e](https://github.com/Fireguy32/RustSekiro/commit/394738e) |
+| items | Pickups with the item glint (FFX 61), the Pick Up Item guide and the game's item dialog | RustSekiro | Fireguy32 | 2026-10-17 | [63f2003](https://github.com/Fireguy32/RustSekiro/commit/63f2003) |
+| prosthetics | Sculptor's Workshop: Create Arm Tools and the Prosthetic Tool Upgrades tree (SkillParam 700+, Sen and EquipMtrlSetParam costs); bought upgrades equippable | RustSekiro | Fireguy32 | 2026-10-17 | [e76dd68](https://github.com/Fireguy32/RustSekiro/commit/e76dd68) |
 | ui | HUD after Fireguy32's layout: vitality by max HP with damage trail, posture states and arrows, head-bone enemy bars, boss bar, item cluster ([#71](https://github.com/AKJama/sekiro-rs/issues/71)) | sekiro-rs | Yama | 2026-10-17 | [29b1241](https://github.com/AKJama/sekiro-rs/commit/29b1241) |
 | ui | Sculptor's Idol: Acquire Skills (the five skill trees from SkillParam, costs, reveals, learned seal) | RustSekiro | Fireguy32 | 2026-10-17 | [1c3fb30](https://github.com/Fireguy32/RustSekiro/commit/1c3fb30) |
 | ui | Sculptor's Idol: Change Form (Wolf / Shura / Ashina / Tengu with the game's parts, icons and pictures) | RustSekiro | Fireguy32 | 2026-10-17 | [ee91f82](https://github.com/Fireguy32/RustSekiro/commit/ee91f82) |
