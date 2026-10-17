@@ -30,14 +30,20 @@ Who's working on what right now, and what's done.
 |---|---|---|---|---|
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
+| ui | Sculptor's Idol: Acquire Skills (the skill tree) and Change Form screens | RustSekiro | Fireguy32 | 2026-10-17 |
 
 ## Done
 
 <details>
-<summary>Done (72)</summary>
+<summary>Done (77)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| movement | Wall hug and ledge hang: hug, peek, shimmy, corners, climb, drop, air catch, hug and ledge deathblows, parkour test course | RustSekiro | Fireguy32 | 2026-10-17 | [240b955](https://github.com/Fireguy32/RustSekiro/commit/240b955) |
+| movement | Wall jumps (air, out of a hug or a hang) and the 180 quick turns standing, walking and running | RustSekiro | Fireguy32 | 2026-10-17 | [0c9a520](https://github.com/Fireguy32/RustSekiro/commit/0c9a520) |
+| world | Sculptor's Idols: pray and rest clips, checkpoint on death or retry, Purchase Spirit Emblems, Travel | RustSekiro | Fireguy32 | 2026-10-17 | [240b955](https://github.com/Fireguy32/RustSekiro/commit/240b955) |
+| ui | Title screen, in-game menu (Equipment, Inventory, Skills, Options, Equipped Items) and HUD after the game's captures | RustSekiro | Fireguy32 | 2026-10-17 | [240b955](https://github.com/Fireguy32/RustSekiro/commit/240b955) |
+| data | Missing extraction restored: blend_src / loop_clips tables (tools/behavior_tables.py), fog walls, the Divine Dragon's tree grapple objects | RustSekiro | Fireguy32 | 2026-10-17 | [240b955](https://github.com/Fireguy32/RustSekiro/commit/240b955) |
 | effects | VFX: the game's own FXR effects for Wolf, enemies and bosses (sparks, blood, gore, trails, decals) | RustSekiro | FwLo | 2026-10-17 | [97cc01a](https://github.com/FFwLo/RustSekiro/commit/97cc01a) |
 | combat | Skills, combat arts and prosthetic tools with their status effects | RustSekiro | FwLo | 2026-10-17 | [97cc01a](https://github.com/FFwLo/RustSekiro/commit/97cc01a) |
 | rendering | Sun shadows popping in on approach: no default map caster budget, Bevy culls per cascade, [#66](https://github.com/AKJama/sekiro-rs/issues/66), [PR #69](https://github.com/AKJama/sekiro-rs/pull/69) | sekiro-rs | Yama | 2026-10-17 | [1e8c313](https://github.com/AKJama/sekiro-rs/commit/1e8c313) |

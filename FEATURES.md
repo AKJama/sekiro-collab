@@ -10,7 +10,7 @@ This is the backlog: anything not ✅ is up for grabs, so claim it in `WORK.md` 
 
 Keep your own column up to date, and be strict: a feature that works but doesn't look or behave like the game is 🟡.
 
-| Area | Feature | sekiro-rs (Yama) | RustSekiro (FwLo) |
+| Area | Feature | sekiro-rs (Yama) | RustSekiro (FwLo, Fireguy32) |
 |---|---|---|---|
 | Data | Archives, params, animation, TAE, behaviour graphs | ✅ | ✅ |
 | Data | Player script | ✅ runs the real HKS bytecode | ✅ ported state machine |
@@ -21,8 +21,10 @@ Keep your own column up to date, and be strict: a feature that works but doesn't
 | Movement | Lock-on strafing, kick-jump | ✅ | ✅ |
 | Movement | Sheathed walk and run | 🟡 | ✅ |
 | Movement | Grappling hook | ✅ arcs, air and chained | ✅ incl. enemy targets |
-| Movement | Ledge hang and climb | 🟡 | ❌ only the grapple perch landing |
-| Movement | Wall hug | ✅ | ❌ |
+| Movement | Ledge hang and climb | 🟡 | 🟡 hang, shimmy, outside and inside corners, climb, drop, air catch and ledge deathblows with the game's clips; placement reconstructed, tried on the parkour test map only |
+| Movement | Wall hug | ✅ | 🟡 hug, move, peek and hug deathblows with the game's clips; the peek camera is set by eye |
+| Movement | Wall jumps | ? | 🟡 off a wall, out of a hug or a hang, once a flight as in the game; chained wall to wall only on the parkour test map |
+| Movement | 180 quick turns (standing, walking, running) | ? | 🟡 the game's clips; the walk turns' swing is reconstructed |
 | Movement | Swimming and diving | ✅ | ❌ |
 | Movement | Fall death and respawn | ✅ | 🟡 respawn and resurrection, no fall death |
 | Movement | Upper/lower body layering | ❌ | ✅ |
@@ -47,7 +49,8 @@ Keep your own column up to date, and be strict: a feature that works but doesn't
 | AI | Boss brain (learns the player, memory, coach) | ✅ Owl, Genichiro, soldier | ❌ |
 | AI | AI debug modes | 🟡 | ✅ |
 | World | Walkable maps | ✅ all 9 gameplay maps | 🟡 gate and boss arenas |
-| World | Sandbox arena | ❌ | ✅ |
+| World | Sandbox arena | ❌ | ✅ plus a parkour test course (`SHINOBI_MAP=parkour`) |
+| World | Sculptor's Idols: pray, rest, checkpoint, Purchase Spirit Emblems, Travel | ? | 🟡 the game's clips, menus and texts; stand-in idol model, parkour test map only; Acquire Skills and Change Form not yet |
 | World | Sky domes | ✅ | 🟡 |
 | World | Time of day | ✅ | ✅ with blending |
 | World | Water | 🟡 | 🟡 |
@@ -63,6 +66,7 @@ Keep your own column up to date, and be strict: a feature that works but doesn't
 | Audio | Boss music | ❌ | ✅ |
 | UI | HUD and boss bars | 🟡 working bars, not the game's art | ✅ |
 | UI | Title, pause, death, victory screens | 🟡 start and pause menus | ✅ |
+| UI | In-game menu: Equipment, Inventory, Skills, Options, Equipped Items | ? | 🟡 the game's art and layout from captures; lists only what Wolf starts with |
 | UI | Boss and enemy picker | ✅ start menu | ✅ in game |
 | UI | Options screen | ❌ | ✅ |
 | Release | Packaged build | ❌ | ✅ |
@@ -161,7 +165,7 @@ Arena names are descriptive; the map and entity ids are from the game data.
 ## Biggest gaps
 
 - **sekiro-rs:** the minibosses, boss gaps listed in `WORK.md`, combat arts and prosthetics, gourd, stealth, deathblows from behind and plunging, boss music, options and death screens, the wider roster.
-- **RustSekiro:** boss brain, swimming, wall hug, shader-accurate rendering (fog, tone mapping, GI, point lights, sky), the rest of the maps.
+- **RustSekiro:** boss brain, swimming, shader-accurate rendering (fog, tone mapping, GI, point lights, sky), the rest of the maps.
 
 ## Beyond the base game
 
