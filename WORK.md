@@ -28,6 +28,7 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
+| rendering | Distant shadow pop: sun shadows to the real game's range, [#9](https://github.com/AKJama/sekiro-rs/issues/9), [PR #64](https://github.com/AKJama/sekiro-rs/pull/64) | sekiro-rs | Yama | 2026-10-17 |
 | rendering | Shaded cliffs and gully walls lit as if in sun, [#30](https://github.com/AKJama/sekiro-rs/issues/30) | sekiro-rs | Yama | 2026-10-16 |
 | combat | Hit-shape reach and first-hit frames checked against real-game clips: Wolf's swings, Ichimonji, Mortal Draw, regular enemies | RustSekiro | FwLo | 2026-10-12 |
 | combat | Hit-shape priority, knockback facing, armoured enemies' damage cut | RustSekiro | FwLo | 2026-10-12 |
