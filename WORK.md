@@ -28,17 +28,18 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| ui | Port Fireguy32's HUD to sekiro-rs: item cluster, head-bone enemy bars, boss bar, posture arrows ([#71](https://github.com/AKJama/sekiro-rs/issues/71)); menus [#72](https://github.com/AKJama/sekiro-rs/issues/72) and wall jumps [#16](https://github.com/AKJama/sekiro-rs/issues/16) next | sekiro-rs | Yama | 2026-10-17 |
+| performance | Grass rescans every map instance every frame in arenas, Genichiro at 7 fps ([#77](https://github.com/AKJama/sekiro-rs/issues/77)); loading stall [#75](https://github.com/AKJama/sekiro-rs/issues/75) next | sekiro-rs | Yama | 2026-10-17 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
 
 ## Done
 
 <details>
-<summary>Done (80)</summary>
+<summary>Done (81)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| ui | HUD after Fireguy32's layout: vitality by max HP with damage trail, posture states and arrows, head-bone enemy bars, boss bar, item cluster ([#71](https://github.com/AKJama/sekiro-rs/issues/71)) | sekiro-rs | Yama | 2026-10-17 | [29b1241](https://github.com/AKJama/sekiro-rs/commit/29b1241) |
 | ui | Sculptor's Idol: Acquire Skills (the five skill trees from SkillParam, costs, reveals, learned seal) | RustSekiro | Fireguy32 | 2026-10-17 | [1c3fb30](https://github.com/Fireguy32/RustSekiro/commit/1c3fb30) |
 | ui | Sculptor's Idol: Change Form (Wolf / Shura / Ashina / Tengu with the game's parts, icons and pictures) | RustSekiro | Fireguy32 | 2026-10-17 | [ee91f82](https://github.com/Fireguy32/RustSekiro/commit/ee91f82) |
 | world | Sculptor's Idol visuals: the game's model o005000 and textures, its blue flame (FFX 1011 from the idol's TAE) and light | RustSekiro | Fireguy32 | 2026-10-17 | [f53f3db](https://github.com/Fireguy32/RustSekiro/commit/f53f3db) |
