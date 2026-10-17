@@ -34,10 +34,12 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (70)</summary>
+<summary>Done (72)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| effects | VFX: the game's own FXR effects for Wolf, enemies and bosses (sparks, blood, gore, trails, decals) | RustSekiro | FwLo | 2026-10-17 | [97cc01a](https://github.com/FFwLo/RustSekiro/commit/97cc01a) |
+| combat | Skills, combat arts and prosthetic tools with their status effects | RustSekiro | FwLo | 2026-10-17 | [97cc01a](https://github.com/FFwLo/RustSekiro/commit/97cc01a) |
 | rendering | Sun shadows popping in on approach: no default map caster budget, Bevy culls per cascade, [#66](https://github.com/AKJama/sekiro-rs/issues/66), [PR #69](https://github.com/AKJama/sekiro-rs/pull/69) | sekiro-rs | Yama | 2026-10-17 | [1e8c313](https://github.com/AKJama/sekiro-rs/commit/1e8c313) |
 | rendering | Flat "LED" outdoor lighting: map pieces lit with their own MSB light set (row 0, no local light), [#30](https://github.com/AKJama/sekiro-rs/issues/30), [PR #68](https://github.com/AKJama/sekiro-rs/pull/68) | sekiro-rs | Yama | 2026-10-17 | [5ba925c](https://github.com/AKJama/sekiro-rs/commit/5ba925c) |
 | rendering | Distant shadow pop: native sun shadow cascades to 1000 m, casters to 300 m, [#9](https://github.com/AKJama/sekiro-rs/issues/9), [PR #64](https://github.com/AKJama/sekiro-rs/pull/64) | sekiro-rs | Yama | 2026-10-17 | [7afc275](https://github.com/AKJama/sekiro-rs/commit/7afc275) |
