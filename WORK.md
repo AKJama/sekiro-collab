@@ -23,24 +23,24 @@ Who's working on what right now, and what's done.
 | boss | Guardian Ape: grabs do not connect |
 | combat | TAE 705 facing correction for enemies (20 Demon of Hatred events use it) |
 | world | Grapple tree fall prevention: walls hold where they cover, but only about 40% of the trunk, parked as draft [PR #33](https://github.com/AKJama/sekiro-rs/pull/33), [#17](https://github.com/AKJama/sekiro-rs/issues/17) |
+| combat | Hit-shape reach and first-hit frames checked against real-game clips: Wolf's swings, Ichimonji, Mortal Draw, regular enemies |
+| combat | Hit-shape priority, knockback facing, armoured enemies' damage cut |
+| cloth | Wolf's cape against a real-game clip, coat detail texture layer |
+| camera | Lock-on camera offsets, target smoothing, look limits, lock-on switch |
+| rendering | The game's tone curve and auto exposure, night snow brightness, light probe blend between hours |
+| rendering | Layered map materials: each layer's own mask, UV sets, blend data |
+| effects | Hand-made effects moved to the game's FXR files: deflect, guard sparks, hit blood, floor dust, blood decals, lit particles |
+| effects | Regular enemies' attack effects from their TAE events, checked per enemy |
+| ui | HUD art: stealth meter, deathblow mark |
+| audio | Remaining mixer events and sound occlusion |
+| enemies | Regular enemies: AI pacing against a recorded fight, armoured servant's armour part |
+| stealth | Shadow hiding, forced crouch, patrol routes |
 
 ## Claimed
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| combat | Hit-shape reach and first-hit frames checked against real-game clips: Wolf's swings, Ichimonji, Mortal Draw, regular enemies | RustSekiro | FwLo | 2026-10-12 |
-| combat | Hit-shape priority, knockback facing, armoured enemies' damage cut | RustSekiro | FwLo | 2026-10-12 |
-| cloth | Wolf's cape against a real-game clip, coat detail texture layer | RustSekiro | FwLo | 2026-10-12 |
-| camera | Lock-on camera offsets, target smoothing, look limits, lock-on switch | RustSekiro | FwLo | 2026-10-12 |
-| rendering | The game's tone curve and auto exposure, night snow brightness, light probe blend between hours | RustSekiro | FwLo | 2026-10-12 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
-| rendering | Layered map materials: each layer's own mask, UV sets, blend data | RustSekiro | FwLo | 2026-10-12 |
-| effects | Hand-made effects moved to the game's FXR files: deflect, guard sparks, hit blood, floor dust, blood decals, lit particles | RustSekiro | FwLo | 2026-10-12 |
-| effects | Regular enemies' attack effects from their TAE events, checked per enemy | RustSekiro | FwLo | 2026-10-12 |
-| ui | HUD art: stealth meter, deathblow mark | RustSekiro | FwLo | 2026-10-12 |
-| audio | Remaining mixer events and sound occlusion | RustSekiro | FwLo | 2026-10-12 |
-| enemies | Regular enemies: AI pacing against a recorded fight, armoured servant's armour part | RustSekiro | FwLo | 2026-10-12 |
-| stealth | Shadow hiding, forced crouch, patrol routes | RustSekiro | FwLo | 2026-10-12 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
 
 ## Done
