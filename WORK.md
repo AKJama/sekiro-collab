@@ -28,17 +28,18 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| movement | Wall jump and ledge hang so blocked areas can be climbed, ported from Fireguy32's RustSekiro PR 1 ([#16](https://github.com/AKJama/sekiro-rs/issues/16)) | sekiro-rs | Yama | 2026-10-17 |
+| performance | Frame rate quick wins: cache draw-group selection, skip settled LOD and visibility work, exact idle interpolation, no hidden enemy tick ([#70](https://github.com/AKJama/sekiro-rs/issues/70)) | sekiro-rs | Yama | 2026-10-17 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
 
 ## Done
 
 <details>
-<summary>Done (94)</summary>
+<summary>Done (95)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| movement | Wall jump (env 3020) and air ledge catch (env 3045) into the existing hang, foothold ledges, hang position and climb end from the clips, adapted from Fireguy32's RustSekiro PR 1 ([#16](https://github.com/AKJama/sekiro-rs/issues/16)) | sekiro-rs | Yama | 2026-10-17 | [8cdaea4](https://github.com/AKJama/sekiro-rs/commit/8cdaea4) |
 | camera | Wolf's camera keeps the game's 43 degree camFovY (the map plugin forced 60), and camera slots read their own LockCamParam rows ([#46](https://github.com/AKJama/sekiro-rs/issues/46)) | sekiro-rs | Yama | 2026-10-17 | [124131f](https://github.com/AKJama/sekiro-rs/commit/124131f) |
 | rendering | GLB textures sample with 8x anisotropic trilinear filtering: rock faces sharp up close ([#45](https://github.com/AKJama/sekiro-rs/issues/45)) | sekiro-rs | Yama | 2026-10-17 | [312953d](https://github.com/AKJama/sekiro-rs/commit/312953d) |
 | rendering | Map LOD levels dissolve over 0.6 s instead of swapping in one frame, at the game's 30 m switch: cliff pop-in gone ([#63](https://github.com/AKJama/sekiro-rs/issues/63)) | sekiro-rs | Yama | 2026-10-17 | [ca76d58](https://github.com/AKJama/sekiro-rs/commit/ca76d58) |
