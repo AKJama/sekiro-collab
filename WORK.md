@@ -28,6 +28,7 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
+| ui | Port Fireguy32's HUD to sekiro-rs: item cluster, head-bone enemy bars, boss bar, posture arrows ([#71](https://github.com/AKJama/sekiro-rs/issues/71)); menus [#72](https://github.com/AKJama/sekiro-rs/issues/72) and wall jumps [#16](https://github.com/AKJama/sekiro-rs/issues/16) next | sekiro-rs | Yama | 2026-10-17 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
 
