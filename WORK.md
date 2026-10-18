@@ -30,22 +30,18 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| hud | Grapple marker like the game: ring that fills with distance, green in range ([#100](https://github.com/AKJama/sekiro-rs/issues/100)) | sekiro-rs | Yama | 2026-10-18 |
-<<<<<<< HEAD
-=======
 | integration | Audit a native Wolf model in actual Elden Ring and define the RustSekiro in-process integration contract (local claim; push pending user approval) | RustSekiro / private ER workspace | Fireguy32 | 2026-10-18 |
-| performance | Upgrade to Bevy 0.20 and measure frame rate ([#97](https://github.com/AKJama/sekiro-rs/issues/97)) | sekiro-rs | Yama | 2026-10-18 |
->>>>>>> 5c9f68a (Claim native Elden Ring integration audit)
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
 
 ## Done
 
 <details>
-<summary>Done (107)</summary>
+<summary>Done (108)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| hud | Grapple marker like the game: the game's SB_FE wire sprites extracted to the cache, white ring that fills from 25 m, green and fireable within 15 m, distant hooks never fire (#100) | sekiro-rs | Yama | 2026-10-18 | [92482ee](https://github.com/AKJama/sekiro-rs/commit/92482ee) |
 | movement | Ledge hang shimmy left and right, stops near edge ends; shimmy movement, end margin and tests from FwLo's RustSekiro docking.rs (#102) | sekiro-rs | Yama | 2026-10-18 | [1592505](https://github.com/AKJama/sekiro-rs/commit/1592505) |
 | performance | Bevy 0.20 upgrade: WESL shaders, Bevy's RenderContext, per-cascade sun shadows ordered after preprocessing, wall-time warmup limits, menu clicks and loading-pause fixes; traversal worst frame 97 to 43 ms (#97) | sekiro-rs | Yama | 2026-10-18 | [f3be187](https://github.com/AKJama/sekiro-rs/commit/f3be187) |
 | world | Sculptor sits normally outside the menu by user preference (000000), works on the prosthetic during visits (20001 -> 21003 -> 20002), then returns to sitting. Wolf uses a fixed seat 1 m in front, facing him. 657 tests pass, 46 ignored; private idle / Workshop captures verified | RustSekiro | Fireguy32 | 2026-10-18 | [4f6ad01](https://github.com/Fireguy32/RustSekiro/commit/4f6ad01) |
