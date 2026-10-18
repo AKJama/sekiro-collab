@@ -54,7 +54,7 @@ Keep your own column up to date, and be strict: a feature that works but doesn't
 | World | Walkable maps | ✅ all 9 gameplay maps | 🟡 gate and boss arenas |
 | World | Sandbox arena | ❌ | ✅ plus the Construct test map (`SHINOBI_MAP=construct`): a parkour course, a stealth outpost after the Ashina Outskirts one, a second section for the duel enemy, a pool and a chasm |
 | World | Sculptor's Idols: pray, rest, checkpoint, Purchase Spirit Emblems, Travel | ? | 🟡 the game's model, flame, clips, menus and texts, Acquire Skills (skill points from kill experience) and Change Form; the Construct test map only |
-| World | Sculptor NPC and Talk interaction | ? | 🟡 c7010 with the game's model, skeleton and clips, Wolf sits for fitting / upgrades and gets up on leaving; Sculptor reacts and resumes carving, regular player camera; reconstructed placement and service sequencing, no story dialogue, voices, gifts or sake progression |
+| World | Sculptor NPC and Talk interaction | ? | 🟡 c7010 with the game's model, skeleton and clips, Wolf uses a fixed seat for fitting / upgrades and gets up on leaving; Sculptor works on the prosthetic during visits and sits normally outside the menu by user preference, regular player camera; reconstructed placement and service sequencing, no story dialogue, voices, gifts or sake progression |
 | World | Sky domes | ✅ | 🟡 |
 | World | Time of day | ✅ | ✅ with blending |
 | World | Water | 🟡 | 🟡 |
