@@ -25,7 +25,7 @@ Keep your own column up to date, and be strict: a feature that works but doesn't
 | Movement | Wall hug | ✅ | 🟡 hug, move, peek and hug deathblows with the game's clips; the peek camera is set by eye |
 | Movement | Wall jumps | ? | 🟡 off a wall, out of a hug or a hang, once a flight as in the game; chained wall to wall only on the parkour test map |
 | Movement | 180 quick turns (standing, walking, running) | ? | 🟡 the game's clips; the walk turns' swing is reconstructed |
-| Movement | Swimming and diving | ✅ | ❌ |
+| Movement | Swimming and diving | ✅ | 🟡 the game's swim, dive, jump, entry / exit, attack and item clips; no breath, swim deaths, underwater enemies or underwater look; the Construct's pool only |
 | Movement | Fall death and respawn | ✅ | 🟡 respawn and resurrection, no fall death |
 | Movement | Upper/lower body layering | ❌ | ✅ |
 | Combat | Attacks, hit reactions, hit stop, guard, deflect, posture | ✅ | ✅ |
