@@ -30,7 +30,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| movement | Port Wolf's movement from FwLo's RustSekiro (audit, then port what differs; stairs jitter #104) | sekiro-rs | Yama | 2026-10-18 |
 | integration | Audit a native Wolf model in actual Elden Ring and define the RustSekiro in-process integration contract (local claim; push pending user approval) | RustSekiro / private ER workspace | Fireguy32 | 2026-10-18 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
@@ -38,10 +37,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (108)</summary>
+<summary>Done (109)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| movement | Smoother movement: root-motion blend-in, run stop, bodies block instead of shoving, air-contact stop, lock-on turn checks, 60 degree slope, from FwLo's RustSekiro (actor.rs, data.rs, player.rs, map.rs, anim.rs, sim tests); sprint release freeze and strafe-after-run (#26) fixed | sekiro-rs | Yama | 2026-10-18 | [86b8434](https://github.com/AKJama/sekiro-rs/commit/86b8434) |
 | hud | Grapple marker like the game: the game's SB_FE wire sprites extracted to the cache, white ring that fills from 25 m, green and fireable within 15 m, distant hooks never fire (#100) | sekiro-rs | Yama | 2026-10-18 | [92482ee](https://github.com/AKJama/sekiro-rs/commit/92482ee) |
 | movement | Ledge hang shimmy left and right, stops near edge ends; shimmy movement, end margin and tests from FwLo's RustSekiro docking.rs (#102) | sekiro-rs | Yama | 2026-10-18 | [1592505](https://github.com/AKJama/sekiro-rs/commit/1592505) |
 | performance | Bevy 0.20 upgrade: WESL shaders, Bevy's RenderContext, per-cascade sun shadows ordered after preprocessing, wall-time warmup limits, menu clicks and loading-pause fixes; traversal worst frame 97 to 43 ms (#97) | sekiro-rs | Yama | 2026-10-18 | [f3be187](https://github.com/AKJama/sekiro-rs/commit/f3be187) |
