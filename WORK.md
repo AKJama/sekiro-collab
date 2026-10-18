@@ -35,10 +35,13 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (98)</summary>
+<summary>Done (101)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| movement | Falls out of the map: a cut to black, back standing at the last safe ground for a third of max HP (emptied, he dies there); a bottomless chasm with hang ledges and grapple posts on the Construct | RustSekiro | Fireguy32 | 2026-10-18 | [fcedcd8](https://github.com/Fireguy32/RustSekiro/commit/fcedcd8) |
+| ui | Death screen after the game's: 死 fades in white over DEATH and turns red as the screen darkens, ": Die" / ": Resurrect" while a node is left, fade to black into the Dead screen | RustSekiro | Fireguy32 | 2026-10-18 | [fcedcd8](https://github.com/Fireguy32/RustSekiro/commit/fcedcd8) |
+| combat | Two resurrection nodes (base and extra); after a resurrection the rest are locked (greyed) until a deathblow, resting unlocks them | RustSekiro | Fireguy32 | 2026-10-18 | [fcedcd8](https://github.com/Fireguy32/RustSekiro/commit/fcedcd8) |
 | movement | Swimming and diving with the game's clips: surface swim, fast kicks, Ctrl dive / F rise with the Mibu Breathing Technique (goods 2420), camera-steered diving under a ceiling, the swim jump, water entry / exit clips, the water combo (tap cut / hold thrust), gourd and Homeward Idol in the water, the game's swim prompts; a pool on the Construct | RustSekiro | Fireguy32 | 2026-10-18 | [76c5c2b](https://github.com/Fireguy32/RustSekiro/commit/76c5c2b) |
 | performance | Frame rate: FXR rework, shared materials (21.8k to 2.7k), static map batching, parallel shadow encoders, pipeline warmup behind loading, menu keeps --uncapped; start 3 47 to 60 fps, worst traversal frame 160 to 48 ms; fog depth fix and batching direction from RustSekiro d6c5e406 ([#70](https://github.com/AKJama/sekiro-rs/issues/70)) | sekiro-rs | Yama | 2026-10-18 | [2ad2539](https://github.com/AKJama/sekiro-rs/commit/2ad2539) |
 | performance | Frame rate quick wins: main schedule 3.5-4 ms faster (cached draw-group selection, settled LOD skipped, change-only visibility/fog writes, exact idle interpolation, player-only step without an enemy) ([#70](https://github.com/AKJama/sekiro-rs/issues/70)) | sekiro-rs | Yama | 2026-10-17 | [2a82d6a](https://github.com/AKJama/sekiro-rs/commit/2a82d6a) |

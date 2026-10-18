@@ -26,14 +26,14 @@ Keep your own column up to date, and be strict: a feature that works but doesn't
 | Movement | Wall jumps | ? | 🟡 off a wall, out of a hug or a hang, once a flight as in the game; chained wall to wall only on the parkour test map |
 | Movement | 180 quick turns (standing, walking, running) | ? | 🟡 the game's clips; the walk turns' swing is reconstructed |
 | Movement | Swimming and diving | ✅ | 🟡 the game's swim, dive, jump, entry / exit, attack and item clips; no breath, swim deaths, underwater enemies or underwater look; the Construct's pool only |
-| Movement | Fall death and respawn | ✅ | 🟡 respawn and resurrection, no fall death |
+| Movement | Fall death and respawn | ✅ | 🟡 a cut to black and back at the last safe ground for a third of max HP (our rule, the game's cost is not traced); the Construct's chasm |
 | Movement | Upper/lower body layering | ❌ | ✅ |
 | Combat | Attacks, hit reactions, hit stop, guard, deflect, posture | ✅ | ✅ |
 | Combat | Deflect spam penalty | ? | ✅ |
 | Combat | Perilous attacks, Mikiri, sweep counter | ✅ | ✅ |
 | Combat | Super armour | ✅ | 🟡 flinch-free swings only, no toughness model |
 | Combat | Status effects (poison, burn) | 🟡 | ✅ |
-| Combat | Resurrection | ❌ | ✅ |
+| Combat | Resurrection | ❌ | ✅ two nodes, locked after a resurrection until a deathblow; no Unseen Aid or Dragonrot |
 | Deathblows | Front, after posture break | ✅ | ✅ |
 | Deathblows | From behind, stealth, plunging | ❌ | ✅ |
 | Deathblows | Boss deathblow counts and phases | 🟡 Owl, Genichiro | ✅ |
@@ -51,7 +51,7 @@ Keep your own column up to date, and be strict: a feature that works but doesn't
 | AI | Boss brain (learns the player, memory, coach) | ✅ Owl, Genichiro, soldier | ❌ |
 | AI | AI debug modes | 🟡 | ✅ |
 | World | Walkable maps | ✅ all 9 gameplay maps | 🟡 gate and boss arenas |
-| World | Sandbox arena | ❌ | ✅ plus the Construct test map (`SHINOBI_MAP=construct`): a parkour course, a stealth outpost after the Ashina Outskirts one, a second section for the duel enemy |
+| World | Sandbox arena | ❌ | ✅ plus the Construct test map (`SHINOBI_MAP=construct`): a parkour course, a stealth outpost after the Ashina Outskirts one, a second section for the duel enemy, a pool and a chasm |
 | World | Sculptor's Idols: pray, rest, checkpoint, Purchase Spirit Emblems, Travel | ? | 🟡 the game's model, flame, clips, menus and texts, Acquire Skills (skill points from kill experience) and Change Form; the Construct test map only |
 | World | Sky domes | ✅ | 🟡 |
 | World | Time of day | ✅ | ✅ with blending |
@@ -67,7 +67,7 @@ Keep your own column up to date, and be strict: a feature that works but doesn't
 | Audio | 3D placement, reverb | 🟡 | ✅ |
 | Audio | Boss music | ❌ | ✅ |
 | UI | HUD and boss bars | 🟡 working bars, not the game's art | ✅ |
-| UI | Title, pause, death, victory screens | 🟡 start and pause menus | ✅ |
+| UI | Title, pause, death, victory screens | 🟡 start and pause menus | ✅ incl. the game's 死 death screen with Die / Resurrect |
 | UI | In-game menu: Equipment, Inventory, Skills, Options, Equipped Items | ? | 🟡 the game's art and layout from captures; Inventory and quick slots from the goods held |
 | UI | Boss and enemy picker | ✅ start menu | ✅ in game |
 | UI | Options screen | ❌ | ✅ |
