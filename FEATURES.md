@@ -41,7 +41,7 @@ Keep your own column up to date, and be strict: a feature that works but doesn't
 | Skills | Gourd, spirit emblems | ❌ | ✅ |
 | Skills | Esoteric Texts unlocking skill trees | ? | 🟡 the five key items unlock their schools at an idol, with acquisition checks and the game's item dialog; pickups on the Construct, not the story's gifts / temple loot; no saved progression |
 | Items | Quick items (sugars, pellets, persimmon, Homeward Idol ...), inventory of every goods, pickups and the item dialog | ? | 🟡 the game's use states, effects, looks, texts and dialog for every quick item; held items shown by their effects' models (gourd, pellet, tanto ...); enemy drops and Resurrective Power, the Mibu Balloons, Five-color Rice and Divine Confetti's ghost barrier (gap: the exe's drop and luck formulas, a node's Power cost taken as 100) |
-| Skills | Prosthetic tool upgrades (Sculptor's Workshop) | ? | 🟡 the game's tree and costs; reached from the idol menu (no Sculptor on the test map) |
+| Skills | Prosthetic tool upgrades (Sculptor's Workshop) | ? | 🟡 the game's tree and costs; fitting and upgrades reached by talking to the Sculptor on the Construct; upgrades with two parents accept either |
 | Enemies | All 102 placed kinds load | ✅ | ✅ |
 | Enemies | Fights verified | 🟡 soldier, Owl, Genichiro | ✅ most of the roster |
 | Enemies | Bosses, all phases (see [Bosses](#bosses)) | 🟡 15 of 15 in their arenas, 13 with every phase playable, none checked against the real game yet | ? |
@@ -54,6 +54,7 @@ Keep your own column up to date, and be strict: a feature that works but doesn't
 | World | Walkable maps | ✅ all 9 gameplay maps | 🟡 gate and boss arenas |
 | World | Sandbox arena | ❌ | ✅ plus the Construct test map (`SHINOBI_MAP=construct`): a parkour course, a stealth outpost after the Ashina Outskirts one, a second section for the duel enemy, a pool and a chasm |
 | World | Sculptor's Idols: pray, rest, checkpoint, Purchase Spirit Emblems, Travel | ? | 🟡 the game's model, flame, clips, menus and texts, Acquire Skills (skill points from kill experience) and Change Form; the Construct test map only |
+| World | Sculptor NPC and Talk interaction | ? | 🟡 c7010 with the game's model, skeleton and clips, Talk prompt, fitting and upgrades on the Construct; reconstructed placement and conversation camera, no story dialogue, voices, gifts or sake progression |
 | World | Sky domes | ✅ | 🟡 |
 | World | Time of day | ✅ | ✅ with blending |
 | World | Water | 🟡 | 🟡 |
