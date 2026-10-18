@@ -30,7 +30,7 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| performance | Upgrade to Bevy 0.20 and measure frame rate ([#97](https://github.com/AKJama/sekiro-rs/issues/97)) | sekiro-rs | Yama | 2026-10-18 |
+| movement | Ledge hang shimmy left and right, ported from RustSekiro ([#102](https://github.com/AKJama/sekiro-rs/issues/102)) | sekiro-rs | Yama | 2026-10-18 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
 
@@ -41,6 +41,7 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| performance | Bevy 0.20 upgrade: WESL shaders, Bevy's RenderContext, per-cascade sun shadows ordered after preprocessing, wall-time warmup limits, menu clicks and loading-pause fixes; traversal worst frame 97 to 43 ms (#97) | sekiro-rs | Yama | 2026-10-18 | [f3be187](https://github.com/AKJama/sekiro-rs/commit/f3be187) |
 | world | Sculptor sits normally outside the menu by user preference (000000), works on the prosthetic during visits (20001 -> 21003 -> 20002), then returns to sitting. Wolf uses a fixed seat 1 m in front, facing him. 657 tests pass, 46 ignored; private idle / Workshop captures verified | RustSekiro | Fireguy32 | 2026-10-18 | [4f6ad01](https://github.com/Fireguy32/RustSekiro/commit/4f6ad01) |
 | world | Historical Sculptor carving-idle change (21005). Superseded by 4f6ad01: ordinary sitting outside the menu by user preference, working prosthetic visit clips and fixed seating; the broken-animation follow-up is complete | RustSekiro | Fireguy32 | 2026-10-18 | [1e6d92f](https://github.com/Fireguy32/RustSekiro/commit/1e6d92f) |
 | world | Sculptor visit animations: Wolf sits (711200), loops seated (711201), gets up on closing (711202); menu waits for entry, control waits for exit; custom camera removed. Initial NPC clips 400 / 401 / 402 were replaced by 20001 / 21003 / 20002 in 4f6ad01. 657 tests pass, 46 ignored | RustSekiro | Fireguy32 | 2026-10-18 | [54d8259](https://github.com/Fireguy32/RustSekiro/commit/54d8259) |
