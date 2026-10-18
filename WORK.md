@@ -39,6 +39,7 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| bosses | Demon of Hatred's foot stomp never came: exports older than the exporter's behaviorId / dmypolyId fields leave his foot checks (3702080 / 3702081 -> Bullet sp1802) empty. No code change; re-export him: `sekiro-extract npcs extracted c7020` | RustSekiro | Fireguy32 | 2026-10-18 | data only |
 | perf | Lag that grew over minutes of play (15 -> 60+ ms a frame): FXR nodes with no emitter emitted a never-ending particle every frame (the idol flame, ~95/s per idol); now steady ~12.5 ms | RustSekiro | Fireguy32 | 2026-10-18 | [152315f](https://github.com/Fireguy32/RustSekiro/commit/152315f) |
 | combat | Plunge deathblow: the deathblow mark shows on the enemy a plunge would take (shared check with the plunge start) | RustSekiro | Fireguy32 | 2026-10-18 | [f645821](https://github.com/Fireguy32/RustSekiro/commit/f645821) |
 | items | Enemy drops from their NpcParam lots (goods and Spirit Emblem pickups, Resurrective Power filling a used node on the HUD); Mibu Balloons of Soul / Possession / Spirit weight them up; Five-color Rice falls and marks the ground, 5 uses, refilled at idols; Divine Confetti erases the apparitions' ghost barrier (now on HP too) | RustSekiro | Fireguy32 | 2026-10-18 | [52090a2](https://github.com/Fireguy32/RustSekiro/commit/52090a2) |
