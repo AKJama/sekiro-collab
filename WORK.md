@@ -30,6 +30,7 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
+| hud | Grapple marker like the game: ring that fills with distance, green in range ([#100](https://github.com/AKJama/sekiro-rs/issues/100)) | sekiro-rs | Yama | 2026-10-18 |
 <<<<<<< HEAD
 =======
 | integration | Audit a native Wolf model in actual Elden Ring and define the RustSekiro in-process integration contract (local claim; push pending user approval) | RustSekiro / private ER workspace | Fireguy32 | 2026-10-18 |
