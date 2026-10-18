@@ -28,6 +28,7 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
+| world | Sculptor c7010 animations still broken in play (idle fixed in 1e6d92f; talk clips 400/401/402 vs the event's 20001/20002 unchecked) | RustSekiro | Fireguy32 | 2026-10-18 |
 | performance | Upgrade to Bevy 0.20 and measure frame rate ([#97](https://github.com/AKJama/sekiro-rs/issues/97)) | sekiro-rs | Yama | 2026-10-18 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
@@ -39,6 +40,7 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| world | Sculptor idles on his carving loop a000_021005 (m11_00 event 11105720; was generic 000000). 657 tests pass, 46 ignored. His animations are still broken in play, see Claimed | RustSekiro | Fireguy32 | 2026-10-18 | [1e6d92f](https://github.com/Fireguy32/RustSekiro/commit/1e6d92f) |
 | world | Sculptor visit animations: Wolf sits (711200), loops seated (711201), gets up on closing (711202); menu waits for entry, control waits for exit. c7010 reacts (400 / 401 / 402) and resumes carving; removed custom camera. 657 tests pass, 46 ignored; seated Workshop verified in app | RustSekiro | Fireguy32 | 2026-10-18 | [54d8259](https://github.com/Fireguy32/RustSekiro/commit/54d8259) |
 | world | Sculptor c7010 on the Construct: Talk opens fitting and upgrades, without resting or changing the checkpoint; encounter changes preserve his model / clips. Reconstructed placement and talk camera; no story dialogue, voices, gifts or sake. 655 tests pass, 46 ignored; real-app menu captures verified | RustSekiro | Fireguy32 | 2026-10-18 | [589c65e](https://github.com/Fireguy32/RustSekiro/commit/589c65e) |
 | skills | Esoteric Texts 2920-2924 unlock their schools at an idol; only owned schools appear, purchases require the text; five key-item pickups on the Construct (story gifts / loot and saved progression not added). 652 tests pass, 46 ignored | RustSekiro | Fireguy32 | 2026-10-18 | [536fd74](https://github.com/Fireguy32/RustSekiro/commit/536fd74) |
