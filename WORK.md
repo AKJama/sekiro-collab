@@ -14,6 +14,8 @@ Who's working on what right now, and what's done.
 
 | Area | Task |
 |---|---|
+| maintenance | RustSekiro: trace and fix the 17 "Entity despawned" deferred-command warnings still present in sv1.log |
+| progression | RustSekiro: save and restore collected Esoteric Texts, learned skills, fitted tools and purchased prosthetic upgrades across restarts |
 | world | Boss arena: Ashina Castle castle top, the arena's snow, lightning and dense-fog effects |
 | rendering | Scene brightness calibrated against a real-game screenshot of the castle rooftop |
 | ui | Debug text off by default |
@@ -40,8 +42,8 @@ Who's working on what right now, and what's done.
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
 | world | Sculptor sits normally outside the menu by user preference (000000), works on the prosthetic during visits (20001 -> 21003 -> 20002), then returns to sitting. Wolf uses a fixed seat 1 m in front, facing him. 657 tests pass, 46 ignored; private idle / Workshop captures verified | RustSekiro | Fireguy32 | 2026-10-18 | [4f6ad01](https://github.com/Fireguy32/RustSekiro/commit/4f6ad01) |
-| world | Sculptor idles on his carving loop a000_021005 (m11_00 event 11105720; was generic 000000). 657 tests pass, 46 ignored. His animations are still broken in play, see Claimed | RustSekiro | Fireguy32 | 2026-10-18 | [1e6d92f](https://github.com/Fireguy32/RustSekiro/commit/1e6d92f) |
-| world | Sculptor visit animations: Wolf sits (711200), loops seated (711201), gets up on closing (711202); menu waits for entry, control waits for exit. c7010 reacts (400 / 401 / 402) and resumes carving; removed custom camera. 657 tests pass, 46 ignored; seated Workshop verified in app | RustSekiro | Fireguy32 | 2026-10-18 | [54d8259](https://github.com/Fireguy32/RustSekiro/commit/54d8259) |
+| world | Historical Sculptor carving-idle change (21005). Superseded by 4f6ad01: ordinary sitting outside the menu by user preference, working prosthetic visit clips and fixed seating; the broken-animation follow-up is complete | RustSekiro | Fireguy32 | 2026-10-18 | [1e6d92f](https://github.com/Fireguy32/RustSekiro/commit/1e6d92f) |
+| world | Sculptor visit animations: Wolf sits (711200), loops seated (711201), gets up on closing (711202); menu waits for entry, control waits for exit; custom camera removed. Initial NPC clips 400 / 401 / 402 were replaced by 20001 / 21003 / 20002 in 4f6ad01. 657 tests pass, 46 ignored | RustSekiro | Fireguy32 | 2026-10-18 | [54d8259](https://github.com/Fireguy32/RustSekiro/commit/54d8259) |
 | world | Sculptor c7010 on the Construct: Talk opens fitting and upgrades, without resting or changing the checkpoint; encounter changes preserve his model / clips. Reconstructed placement and talk camera; no story dialogue, voices, gifts or sake. 655 tests pass, 46 ignored; real-app menu captures verified | RustSekiro | Fireguy32 | 2026-10-18 | [589c65e](https://github.com/Fireguy32/RustSekiro/commit/589c65e) |
 | skills | Esoteric Texts 2920-2924 unlock their schools at an idol; only owned schools appear, purchases require the text; five key-item pickups on the Construct (story gifts / loot and saved progression not added). 652 tests pass, 46 ignored | RustSekiro | Fireguy32 | 2026-10-18 | [536fd74](https://github.com/Fireguy32/RustSekiro/commit/536fd74) |
 | bosses | Isshin Ashina's fight never ended (54300000): his kneel (11115941) waits on 8300, missing from stale boss_scripts.json, so the Todome / ThrowDef13700 (SpEffect 201000) never came. No code change; re-run `python tools/boss_scripts.py`. All 649 tests pass | RustSekiro | Fireguy32 | 2026-10-18 | data only |
