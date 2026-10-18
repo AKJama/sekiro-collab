@@ -39,6 +39,7 @@ Keep your own column up to date, and be strict: a feature that works but doesn't
 | Deathblows | Boss deathblow counts and phases | 🟡 Owl, Genichiro | ✅ |
 | Skills | 19 combat arts, 10 prosthetic tools | ❌ | ✅ |
 | Skills | Gourd, spirit emblems | ❌ | ✅ |
+| Skills | Esoteric Texts unlocking skill trees | ? | 🟡 the five key items unlock their schools at an idol, with acquisition checks and the game's item dialog; pickups on the Construct, not the story's gifts / temple loot; no saved progression |
 | Items | Quick items (sugars, pellets, persimmon, Homeward Idol ...), inventory of every goods, pickups and the item dialog | ? | 🟡 the game's use states, effects, looks, texts and dialog for every quick item; held items shown by their effects' models (gourd, pellet, tanto ...); enemy drops and Resurrective Power, the Mibu Balloons, Five-color Rice and Divine Confetti's ghost barrier (gap: the exe's drop and luck formulas, a node's Power cost taken as 100) |
 | Skills | Prosthetic tool upgrades (Sculptor's Workshop) | ? | 🟡 the game's tree and costs; reached from the idol menu (no Sculptor on the test map) |
 | Enemies | All 102 placed kinds load | ✅ | ✅ |

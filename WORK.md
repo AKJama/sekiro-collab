@@ -28,7 +28,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| skills | Esoteric Texts: collecting each book unlocks its Acquire Skills tree | RustSekiro | Fireguy32 | 2026-10-18 |
 | performance | Upgrade to Bevy 0.20 and measure frame rate ([#97](https://github.com/AKJama/sekiro-rs/issues/97)) | sekiro-rs | Yama | 2026-10-18 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
@@ -36,10 +35,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (103)</summary>
+<summary>Done (104)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| skills | Esoteric Texts 2920-2924 unlock their schools at an idol; only owned schools appear, purchases require the text; five key-item pickups on the Construct (story gifts / loot and saved progression not added). 652 tests pass, 46 ignored | RustSekiro | Fireguy32 | 2026-10-18 | [536fd74](https://github.com/Fireguy32/RustSekiro/commit/536fd74) |
 | bosses | Isshin Ashina's fight never ended (54300000): his kneel (11115941) waits on 8300, missing from stale boss_scripts.json, so the Todome / ThrowDef13700 (SpEffect 201000) never came. No code change; re-run `python tools/boss_scripts.py`. All 649 tests pass | RustSekiro | Fireguy32 | 2026-10-18 | data only |
 | bosses | Demon of Hatred's foot stomp never came: exports older than the exporter's behaviorId / dmypolyId fields leave his foot checks (3702080 / 3702081 -> Bullet sp1802) empty. No code change; re-export him: `sekiro-extract npcs extracted c7020` | RustSekiro | Fireguy32 | 2026-10-18 | data only |
 | perf | Lag that grew over minutes of play (15 -> 60+ ms a frame): FXR nodes with no emitter emitted a never-ending particle every frame (the idol flame, ~95/s per idol); now steady ~12.5 ms | RustSekiro | Fireguy32 | 2026-10-18 | [152315f](https://github.com/Fireguy32/RustSekiro/commit/152315f) |
