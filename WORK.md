@@ -31,7 +31,6 @@ Who's working on what right now, and what's done.
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
 <<<<<<< HEAD
-| movement | Ledge hang shimmy left and right, ported from RustSekiro ([#102](https://github.com/AKJama/sekiro-rs/issues/102)) | sekiro-rs | Yama | 2026-10-18 |
 =======
 | integration | Audit a native Wolf model in actual Elden Ring and define the RustSekiro in-process integration contract (local claim; push pending user approval) | RustSekiro / private ER workspace | Fireguy32 | 2026-10-18 |
 | performance | Upgrade to Bevy 0.20 and measure frame rate ([#97](https://github.com/AKJama/sekiro-rs/issues/97)) | sekiro-rs | Yama | 2026-10-18 |
@@ -46,6 +45,7 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| movement | Ledge hang shimmy left and right, stops near edge ends; shimmy movement, end margin and tests from FwLo's RustSekiro docking.rs (#102) | sekiro-rs | Yama | 2026-10-18 | [1592505](https://github.com/AKJama/sekiro-rs/commit/1592505) |
 | performance | Bevy 0.20 upgrade: WESL shaders, Bevy's RenderContext, per-cascade sun shadows ordered after preprocessing, wall-time warmup limits, menu clicks and loading-pause fixes; traversal worst frame 97 to 43 ms (#97) | sekiro-rs | Yama | 2026-10-18 | [f3be187](https://github.com/AKJama/sekiro-rs/commit/f3be187) |
 | world | Sculptor sits normally outside the menu by user preference (000000), works on the prosthetic during visits (20001 -> 21003 -> 20002), then returns to sitting. Wolf uses a fixed seat 1 m in front, facing him. 657 tests pass, 46 ignored; private idle / Workshop captures verified | RustSekiro | Fireguy32 | 2026-10-18 | [4f6ad01](https://github.com/Fireguy32/RustSekiro/commit/4f6ad01) |
 | world | Historical Sculptor carving-idle change (21005). Superseded by 4f6ad01: ordinary sitting outside the menu by user preference, working prosthetic visit clips and fixed seating; the broken-animation follow-up is complete | RustSekiro | Fireguy32 | 2026-10-18 | [1e6d92f](https://github.com/Fireguy32/RustSekiro/commit/1e6d92f) |
