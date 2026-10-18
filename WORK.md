@@ -35,10 +35,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (101)</summary>
+<summary>Done (102)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| items | Every quick item does what its rows say: cures (Antidote / Dousing / Pacifying, Divine Grass), Eel Liver, Red Lump, Divine Confetti, Mibu Balloon of Wealth, coin purses, Ceremonial Tanto (its stab, not Bite Down's collapse), Fistful of Ash, Oil, Ceramic Shard; Yashariku's Sugar halves max HP; the use clips' goods effects and buff glows; FXR point sprites sized right | RustSekiro | Fireguy32 | 2026-10-18 | [b099c25](https://github.com/Fireguy32/RustSekiro/commit/b099c25) |
 | movement | Falls out of the map: a cut to black, back standing at the last safe ground for a third of max HP (emptied, he dies there); a bottomless chasm with hang ledges and grapple posts on the Construct | RustSekiro | Fireguy32 | 2026-10-18 | [fcedcd8](https://github.com/Fireguy32/RustSekiro/commit/fcedcd8) |
 | ui | Death screen after the game's: 死 fades in white over DEATH and turns red as the screen darkens, ": Die" / ": Resurrect" while a node is left, fade to black into the Dead screen | RustSekiro | Fireguy32 | 2026-10-18 | [fcedcd8](https://github.com/Fireguy32/RustSekiro/commit/fcedcd8) |
 | combat | Two resurrection nodes (base and extra); after a resurrection the rest are locked (greyed) until a deathblow, resting unlocks them | RustSekiro | Fireguy32 | 2026-10-18 | [fcedcd8](https://github.com/Fireguy32/RustSekiro/commit/fcedcd8) |

@@ -39,7 +39,7 @@ Keep your own column up to date, and be strict: a feature that works but doesn't
 | Deathblows | Boss deathblow counts and phases | 🟡 Owl, Genichiro | ✅ |
 | Skills | 19 combat arts, 10 prosthetic tools | ❌ | ✅ |
 | Skills | Gourd, spirit emblems | ❌ | ✅ |
-| Items | Quick items (sugars, pellets, persimmon, Homeward Idol ...), inventory of every goods, pickups and the item dialog | ? | 🟡 the game's use states, effects, texts and dialog; Divine Confetti, cures, throwables and coin purses have no effect yet |
+| Items | Quick items (sugars, pellets, persimmon, Homeward Idol ...), inventory of every goods, pickups and the item dialog | ? | 🟡 the game's use states, effects, looks, texts and dialog for every quick item; no in-hand item models; Balloons of Soul / Possession / Spirit and Five-color Rice wait on Resurrective Power, drops and markers |
 | Skills | Prosthetic tool upgrades (Sculptor's Workshop) | ? | 🟡 the game's tree and costs; reached from the idol menu (no Sculptor on the test map) |
 | Enemies | All 102 placed kinds load | ✅ | ✅ |
 | Enemies | Fights verified | 🟡 soldier, Owl, Genichiro | ✅ most of the roster |
