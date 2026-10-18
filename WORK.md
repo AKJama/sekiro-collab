@@ -28,17 +28,18 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| performance | FXR effects: reuse batch meshes, skip unchanged uploads, compile effect properties once ([#70](https://github.com/AKJama/sekiro-rs/issues/70)) | sekiro-rs | Yama | 2026-10-17 |
+| performance | Upgrade to Bevy 0.20 and measure frame rate ([#97](https://github.com/AKJama/sekiro-rs/issues/97)) | sekiro-rs | Yama | 2026-10-18 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
 
 ## Done
 
 <details>
-<summary>Done (96)</summary>
+<summary>Done (97)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| performance | Frame rate: FXR rework, shared materials (21.8k to 2.7k), static map batching, parallel shadow encoders, pipeline warmup behind loading, menu keeps --uncapped; start 3 47 to 60 fps, worst traversal frame 160 to 48 ms; fog depth fix and batching direction from RustSekiro d6c5e406 ([#70](https://github.com/AKJama/sekiro-rs/issues/70)) | sekiro-rs | Yama | 2026-10-18 | [2ad2539](https://github.com/AKJama/sekiro-rs/commit/2ad2539) |
 | performance | Frame rate quick wins: main schedule 3.5-4 ms faster (cached draw-group selection, settled LOD skipped, change-only visibility/fog writes, exact idle interpolation, player-only step without an enemy) ([#70](https://github.com/AKJama/sekiro-rs/issues/70)) | sekiro-rs | Yama | 2026-10-17 | [2a82d6a](https://github.com/AKJama/sekiro-rs/commit/2a82d6a) |
 | movement | Wall jump (env 3020) and air ledge catch (env 3045) into the existing hang, foothold ledges, hang position and climb end from the clips, adapted from Fireguy32's RustSekiro PR 1 ([#16](https://github.com/AKJama/sekiro-rs/issues/16)) | sekiro-rs | Yama | 2026-10-17 | [8cdaea4](https://github.com/AKJama/sekiro-rs/commit/8cdaea4) |
 | camera | Wolf's camera keeps the game's 43 degree camFovY (the map plugin forced 60), and camera slots read their own LockCamParam rows ([#46](https://github.com/AKJama/sekiro-rs/issues/46)) | sekiro-rs | Yama | 2026-10-17 | [124131f](https://github.com/AKJama/sekiro-rs/commit/124131f) |
