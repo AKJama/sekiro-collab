@@ -28,6 +28,7 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
+| world | Sculptor NPC on the Construct: talk interaction and access to fitting / upgrading Prosthetic Tools | RustSekiro | Fireguy32 | 2026-10-18 |
 | performance | Upgrade to Bevy 0.20 and measure frame rate ([#97](https://github.com/AKJama/sekiro-rs/issues/97)) | sekiro-rs | Yama | 2026-10-18 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
