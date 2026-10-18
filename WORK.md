@@ -30,7 +30,12 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
+<<<<<<< HEAD
 | movement | Ledge hang shimmy left and right, ported from RustSekiro ([#102](https://github.com/AKJama/sekiro-rs/issues/102)) | sekiro-rs | Yama | 2026-10-18 |
+=======
+| integration | Audit a native Wolf model in actual Elden Ring and define the RustSekiro in-process integration contract (local claim; push pending user approval) | RustSekiro / private ER workspace | Fireguy32 | 2026-10-18 |
+| performance | Upgrade to Bevy 0.20 and measure frame rate ([#97](https://github.com/AKJama/sekiro-rs/issues/97)) | sekiro-rs | Yama | 2026-10-18 |
+>>>>>>> 5c9f68a (Claim native Elden Ring integration audit)
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
 
