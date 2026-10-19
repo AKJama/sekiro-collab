@@ -30,7 +30,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| enemies | All of a map's enemies in the world: multi-enemy sim (ENEMIES-PLAN step 9), MSB enemies on m11_00 behind --map-enemies | sekiro-rs | Yama | 2026-10-18 |
 | integration | Audit a native Wolf model in actual Elden Ring and define the RustSekiro in-process integration contract (local claim; push pending user approval) | RustSekiro / private ER workspace | Fireguy32 | 2026-10-18 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
@@ -38,10 +37,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (129)</summary>
+<summary>Done (130)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| enemies | All of a map's enemies behind --map-enemies (m11_00: 60 foes, 11 kinds): multi-enemy sim, startup exclusions, distance LOD, shared assets, per-kind sound banks; patrols, StartUnaware, cloth range and sight interval from FwLo's RustSekiro | sekiro-rs | Yama | 2026-10-19 | [705a30f](https://github.com/AKJama/sekiro-rs/commit/705a30f) |
 | movement | Smoother movement: root-motion blend-in, run stop, bodies block instead of shoving, air-contact stop, lock-on turn checks, 60 degree slope, from FwLo's RustSekiro (actor.rs, data.rs, player.rs, map.rs, anim.rs, sim tests); sprint release freeze and strafe-after-run (#26) fixed | sekiro-rs | Yama | 2026-10-18 | [86b8434](https://github.com/AKJama/sekiro-rs/commit/86b8434) |
 | hud | Grapple marker like the game: the game's SB_FE wire sprites extracted to the cache, white ring that fills from 25 m, green and fireable within 15 m, distant hooks never fire (#100) | sekiro-rs | Yama | 2026-10-18 | [92482ee](https://github.com/AKJama/sekiro-rs/commit/92482ee) |
 | movement | Ledge hang shimmy left and right, stops near edge ends; shimmy movement, end margin and tests from FwLo's RustSekiro docking.rs (#102) | sekiro-rs | Yama | 2026-10-18 | [1592505](https://github.com/AKJama/sekiro-rs/commit/1592505) |
