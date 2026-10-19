@@ -64,6 +64,7 @@ Keep your own column up to date, and be strict: a feature that works but doesn't
 | Rendering | GI probes and bounce light | ✅ | 🟡 |
 | Rendering | Point lights | ✅ | ❌ effect lights only |
 | Rendering | Character materials | ✅ | ✅ |
+| Rendering | Fits 10 GB cards (m11_00 under 8 GB VRAM) | ✅ | ? |
 | Effects | FXR particle player | 🟡 no model particles yet | ✅ |
 | Effects | Blood, hit stains, clash sparks | ✅ | ✅ |
 | Audio | Game's FMOD, TAE sounds, footsteps | ✅ | ✅ |
