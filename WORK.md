@@ -30,7 +30,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| rendering | VRAM budget for cards under 16 GB: play-mode VRAM growth on m11_00 (#98, FwLo's 10 GB OOM report), free merged batch sources, texture budget ([PR #117](https://github.com/AKJama/sekiro-rs/pull/117)) | sekiro-rs | Yama | 2026-10-19 |
 | integration | Audit a native Wolf model in actual Elden Ring and define the RustSekiro in-process integration contract (local claim; push pending user approval) | RustSekiro / private ER workspace | Fireguy32 | 2026-10-18 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
@@ -38,10 +37,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (145)</summary>
+<summary>Done (146)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| rendering | VRAM on m11_00 from 9.5 GB to 7.4 GB (#98, thanks to FwLo's 10 GB OOM report): merged batch sources leave the GPU, shared meshes and textures, top-mip skip on cards under 16 GB or with `--vram-budget` | sekiro-rs | Yama | 2026-10-19 | [14d9c73](https://github.com/AKJama/sekiro-rs/commit/14d9c73) |
 | tools | Sekiro Mechanics Atlas: 838 mechanics in 21 categories checked against the game's data, with coverage for both repos and dependency links | RustSekiro | FwLo | 2026-10-19 | [f600230](https://github.com/FFwLo/RustSekiro/commit/f600230) |
 | map | sekiro-rs map used as a library (the whole play world, idols, grapple points, ledges), and the Bevy 0.20 upgrade | RustSekiro | FwLo | 2026-10-19 | [f600230](https://github.com/FFwLo/RustSekiro/commit/f600230) |
 | movement | Atlas pass: falls, jump weapon state, landing dodge, wall kick from a hang, grapple marker | RustSekiro | FwLo | 2026-10-19 | [f600230](https://github.com/FFwLo/RustSekiro/commit/f600230) |
