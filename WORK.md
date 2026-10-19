@@ -38,10 +38,25 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (130)</summary>
+<summary>Done (145)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| tools | Sekiro Mechanics Atlas: 838 mechanics in 21 categories checked against the game's data, with coverage for both repos and dependency links | RustSekiro | FwLo | 2026-10-19 | [f600230](https://github.com/FFwLo/RustSekiro/commit/f600230) |
+| map | sekiro-rs map used as a library (the whole play world, idols, grapple points, ledges), and the Bevy 0.20 upgrade | RustSekiro | FwLo | 2026-10-19 | [f600230](https://github.com/FFwLo/RustSekiro/commit/f600230) |
+| movement | Atlas pass: falls, jump weapon state, landing dodge, wall kick from a hang, grapple marker | RustSekiro | FwLo | 2026-10-19 | [f600230](https://github.com/FFwLo/RustSekiro/commit/f600230) |
+| combat | Atlas pass: guard by repel values, invincibility bits, posture through guard, Attack Power; sekiro-rs combat rules ported and credited | RustSekiro | FwLo | 2026-10-19 | [f600230](https://github.com/FFwLo/RustSekiro/commit/f600230) |
+| rendering | sekiro-rs lighting on our own scenes; hit effects only from the game's own FXR files | RustSekiro | FwLo | 2026-10-19 | [f600230](https://github.com/FFwLo/RustSekiro/commit/f600230) |
+| bosses | Event targets (Headless Ape pair, Butterfly illusions, Old Dragons), team switches, fights start on the boss's own arena | RustSekiro | FwLo | 2026-10-19 | [f600230](https://github.com/FFwLo/RustSekiro/commit/f600230) |
+| ui | Sekiro's own fonts; HUD on wide screens (16:9 option) | RustSekiro | FwLo | 2026-10-19 | [f600230](https://github.com/FFwLo/RustSekiro/commit/f600230) |
+| tools | CLAUDE.md for new sessions (commands, file map, files not to read), HANDOFF slimmed from about 5,850 to 290 lines with its history moved to docs/history/, line indexes in the kb files, sim tests split into 11 parts (same 601 tests) | RustSekiro | FwLo | 2026-10-15 | [196b334](https://github.com/FFwLo/RustSekiro/commit/196b334), [035b28c](https://github.com/FFwLo/RustSekiro/commit/035b28c) |
+| bosses | Main bosses' perilous attacks per minute checked against the all-bosses clip | RustSekiro | FwLo | 2026-10-15 | [bcce8b8](https://github.com/FFwLo/RustSekiro/commit/bcce8b8) |
+| docs | README update and CREDITS.md | RustSekiro | FwLo | 2026-10-14 | [40a13bc](https://github.com/FFwLo/RustSekiro/commit/40a13bc) |
+| stealth | Stealth (sight cones, hearing, caution and search, stealth deathblows), crouch, root-motion yaw fix (the behind deathblow matches the live recording), gore from the animation events, Sekiro-style HUD, deathblow mark, prosthetic switching and Firecracker | RustSekiro | FwLo | 2026-10-10 | [285988e](https://github.com/FFwLo/RustSekiro/commit/285988e) |
+| effects | The game's own FXR effects (about 280 files), all combat arts and prosthetic tools, the real Ashina Outskirts map, all enemies and bosses | RustSekiro | FwLo | 2026-10-10 | [934d4c6](https://github.com/FFwLo/RustSekiro/commit/934d4c6) |
+| release | v0.2.0: every enemy and boss, the game's map and effects, all skills | RustSekiro | FwLo | 2026-10-11 | [807f95b](https://github.com/FFwLo/RustSekiro/commit/807f95b) |
+| bosses | Boss deathblow counts and hitboxes, the encounter picker, enemy work, picker effects | RustSekiro | FwLo | 2026-10-11 | [a2fd7ba](https://github.com/FFwLo/RustSekiro/commit/a2fd7ba) |
+| release | v0.2.1: packaging fixes, cloth displays and blow-ups, cloud sea, hit stains, grapple | RustSekiro | FwLo | 2026-10-11 | [d041157](https://github.com/FFwLo/RustSekiro/commit/d041157) |
 | enemies | All of a map's enemies behind --map-enemies (m11_00: 60 foes, 11 kinds): multi-enemy sim, startup exclusions, distance LOD, shared assets, per-kind sound banks; patrols, StartUnaware, cloth range and sight interval from FwLo's RustSekiro | sekiro-rs | Yama | 2026-10-19 | [705a30f](https://github.com/AKJama/sekiro-rs/commit/705a30f) |
 | movement | Smoother movement: root-motion blend-in, run stop, bodies block instead of shoving, air-contact stop, lock-on turn checks, 60 degree slope, from FwLo's RustSekiro (actor.rs, data.rs, player.rs, map.rs, anim.rs, sim tests); sprint release freeze and strafe-after-run (#26) fixed | sekiro-rs | Yama | 2026-10-18 | [86b8434](https://github.com/AKJama/sekiro-rs/commit/86b8434) |
 | hud | Grapple marker like the game: the game's SB_FE wire sprites extracted to the cache, white ring that fills from 25 m, green and fireable within 15 m, distant hooks never fire (#100) | sekiro-rs | Yama | 2026-10-18 | [92482ee](https://github.com/AKJama/sekiro-rs/commit/92482ee) |
