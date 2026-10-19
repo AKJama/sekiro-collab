@@ -30,8 +30,7 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| movement | Hold Wolf (and enemies, if the game does) at edges unless jumping or sprinting (#119) | sekiro-rs | Yama | 2026-10-19 |
-| collision | Invisible block on the left of the approach to the Outskirts two-deathblow samurai (#85, [PR #120](https://github.com/AKJama/sekiro-rs/pull/120)) | sekiro-rs | Yama | 2026-10-19 |
+| movement | Hold Wolf (and enemies, if the game does) at edges unless jumping or sprinting (#119, [PR #130](https://github.com/AKJama/sekiro-rs/pull/130)) | sekiro-rs | Yama | 2026-10-19 |
 | ui | Port RustSekiro's menus (framework, fonts, death / pause / options, in-game menu, idol rest) into sekiro-rs, credited to FwLo and Fireguy32 | sekiro-rs | Yama | 2026-10-19 |
 | integration | Audit a native Wolf model in actual Elden Ring and define the RustSekiro in-process integration contract (local claim; push pending user approval) | RustSekiro / private ER workspace | Fireguy32 | 2026-10-18 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
@@ -40,10 +39,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (146)</summary>
+<summary>Done (147)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| collision | Invisible block on the left of the approach to the Outskirts two-deathblow samurai: story-switched-off collision parts left out (#85) | sekiro-rs | Yama | 2026-10-19 | [8166af8](https://github.com/AKJama/sekiro-rs/commit/8166af8) |
 | rendering | VRAM on m11_00 from 9.5 GB to 7.4 GB (#98, thanks to FwLo's 10 GB OOM report): merged batch sources leave the GPU, shared meshes and textures, top-mip skip on cards under 16 GB or with `--vram-budget` | sekiro-rs | Yama | 2026-10-19 | [14d9c73](https://github.com/AKJama/sekiro-rs/commit/14d9c73) |
 | tools | Sekiro Mechanics Atlas: 838 mechanics in 21 categories checked against the game's data, with coverage for both repos and dependency links | RustSekiro | FwLo | 2026-10-19 | [f600230](https://github.com/FFwLo/RustSekiro/commit/f600230) |
 | map | sekiro-rs map used as a library (the whole play world, idols, grapple points, ledges), and the Bevy 0.20 upgrade | RustSekiro | FwLo | 2026-10-19 | [f600230](https://github.com/FFwLo/RustSekiro/commit/f600230) |
