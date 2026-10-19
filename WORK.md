@@ -30,6 +30,8 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
+| movement | Hold Wolf (and enemies, if the game does) at edges unless jumping or sprinting (#119) | sekiro-rs | Yama | 2026-10-19 |
+| collision | Invisible block on the left of the approach to the Outskirts two-deathblow samurai (#85) | sekiro-rs | Yama | 2026-10-19 |
 | integration | Audit a native Wolf model in actual Elden Ring and define the RustSekiro in-process integration contract (local claim; push pending user approval) | RustSekiro / private ER workspace | Fireguy32 | 2026-10-18 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
