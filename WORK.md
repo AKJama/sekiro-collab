@@ -38,7 +38,7 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (109)</summary>
+<summary>Done (129)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
@@ -63,6 +63,26 @@ Who's working on what right now, and what's done.
 | combat | Two resurrection nodes (base and extra); after a resurrection the rest are locked (greyed) until a deathblow, resting unlocks them | RustSekiro | Fireguy32 | 2026-10-18 | [fcedcd8](https://github.com/Fireguy32/RustSekiro/commit/fcedcd8) |
 | movement | Swimming and diving with the game's clips: surface swim, fast kicks, Ctrl dive / F rise with the Mibu Breathing Technique (goods 2420), camera-steered diving under a ceiling, the swim jump, water entry / exit clips, the water combo (tap cut / hold thrust), gourd and Homeward Idol in the water, the game's swim prompts; a pool on the Construct | RustSekiro | Fireguy32 | 2026-10-18 | [76c5c2b](https://github.com/Fireguy32/RustSekiro/commit/76c5c2b) |
 | performance | Frame rate: FXR rework, shared materials (21.8k to 2.7k), static map batching, parallel shadow encoders, pipeline warmup behind loading, menu keeps --uncapped; start 3 47 to 60 fps, worst traversal frame 160 to 48 ms; fog depth fix and batching direction from RustSekiro d6c5e406 ([#70](https://github.com/AKJama/sekiro-rs/issues/70)) | sekiro-rs | Yama | 2026-10-18 | [2ad2539](https://github.com/AKJama/sekiro-rs/commit/2ad2539) |
+| tests | Merged Fireguy32's PR 2 (swimming, Sculptor, items, falls) into main with this week's map work; animation and effect data re-exported; 657 tests pass | RustSekiro | FwLo | 2026-10-18 | [61c21e2](https://github.com/FFwLo/RustSekiro/commit/61c21e2) |
+| world | A map picked in the debug menu clears the checkered test floor, its pillars and lights (they stayed under every map) | RustSekiro | FwLo | 2026-10-17 | [c31dac1](https://github.com/FFwLo/RustSekiro/commit/c31dac1) |
+| rendering | Map lights: each map's BTL bank 0000 lamps, torches and fires as point / spot lights, MapOffset applied (after sekiro-rs, credited) | RustSekiro | FwLo | 2026-10-17 | [6785dae](https://github.com/FFwLo/RustSekiro/commit/6785dae) |
+| effects | Placed map effects: MSB SFX / WindSFX regions with the first visit's event state (castle snowfall, mist, embers); the castle snow still draws as streaks, open (after sekiro-rs, credited) | RustSekiro | FwLo | 2026-10-17 | [6785dae](https://github.com/FFwLo/RustSekiro/commit/6785dae) |
+| world | Authored grass from the map pieces' .grass tables and GrassTypeParam (Outskirts 7,740 and castle 6,813 clumps, as sekiro-rs counts; all nine maps) (after sekiro-rs, credited) | RustSekiro | FwLo | 2026-10-17 | [6785dae](https://github.com/FFwLo/RustSekiro/commit/6785dae) |
+| rendering | Far mountain range: each sky dome's FarMountain companion (m900130 for m900030) with its own material; tone curve uses exp2 (after sekiro-rs, credited) | RustSekiro | FwLo | 2026-10-17 | [6785dae](https://github.com/FFwLo/RustSekiro/commit/6785dae) |
+| ui | Debug menu MAP section: map picker, time of day, day-night cycle, weather and sky | RustSekiro | FwLo | 2026-10-17 | [6785dae](https://github.com/FFwLo/RustSekiro/commit/6785dae) |
+| bosses | Own arenas for every main boss; Lady Butterfly's phantoms, Folding Screen Monkeys catch, Sword Saint deathblows and finisher, Emma / Isshin reaches its end; map-switch graphics crash | RustSekiro | FwLo | 2026-10-17 | [d6c5e40](https://github.com/FFwLo/RustSekiro/commit/d6c5e40) |
+| bosses | Demon of Hatred and Divine Dragon endings, deathblow camera | RustSekiro | FwLo | 2026-10-17 | [c37d068](https://github.com/FFwLo/RustSekiro/commit/c37d068) |
+| movement | Bodies stop each other instead of shoving, a push in the air stops the jump, deflect spam replays its blend | RustSekiro | FwLo | 2026-10-16 | [807d9d9](https://github.com/FFwLo/RustSekiro/commit/807d9d9) |
+| skills | Leaping kicks home onto the lock target, Mortal Draw effects spawn, tracers fade out, Flame Vent hold needs a fresh press | RustSekiro | FwLo | 2026-10-16 | [110efb7](https://github.com/FFwLo/RustSekiro/commit/110efb7) |
+| movement | Run stops no longer slide; debug menu movement tests (falls, grapple) | RustSekiro | FwLo | 2026-10-16 | [72e1eea](https://github.com/FFwLo/RustSekiro/commit/72e1eea) |
+| movement | Fall death from HitMtrlParam fallDeathDist with the safe-ground return; sprint deflect turns at the TAE rate instead of snapping | RustSekiro | FwLo | 2026-10-16 | [b367b0a](https://github.com/FFwLo/RustSekiro/commit/b367b0a) |
+| movement | Wolf movement checked against live recordings of the game (run, sprint, walk, jump, air kick, lock strafe) | RustSekiro | FwLo | 2026-10-16 | [c09b298](https://github.com/FFwLo/RustSekiro/commit/c09b298) |
+| tools | Live recorder of the real game (me3 hook DLL) with Python filters | RustSekiro | FwLo | 2026-10-16 | [a6d8d25](https://github.com/FFwLo/RustSekiro/commit/a6d8d25) |
+| bosses | Boss fidelity fixes (data, enemy, map, model, sound, arenas tool) | RustSekiro | FwLo | 2026-10-16 | [def0414](https://github.com/FFwLo/RustSekiro/commit/def0414) |
+| effects | FXR fidelity for combat arts and prosthetics | RustSekiro | FwLo | 2026-10-16 | [71595a1](https://github.com/FFwLo/RustSekiro/commit/71595a1) |
+| cloth | Cape and boss cloth tuning; 1/60 s steps and the exe's volume constraint (ff9326e) | RustSekiro | FwLo | 2026-10-16 | [4f91f3b](https://github.com/FFwLo/RustSekiro/commit/4f91f3b) |
+| ai | SpEffect watches fire only from the named character (the Headless Ape no longer backsteps all fight); main bosses' perilous attacks per minute checked against the all-bosses clip | RustSekiro | FwLo | 2026-10-15 | [3f14683](https://github.com/FFwLo/RustSekiro/commit/3f14683) |
+| bosses | Boss fixes, clash rows, blend-in root motion, HUD layout from the HUD movie, perf tools, encounter-swap crash fix | RustSekiro | FwLo | 2026-10-14 | [4a23edd](https://github.com/FFwLo/RustSekiro/commit/4a23edd) |
 | performance | Frame rate quick wins: main schedule 3.5-4 ms faster (cached draw-group selection, settled LOD skipped, change-only visibility/fog writes, exact idle interpolation, player-only step without an enemy) ([#70](https://github.com/AKJama/sekiro-rs/issues/70)) | sekiro-rs | Yama | 2026-10-17 | [2a82d6a](https://github.com/AKJama/sekiro-rs/commit/2a82d6a) |
 | movement | Wall jump (env 3020) and air ledge catch (env 3045) into the existing hang, foothold ledges, hang position and climb end from the clips, adapted from Fireguy32's RustSekiro PR 1 ([#16](https://github.com/AKJama/sekiro-rs/issues/16)) | sekiro-rs | Yama | 2026-10-17 | [8cdaea4](https://github.com/AKJama/sekiro-rs/commit/8cdaea4) |
 | camera | Wolf's camera keeps the game's 43 degree camFovY (the map plugin forced 60), and camera slots read their own LockCamParam rows ([#46](https://github.com/AKJama/sekiro-rs/issues/46)) | sekiro-rs | Yama | 2026-10-17 | [124131f](https://github.com/AKJama/sekiro-rs/commit/124131f) |
