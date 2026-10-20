@@ -41,10 +41,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (147)</summary>
+<summary>Done (148)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| combat | Wolf and every regular enemy run the game's own HKS scripts on their behaviour graphs live, by default (sekiro-rs's HKS VM and graph runtime, credited): the engine's answers to env, the exe's events for engine-started states, the graph leading where it differs; first hand-written picks deleted (jumps, jump arts, slide). Suite 698 / 0 | RustSekiro | FwLo | 2026-10-20 | [cccfd2d](https://github.com/FFwLo/RustSekiro/commit/cccfd2d) |
 | collision | Invisible block on the left of the approach to the Outskirts two-deathblow samurai: story-switched-off collision parts left out (#85) | sekiro-rs | Yama | 2026-10-19 | [8166af8](https://github.com/AKJama/sekiro-rs/commit/8166af8) |
 | rendering | VRAM on m11_00 from 9.5 GB to 7.4 GB (#98, thanks to FwLo's 10 GB OOM report): merged batch sources leave the GPU, shared meshes and textures, top-mip skip on cards under 16 GB or with `--vram-budget` | sekiro-rs | Yama | 2026-10-19 | [14d9c73](https://github.com/AKJama/sekiro-rs/commit/14d9c73) |
 | tools | Sekiro Mechanics Atlas: 838 mechanics in 21 categories checked against the game's data, with coverage for both repos and dependency links | RustSekiro | FwLo | 2026-10-19 | [f600230](https://github.com/FFwLo/RustSekiro/commit/f600230) |
