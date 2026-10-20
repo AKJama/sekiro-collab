@@ -35,7 +35,6 @@ Who's working on what right now, and what's done.
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
 | hks | Merge the HKS env answers and engine events into sekiro-rs from a fork ([#162](https://github.com/AKJama/sekiro-rs/issues/162)); may let us drop the #144 MoveDirection hold | sekiro-rs (fork) | FwLo | 2026-10-21 |
 | movement | Jumping into a ceiling pushes Wolf up into it ([#160](https://github.com/AKJama/sekiro-rs/issues/160), PR [#166](https://github.com/AKJama/sekiro-rs/pull/166)), stacked on #165 | sekiro-rs | Yama | 2026-10-21 |
-| perf | Frame rate halves standing against walls and jumping into ceilings ([#161](https://github.com/AKJama/sekiro-rs/issues/161)) | sekiro-rs | Yama | 2026-10-21 |
 | integration | Audit a native Wolf model in actual Elden Ring and define the RustSekiro in-process integration contract (local claim; push pending user approval) | RustSekiro / private ER workspace | Fireguy32 | 2026-10-18 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
@@ -43,10 +42,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (157)</summary>
+<summary>Done (158)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| perf | Wall and ceiling stalls: hook sight rays walk cells in their height band and stop early, slides drop far triangles, stored triangle boxes (#161, PR #165) | sekiro-rs | Yama | 2026-10-21 | [75a3acc](https://github.com/AKJama/sekiro-rs/commit/75a3acc) |
 | movement | Free movement never strafes: after a swing or a jump landing Wolf turns to the stick (#144) | sekiro-rs | Yama | 2026-10-21 | [f326dc0](https://github.com/AKJama/sekiro-rs/commit/f326dc0) |
 | perf | Sim step stalls in corners and deathblows: at most 3 catch-up steps a frame, slides test only the body band, indexed `live()`, a bounded pair search (#145, part of #156) | sekiro-rs | Yama | 2026-10-21 | [1739fd3](https://github.com/AKJama/sekiro-rs/commit/1739fd3) |
 | input | The game's default keys (Q crouch, middle mouse lock-on, Ctrl prosthetic, X / Z tabs, E OK, Q back), from Fireguy32's RustSekiro bindings (#29) | sekiro-rs | Yama | 2026-10-21 | [44c372f](https://github.com/AKJama/sekiro-rs/commit/44c372f) |
