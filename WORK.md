@@ -35,6 +35,7 @@ Who's working on what right now, and what's done.
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
 | movement | Wolf strafes after a swing or a jump landing ([#144](https://github.com/AKJama/sekiro-rs/issues/144)) | sekiro-rs | Yama | 2026-10-21 |
 | perf | Sim step stalls in corners and during deathblows ([#145](https://github.com/AKJama/sekiro-rs/issues/145), [#156](https://github.com/AKJama/sekiro-rs/issues/156)) | sekiro-rs | Yama | 2026-10-21 |
+| hks | Merge the HKS env answers and engine events into sekiro-rs from a fork ([#162](https://github.com/AKJama/sekiro-rs/issues/162)); may let us drop the #144 MoveDirection hold | sekiro-rs (fork) | FwLo | 2026-10-21 |
 | integration | Audit a native Wolf model in actual Elden Ring and define the RustSekiro in-process integration contract (local claim; push pending user approval) | RustSekiro / private ER workspace | Fireguy32 | 2026-10-18 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
