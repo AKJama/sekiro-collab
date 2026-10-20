@@ -34,7 +34,7 @@ Who's working on what right now, and what's done.
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
 | hks | Merge the HKS env answers and engine events into sekiro-rs from a fork ([#162](https://github.com/AKJama/sekiro-rs/issues/162)); may let us drop the #144 MoveDirection hold | sekiro-rs (fork) | FwLo | 2026-10-21 |
-| movement | Jumping into a ceiling pushes Wolf up into it ([#160](https://github.com/AKJama/sekiro-rs/issues/160)), stacked on #165 | sekiro-rs | Yama | 2026-10-21 |
+| movement | Jumping into a ceiling pushes Wolf up into it ([#160](https://github.com/AKJama/sekiro-rs/issues/160), PR [#166](https://github.com/AKJama/sekiro-rs/pull/166)), stacked on #165 | sekiro-rs | Yama | 2026-10-21 |
 | perf | Frame rate halves standing against walls and jumping into ceilings ([#161](https://github.com/AKJama/sekiro-rs/issues/161)) | sekiro-rs | Yama | 2026-10-21 |
 | integration | Audit a native Wolf model in actual Elden Ring and define the RustSekiro in-process integration contract (local claim; push pending user approval) | RustSekiro / private ER workspace | Fireguy32 | 2026-10-18 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
