@@ -31,7 +31,8 @@ Who's working on what right now, and what's done.
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
 | idols | Port RustSekiro's idol mechanics: skill XP and Sen from kills, then Travel and Acquire Skills ([#96](https://github.com/AKJama/sekiro-rs/issues/96), [#73](https://github.com/AKJama/sekiro-rs/issues/73), [PR #138](https://github.com/AKJama/sekiro-rs/pull/138)) | sekiro-rs | Yama | 2026-10-20 |
-| items | Map item pickups from MSB treasures and ItemLotParam, then enemy drops, porting Fireguy32's drops ([#136](https://github.com/AKJama/sekiro-rs/issues/136), [#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
+| items | Map item pickups from MSB treasures and ItemLotParam, then enemy drops, porting Fireguy32's drops ([#136](https://github.com/AKJama/sekiro-rs/issues/136), [#137](https://github.com/AKJama/sekiro-rs/issues/137), [PR #140](https://github.com/AKJama/sekiro-rs/pull/140)) | sekiro-rs | Yama | 2026-10-20 |
+| input | Default keyboard and mouse controls from Fireguy32's RustSekiro bindings ([#29](https://github.com/AKJama/sekiro-rs/issues/29)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
 | movement | Hold Wolf (and enemies, if the game does) at edges unless jumping or sprinting (#119, [PR #130](https://github.com/AKJama/sekiro-rs/pull/130)) | sekiro-rs | Yama | 2026-10-19 |
 | ui | Port RustSekiro's menus (framework, fonts, death / pause / options, in-game menu, idol rest) into sekiro-rs, credited to FwLo and Fireguy32 ([#131](https://github.com/AKJama/sekiro-rs/pull/131), [#133](https://github.com/AKJama/sekiro-rs/pull/133), [#135](https://github.com/AKJama/sekiro-rs/pull/135)) | sekiro-rs | Yama | 2026-10-19 |
