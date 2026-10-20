@@ -30,6 +30,8 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
+| loading | Owl fight on the Ashina Castle roof never finishes loading ([#38](https://github.com/AKJama/sekiro-rs/issues/38)) | sekiro-rs | Yama | 2026-10-20 |
+| performance | Frame rate falls to 7-10 fps while Wolf is pushed into a corner ([#121](https://github.com/AKJama/sekiro-rs/issues/121)) | sekiro-rs | Yama | 2026-10-20 |
 | movement | Hold Wolf (and enemies, if the game does) at edges unless jumping or sprinting (#119, [PR #130](https://github.com/AKJama/sekiro-rs/pull/130)) | sekiro-rs | Yama | 2026-10-19 |
 | ui | Port RustSekiro's menus (framework, fonts, death / pause / options, in-game menu, idol rest) into sekiro-rs, credited to FwLo and Fireguy32 ([#131](https://github.com/AKJama/sekiro-rs/pull/131), [#133](https://github.com/AKJama/sekiro-rs/pull/133), [#135](https://github.com/AKJama/sekiro-rs/pull/135)) | sekiro-rs | Yama | 2026-10-19 |
 | integration | Audit a native Wolf model in actual Elden Ring and define the RustSekiro in-process integration contract (local claim; push pending user approval) | RustSekiro / private ER workspace | Fireguy32 | 2026-10-18 |
