@@ -33,7 +33,6 @@ Who's working on what right now, and what's done.
 | idols | Idol mechanics left: Travel, Acquire Skills, rest effect and refills ([#148](https://github.com/AKJama/sekiro-rs/issues/148), [#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
-| movement | Wolf strafes after a swing or a jump landing ([#144](https://github.com/AKJama/sekiro-rs/issues/144)) | sekiro-rs | Yama | 2026-10-21 |
 | hks | Merge the HKS env answers and engine events into sekiro-rs from a fork ([#162](https://github.com/AKJama/sekiro-rs/issues/162)); may let us drop the #144 MoveDirection hold | sekiro-rs (fork) | FwLo | 2026-10-21 |
 | integration | Audit a native Wolf model in actual Elden Ring and define the RustSekiro in-process integration contract (local claim; push pending user approval) | RustSekiro / private ER workspace | Fireguy32 | 2026-10-18 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
@@ -42,10 +41,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (156)</summary>
+<summary>Done (157)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| movement | Free movement never strafes: after a swing or a jump landing Wolf turns to the stick (#144) | sekiro-rs | Yama | 2026-10-21 | [f326dc0](https://github.com/AKJama/sekiro-rs/commit/f326dc0) |
 | perf | Sim step stalls in corners and deathblows: at most 3 catch-up steps a frame, slides test only the body band, indexed `live()`, a bounded pair search (#145, part of #156) | sekiro-rs | Yama | 2026-10-21 | [1739fd3](https://github.com/AKJama/sekiro-rs/commit/1739fd3) |
 | input | The game's default keys (Q crouch, middle mouse lock-on, Ctrl prosthetic, X / Z tabs, E OK, Q back), from Fireguy32's RustSekiro bindings (#29) | sekiro-rs | Yama | 2026-10-21 | [44c372f](https://github.com/AKJama/sekiro-rs/commit/44c372f) |
 | items | Map item pickups: MSB treasures, ItemLotParam lots, the glint, the guide and taken flags, ported from Fireguy32's drops (#136) | sekiro-rs | Yama | 2026-10-21 | [afacc47](https://github.com/AKJama/sekiro-rs/commit/afacc47) |
