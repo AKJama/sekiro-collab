@@ -30,12 +30,11 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| idols | Port RustSekiro's idol mechanics: skill XP and Sen from kills, then Travel and Acquire Skills ([#96](https://github.com/AKJama/sekiro-rs/issues/96), [#73](https://github.com/AKJama/sekiro-rs/issues/73), [PR #138](https://github.com/AKJama/sekiro-rs/pull/138)) | sekiro-rs | Yama | 2026-10-20 |
-| items | Map item pickups from MSB treasures and ItemLotParam, then enemy drops, porting Fireguy32's drops ([#136](https://github.com/AKJama/sekiro-rs/issues/136), [#137](https://github.com/AKJama/sekiro-rs/issues/137), [PR #140](https://github.com/AKJama/sekiro-rs/pull/140)) | sekiro-rs | Yama | 2026-10-20 |
-| input | Default keyboard and mouse controls from Fireguy32's RustSekiro bindings ([#29](https://github.com/AKJama/sekiro-rs/issues/29)) | sekiro-rs | Yama | 2026-10-20 |
+| idols | Idol mechanics left: Travel, Acquire Skills, rest effect and refills ([#148](https://github.com/AKJama/sekiro-rs/issues/148), [#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
+| items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
-| movement | Hold Wolf (and enemies, if the game does) at edges unless jumping or sprinting (#119, [PR #130](https://github.com/AKJama/sekiro-rs/pull/130)) | sekiro-rs | Yama | 2026-10-19 |
-| ui | Port RustSekiro's menus (framework, fonts, death / pause / options, in-game menu, idol rest) into sekiro-rs, credited to FwLo and Fireguy32 ([#131](https://github.com/AKJama/sekiro-rs/pull/131), [#133](https://github.com/AKJama/sekiro-rs/pull/133), [#135](https://github.com/AKJama/sekiro-rs/pull/135)) | sekiro-rs | Yama | 2026-10-19 |
+| movement | Wolf strafes after a swing or a jump landing ([#144](https://github.com/AKJama/sekiro-rs/issues/144)) | sekiro-rs | Yama | 2026-10-21 |
+| perf | Sim step stalls in corners and during deathblows ([#145](https://github.com/AKJama/sekiro-rs/issues/145), [#156](https://github.com/AKJama/sekiro-rs/issues/156)) | sekiro-rs | Yama | 2026-10-21 |
 | integration | Audit a native Wolf model in actual Elden Ring and define the RustSekiro in-process integration contract (local claim; push pending user approval) | RustSekiro / private ER workspace | Fireguy32 | 2026-10-18 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
@@ -43,10 +42,17 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (148)</summary>
+<summary>Done (155)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| input | The game's default keys (Q crouch, middle mouse lock-on, Ctrl prosthetic, X / Z tabs, E OK, Q back), from Fireguy32's RustSekiro bindings (#29) | sekiro-rs | Yama | 2026-10-21 | [44c372f](https://github.com/AKJama/sekiro-rs/commit/44c372f) |
+| items | Map item pickups: MSB treasures, ItemLotParam lots, the glint, the guide and taken flags, ported from Fireguy32's drops (#136) | sekiro-rs | Yama | 2026-10-21 | [afacc47](https://github.com/AKJama/sekiro-rs/commit/afacc47) |
+| idols | Skill XP and Sen from kills, with the HUD gauge and reward panel (#96) | sekiro-rs | Yama | 2026-10-21 | [58575a5](https://github.com/AKJama/sekiro-rs/commit/58575a5) |
+| ui | In-game menu: Equipment, Inventory, Skills, from RustSekiro (#127) | sekiro-rs | Yama | 2026-10-21 | [8573139](https://github.com/AKJama/sekiro-rs/commit/8573139) |
+| idols | Sculptor's Idols: kneel, rest, checkpoint and the idol menu, from RustSekiro (#128) | sekiro-rs | Yama | 2026-10-21 | [925d849](https://github.com/AKJama/sekiro-rs/commit/925d849) |
+| ui | Game fonts and texts, and the death screen, from RustSekiro | sekiro-rs | Yama | 2026-10-21 | [a63d94a](https://github.com/AKJama/sekiro-rs/commit/a63d94a) |
+| movement | Hold Wolf on tree trunks and branches unless sprinting or jumping (SpEffect 4100 ride walls), building on FwLo's PR #33 (#119) | sekiro-rs | Yama | 2026-10-21 | [9d05881](https://github.com/AKJama/sekiro-rs/commit/9d05881) |
 | combat | Wolf and every regular enemy run the game's own HKS scripts on their behaviour graphs live, by default (sekiro-rs's HKS VM and graph runtime, credited): the engine's answers to env, the exe's events for engine-started states, the graph leading where it differs; first hand-written picks deleted (jumps, jump arts, slide). Suite 698 / 0 | RustSekiro | FwLo | 2026-10-20 | [cccfd2d](https://github.com/FFwLo/RustSekiro/commit/cccfd2d) |
 | collision | Invisible block on the left of the approach to the Outskirts two-deathblow samurai: story-switched-off collision parts left out (#85) | sekiro-rs | Yama | 2026-10-19 | [8166af8](https://github.com/AKJama/sekiro-rs/commit/8166af8) |
 | rendering | VRAM on m11_00 from 9.5 GB to 7.4 GB (#98, thanks to FwLo's 10 GB OOM report): merged batch sources leave the GPU, shared meshes and textures, top-mip skip on cards under 16 GB or with `--vram-budget` | sekiro-rs | Yama | 2026-10-19 | [14d9c73](https://github.com/AKJama/sekiro-rs/commit/14d9c73) |
