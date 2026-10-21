@@ -30,6 +30,7 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
+| movement | Running jump through the fence beside the gate ([#170](https://github.com/AKJama/sekiro-rs/issues/170)) | sekiro-rs | Yama | 2026-10-21 |
 | idols | Idol mechanics left: Travel, Acquire Skills, rest effect and refills ([#148](https://github.com/AKJama/sekiro-rs/issues/148), [#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
