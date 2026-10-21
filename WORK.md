@@ -30,6 +30,9 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
+| ui | In-game menu ignores mouse clicks; pouch items can't be used ([#151](https://github.com/AKJama/sekiro-rs/issues/151)) | sekiro-rs | Yama | 2026-10-21 |
+| ui | Picked-up items don't appear in the inventory ([#150](https://github.com/AKJama/sekiro-rs/issues/150)) | sekiro-rs | Yama | 2026-10-21 |
+| idols | Idol found banner on first light ([#152](https://github.com/AKJama/sekiro-rs/issues/152)) | sekiro-rs | Yama | 2026-10-21 |
 | movement | Ledge shimmy fails on the snake pit wall ([#147](https://github.com/AKJama/sekiro-rs/issues/147)) | sekiro-rs | Yama | 2026-10-21 |
 | movement | Broken-wall gap after the third idol blocks Wolf, investigating ([#146](https://github.com/AKJama/sekiro-rs/issues/146)) | sekiro-rs | Yama | 2026-10-21 |
 | movement | Running jump through the fence beside the gate ([#170](https://github.com/AKJama/sekiro-rs/issues/170)) | sekiro-rs | Yama | 2026-10-21 |
