@@ -46,10 +46,13 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (162)</summary>
+<summary>Done (165)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| tools | Replay of the real game's recordings against our sim: each recording's stick and buttons drive our Wolf and the HKS events both scripts fire are matched (a lock-on stand-in target, world-event stretches left out until both sides are back in step); 3903 of 4359 events match (89.5 %) | RustSekiro | FwLo | 2026-10-21 | [292655c](https://github.com/FFwLo/RustSekiro/commit/292655c) |
+| movement | Fixes from the replays: the move window a frame late as the exe, sprint walk-out stop, guard run-out restart, locked quick turn out of the run stop, a locked sprint away from the target keeps going, the run stop taken once, the tools' walk and stop | RustSekiro | FwLo | 2026-10-21 | [292655c](https://github.com/FFwLo/RustSekiro/commit/292655c) |
+| combat | The engine's answers from the script's own tables: standby states (env 1105), lasting SpEffects and residents (env 3036), the named aging env, clip times by layer (env 3063), the upper-action states. Suite 707 / 0 | RustSekiro | FwLo | 2026-10-21 | [292655c](https://github.com/FFwLo/RustSekiro/commit/292655c) |
 | ui | In-game menu takes mouse clicks on tabs, arrows, rows and Options, and a consumable quick item can be used (count only, no effect yet) (#151, PR #182) | sekiro-rs | Yama | 2026-10-21 | [14b7597](https://github.com/AKJama/sekiro-rs/commit/14b7597) |
 | movement | Cover shimmy and peek use the wall-facing left and right, so the shuffle and the peek match the move (#172, PR #174) | sekiro-rs | Yama | 2026-10-21 | [b2feadc](https://github.com/AKJama/sekiro-rs/commit/b2feadc) |
 | perf | Loading no longer sits at 80-85%: merges install in a few frames and the warmup moves the bar, 51.5 s to 44.1 s to play on m11_00 (#171, PR #173) | sekiro-rs | Yama | 2026-10-21 | [96a6c57](https://github.com/AKJama/sekiro-rs/commit/96a6c57) |
