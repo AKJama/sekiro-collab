@@ -30,7 +30,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| idols | Idol found banner on first light ([#152](https://github.com/AKJama/sekiro-rs/issues/152)) | sekiro-rs | Yama | 2026-10-21 |
 | movement | Ledge shimmy fails on the snake pit wall ([#147](https://github.com/AKJama/sekiro-rs/issues/147)) | sekiro-rs | Yama | 2026-10-21 |
 | movement | Broken-wall gap after the third idol blocks Wolf, investigating ([#146](https://github.com/AKJama/sekiro-rs/issues/146)) | sekiro-rs | Yama | 2026-10-21 |
 | movement | Running jump through the fence beside the gate ([#170](https://github.com/AKJama/sekiro-rs/issues/170)) | sekiro-rs | Yama | 2026-10-21 |
@@ -45,10 +44,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (166)</summary>
+<summary>Done (167)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| idols | "SCULPTOR'S IDOL FOUND" banner on first light, from the game's BonfireLit clip; Wolf held while it plays (#152, PR #183) | sekiro-rs | Yama | 2026-10-21 | [0d96634](https://github.com/AKJama/sekiro-rs/commit/0d96634) |
 | items | Picked-up goods over the carry limit go to the Storage, shown as "In Storage" in the inventory; Spirit Emblems counted (#150, PR #181) | sekiro-rs | Yama | 2026-10-21 | [e699d40](https://github.com/AKJama/sekiro-rs/commit/e699d40) |
 | tools | Replay of the real game's recordings against our sim: each recording's stick and buttons drive our Wolf and the HKS events both scripts fire are matched (a lock-on stand-in target, world-event stretches left out until both sides are back in step); 3903 of 4359 events match (89.5 %) | RustSekiro | FwLo | 2026-10-21 | [292655c](https://github.com/FFwLo/RustSekiro/commit/292655c) |
 | movement | Fixes from the replays: the move window a frame late as the exe, sprint walk-out stop, guard run-out restart, locked quick turn out of the run stop, a locked sprint away from the target keeps going, the run stop taken once, the tools' walk and stop | RustSekiro | FwLo | 2026-10-21 | [292655c](https://github.com/FFwLo/RustSekiro/commit/292655c) |
