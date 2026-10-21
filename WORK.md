@@ -30,7 +30,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| grapple | Grapple only targets points in view and marked, like the game ([#178](https://github.com/AKJama/sekiro-rs/issues/178)) | sekiro-rs | Yama | 2026-10-21 |
 | collision | Player collides with the low-res `l` collision meshes like the game (snake pit wall hug, [#189](https://github.com/AKJama/sekiro-rs/issues/189)) | sekiro-rs | Yama | 2026-10-21 |
 | idols | Idol mechanics left: Travel, Acquire Skills, rest effect and refills ([#148](https://github.com/AKJama/sekiro-rs/issues/148), [#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
@@ -43,10 +42,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (173)</summary>
+<summary>Done (174)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| grapple | Grapple only targets hooks the camera can see, using the game's view box, bands and soft lock; deterministic sim camera (#178, PR #198) | sekiro-rs | Yama | 2026-10-22 | [a7f95ed](https://github.com/AKJama/sekiro-rs/commit/a7f95ed) |
 | perf | Collision grid split by height; deathblow search 5x cheaper, less heap on every map (#163, PR #196) | sekiro-rs | Yama | 2026-10-21 | [3a7ff3f](https://github.com/AKJama/sekiro-rs/commit/3a7ff3f) |
 | items | Storage shows on the Equipment panel; Rest and death restock goods from it; gourd Uses reads n/max (#186, PR #195) | sekiro-rs | Yama | 2026-10-21 | [b3cc757](https://github.com/AKJama/sekiro-rs/commit/b3cc757) |
 | movement | Wolf held at cliff and roof edges by the game's fall-assist walls; a sprint goes over and a jump at the edge works (#149, #86, PR #194) | sekiro-rs | Yama | 2026-10-21 | [451a82c](https://github.com/AKJama/sekiro-rs/commit/451a82c) |
