@@ -30,6 +30,7 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
+| grapple | Grapple only targets points in view and marked, like the game ([#178](https://github.com/AKJama/sekiro-rs/issues/178)) | sekiro-rs | Yama | 2026-10-21 |
 | collision | Player collides with the low-res `l` collision meshes like the game (snake pit wall hug, [#189](https://github.com/AKJama/sekiro-rs/issues/189)) | sekiro-rs | Yama | 2026-10-21 |
 | idols | Idol mechanics left: Travel, Acquire Skills, rest effect and refills ([#148](https://github.com/AKJama/sekiro-rs/issues/148), [#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
