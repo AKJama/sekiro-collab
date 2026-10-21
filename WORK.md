@@ -32,7 +32,6 @@ Who's working on what right now, and what's done.
 |---|---|---|---|---|
 | perf | Collision grid split by height so dense spots stop slowing sim steps ([#163](https://github.com/AKJama/sekiro-rs/issues/163)) | sekiro-rs | Yama | 2026-10-21 |
 | collision | Player collides with the low-res `l` collision meshes like the game (snake pit wall hug, [#189](https://github.com/AKJama/sekiro-rs/issues/189)) | sekiro-rs | Yama | 2026-10-21 |
-| movement | Hold Wolf at cliff and building edges when walking, short hold then drop when sprinting ([#149](https://github.com/AKJama/sekiro-rs/issues/149), [#86](https://github.com/AKJama/sekiro-rs/issues/86)) | sekiro-rs | Yama | 2026-10-21 |
 | idols | Idol mechanics left: Travel, Acquire Skills, rest effect and refills ([#148](https://github.com/AKJama/sekiro-rs/issues/148), [#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
@@ -44,10 +43,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (170)</summary>
+<summary>Done (171)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| movement | Wolf held at cliff and roof edges by the game's fall-assist walls; a sprint goes over and a jump at the edge works (#149, #86, PR #194) | sekiro-rs | Yama | 2026-10-21 | [451a82c](https://github.com/AKJama/sekiro-rs/commit/451a82c) |
 | movement | Ledge shimmy and wall hug follow the whole edge chain, so the snake pit wall runs end to end (#147, PR #177) | sekiro-rs | Yama | 2026-10-21 | [4c66be0](https://github.com/AKJama/sekiro-rs/commit/4c66be0) |
 | movement | A jump against the gate fence no longer goes through it; rock lips no longer block jumps up walls (#170, PR #175) | sekiro-rs | Yama | 2026-10-21 | [c8a1742](https://github.com/AKJama/sekiro-rs/commit/c8a1742) |
 | movement | Wolf's map body is the game's 1.5 m capsule (FwLo's trace), so he fits through the broken wall past the third idol (#146, PR #190) | sekiro-rs | Yama | 2026-10-21 | [509815b](https://github.com/AKJama/sekiro-rs/commit/509815b) |
