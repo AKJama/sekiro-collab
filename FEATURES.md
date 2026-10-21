@@ -21,8 +21,8 @@ Keep your own column up to date, and be strict: a feature that works but doesn't
 | Movement | Lock-on strafing, kick-jump | ✅ | ✅ |
 | Movement | Sheathed walk and run | 🟡 | ✅ |
 | Movement | Grappling hook | ✅ arcs, air and chained | ✅ incl. enemy targets |
-| Movement | Ledge hang and climb | 🟡 | 🟡 hang, shimmy, outside and inside corners, climb, drop, air catch and ledge deathblows with the game's clips; placement reconstructed, tried on the parkour test map only |
-| Movement | Wall hug | ✅ | 🟡 hug, move, peek and hug deathblows with the game's clips; the peek camera is set by eye |
+| Movement | Ledge hang and climb | 🟡 | 🟡 hang, shimmy, outside and inside corners, climb, drop, air catch and ledge deathblows with the game's clips; shimmy follows bending ledges end to end (the m11_00 snake pit); placement reconstructed |
+| Movement | Wall hug | ✅ | 🟡 hug, move, peek and hug deathblows with the game's clips, along multi-piece walls; the peek camera is set by eye, and the snake pit hug stops by the ice ([#189](https://github.com/AKJama/sekiro-rs/issues/189)) |
 | Movement | Wall jumps | ? | 🟡 off a wall, out of a hug or a hang, once a flight as in the game; chained wall to wall only on the parkour test map |
 | Movement | 180 quick turns (standing, walking, running) | ? | 🟡 the game's clips; the walk turns' swing is reconstructed |
 | Movement | Swimming and diving | ✅ | 🟡 the game's swim, dive, jump, entry / exit, attack and item clips; no breath, swim deaths, underwater enemies or underwater look; the Construct's pool only |
