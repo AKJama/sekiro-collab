@@ -30,7 +30,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| ui | In-game menu ignores mouse clicks; pouch items can't be used ([#151](https://github.com/AKJama/sekiro-rs/issues/151)) | sekiro-rs | Yama | 2026-10-21 |
 | ui | Picked-up items don't appear in the inventory ([#150](https://github.com/AKJama/sekiro-rs/issues/150)) | sekiro-rs | Yama | 2026-10-21 |
 | idols | Idol found banner on first light ([#152](https://github.com/AKJama/sekiro-rs/issues/152)) | sekiro-rs | Yama | 2026-10-21 |
 | movement | Ledge shimmy fails on the snake pit wall ([#147](https://github.com/AKJama/sekiro-rs/issues/147)) | sekiro-rs | Yama | 2026-10-21 |
@@ -47,10 +46,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (161)</summary>
+<summary>Done (162)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| ui | In-game menu takes mouse clicks on tabs, arrows, rows and Options, and a consumable quick item can be used (count only, no effect yet) (#151, PR #182) | sekiro-rs | Yama | 2026-10-21 | [14b7597](https://github.com/AKJama/sekiro-rs/commit/14b7597) |
 | movement | Cover shimmy and peek use the wall-facing left and right, so the shuffle and the peek match the move (#172, PR #174) | sekiro-rs | Yama | 2026-10-21 | [b2feadc](https://github.com/AKJama/sekiro-rs/commit/b2feadc) |
 | perf | Loading no longer sits at 80-85%: merges install in a few frames and the warmup moves the bar, 51.5 s to 44.1 s to play on m11_00 (#171, PR #173) | sekiro-rs | Yama | 2026-10-21 | [96a6c57](https://github.com/AKJama/sekiro-rs/commit/96a6c57) |
 | movement | Ceiling stop: every upward move stops where the head meets a ceiling, so a jump no longer lands Wolf inside a roof (#160, PR #166) | sekiro-rs | Yama | 2026-10-21 | [716c172](https://github.com/AKJama/sekiro-rs/commit/716c172) |
