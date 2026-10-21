@@ -34,8 +34,6 @@ Who's working on what right now, and what's done.
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
 | hks | Merge the HKS env answers and engine events into sekiro-rs from a fork ([#162](https://github.com/AKJama/sekiro-rs/issues/162)); may let us drop the #144 MoveDirection hold | sekiro-rs (fork) | FwLo | 2026-10-21 |
-| perf | Loading stalls at 80-85% for a long time ([#171](https://github.com/AKJama/sekiro-rs/issues/171)) | sekiro-rs | Yama | 2026-10-21 |
-| movement | Wall-hug shimmy animates the wrong way ([#172](https://github.com/AKJama/sekiro-rs/issues/172)), queued after #171 | sekiro-rs | Yama | 2026-10-21 |
 | integration | Audit a native Wolf model in actual Elden Ring and define the RustSekiro in-process integration contract (local claim; push pending user approval) | RustSekiro / private ER workspace | Fireguy32 | 2026-10-18 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
 | rendering | Single-sample TAA at native resolution, to prove our motion vectors, depth and jitter before DLSS or FSR (see docs/UPSCALING.md) | sekiro-rs | Yama | 2026-10-13 |
@@ -43,10 +41,12 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (159)</summary>
+<summary>Done (161)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| movement | Cover shimmy and peek use the wall-facing left and right, so the shuffle and the peek match the move (#172, PR #174) | sekiro-rs | Yama | 2026-10-21 | [b2feadc](https://github.com/AKJama/sekiro-rs/commit/b2feadc) |
+| perf | Loading no longer sits at 80-85%: merges install in a few frames and the warmup moves the bar, 51.5 s to 44.1 s to play on m11_00 (#171, PR #173) | sekiro-rs | Yama | 2026-10-21 | [96a6c57](https://github.com/AKJama/sekiro-rs/commit/96a6c57) |
 | movement | Ceiling stop: every upward move stops where the head meets a ceiling, so a jump no longer lands Wolf inside a roof (#160, PR #166) | sekiro-rs | Yama | 2026-10-21 | [716c172](https://github.com/AKJama/sekiro-rs/commit/716c172) |
 | perf | Wall and ceiling stalls: hook sight rays walk cells in their height band and stop early, slides drop far triangles, stored triangle boxes (#161, PR #165) | sekiro-rs | Yama | 2026-10-21 | [75a3acc](https://github.com/AKJama/sekiro-rs/commit/75a3acc) |
 | movement | Free movement never strafes: after a swing or a jump landing Wolf turns to the stick (#144) | sekiro-rs | Yama | 2026-10-21 | [f326dc0](https://github.com/AKJama/sekiro-rs/commit/f326dc0) |
