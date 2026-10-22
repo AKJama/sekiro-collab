@@ -30,7 +30,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| enemies | Foes hear Wolf and grow cautious ([#218](https://github.com/AKJama/sekiro-rs/issues/218)) | sekiro-rs | Yama | 2026-10-22 |
 | enemies | Foes that fall off a ledge die like the game ([#234](https://github.com/AKJama/sekiro-rs/issues/234)) | sekiro-rs | Yama | 2026-10-22 |
 | tests | Grapple live test spawns on a floor again ([#231](https://github.com/AKJama/sekiro-rs/issues/231)) | sekiro-rs | Yama | 2026-10-22 |
 | tests | Castle open-floor deathblow test passes again ([#164](https://github.com/AKJama/sekiro-rs/issues/164)) | sekiro-rs | Yama | 2026-10-22 |
@@ -46,10 +45,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (196)</summary>
+<summary>Done (197)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| enemies | Map foes hear Wolf and search in caution, FwLo port (#218, PR #235) | sekiro-rs | Yama | 2026-10-22 | [1f8058a](https://github.com/AKJama/sekiro-rs/commit/1f8058a) |
 | enemies | Walking map foes keep to the navmesh and stop at drops (#227, PR #233) | sekiro-rs | Yama | 2026-10-22 | [766a077](https://github.com/AKJama/sekiro-rs/commit/766a077) |
 | mobility | Wire perch clears once Wolf leaves its footprint or fires again, FwLo's rule (#230, PR #232) | sekiro-rs | Yama | 2026-10-22 | [c2078a7](https://github.com/AKJama/sekiro-rs/commit/c2078a7) |
 | collision | Ground wrappers forward every query by default; wire perch keeps water, triggers and wall-hug floors (#169, PR #229) | sekiro-rs | Yama | 2026-10-22 | [93ea070](https://github.com/AKJama/sekiro-rs/commit/93ea070) |
