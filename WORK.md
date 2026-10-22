@@ -30,7 +30,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| movement | Wolf stays on the first tree trunk all round ([#155](https://github.com/AKJama/sekiro-rs/issues/155)) | sekiro-rs | Yama | 2026-10-22 |
 | fx | Falling snow stops under roofs ([#79](https://github.com/AKJama/sekiro-rs/issues/79)), waits on a real-game check of the Sculptor's hall | sekiro-rs | Yama | 2026-10-22 |
 | render | Drawn katana held at the game's angle ([#103](https://github.com/AKJama/sekiro-rs/issues/103)) | sekiro-rs | Yama | 2026-10-22 |
 | fx | Ground steam by the first gate drifts like the game ([#60](https://github.com/AKJama/sekiro-rs/issues/60)) | sekiro-rs | Yama | 2026-10-22 |
@@ -45,10 +44,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (207)</summary>
+<summary>Done (208)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| movement | Wolf rests on a round trunk's crown, first pine no longer leaks (#155, PR #247) | sekiro-rs | Yama | 2026-10-22 | [e7c7afa](https://github.com/AKJama/sekiro-rs/commit/e7c7afa) |
 | fx | Snow falls steadily: weather emitters thin evenly to fit the particle pool (#84, PR #246) | sekiro-rs | Yama | 2026-10-22 | [760cd86](https://github.com/AKJama/sekiro-rs/commit/760cd86) |
 | fx | FXR lights use their own falloff distance: item glint is a small glow, fires tighter (#141, PR #245) | sekiro-rs | Yama | 2026-10-22 | [7bdfd17](https://github.com/AKJama/sekiro-rs/commit/7bdfd17) |
 | lighting | --hour survives LightSet changes: no repro on main, regression test (#59, PR #244) | sekiro-rs | Yama | 2026-10-22 | [d7c9f29](https://github.com/AKJama/sekiro-rs/commit/d7c9f29) |
