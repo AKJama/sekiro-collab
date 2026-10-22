@@ -30,7 +30,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| perf | Castle roofs drop to about 30-46 fps, render-side bound ([#106](https://github.com/AKJama/sekiro-rs/issues/106)) | sekiro-rs | Yama | 2026-10-22 |
 | enemies | Map foes keep sight of Wolf at close range ([#216](https://github.com/AKJama/sekiro-rs/issues/216)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
