@@ -31,7 +31,6 @@ Who's working on what right now, and what's done.
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
 | movement | Wolf stays on the first tree trunk all round ([#155](https://github.com/AKJama/sekiro-rs/issues/155)) | sekiro-rs | Yama | 2026-10-22 |
-| fx | Item glint lights a small glow, not a bright pool ([#141](https://github.com/AKJama/sekiro-rs/issues/141)) | sekiro-rs | Yama | 2026-10-22 |
 | fx | Falling snow stops under roofs ([#79](https://github.com/AKJama/sekiro-rs/issues/79)), waits on a real-game check of the Sculptor's hall | sekiro-rs | Yama | 2026-10-22 |
 | render | Drawn katana held at the game's angle ([#103](https://github.com/AKJama/sekiro-rs/issues/103)) | sekiro-rs | Yama | 2026-10-22 |
 | fx | Steady snowfall around Wolf, no waves ([#84](https://github.com/AKJama/sekiro-rs/issues/84)) | sekiro-rs | Yama | 2026-10-22 |
@@ -46,10 +45,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (205)</summary>
+<summary>Done (206)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| fx | FXR lights use their own falloff distance: item glint is a small glow, fires tighter (#141, PR #245) | sekiro-rs | Yama | 2026-10-22 | [7bdfd17](https://github.com/AKJama/sekiro-rs/commit/7bdfd17) |
 | lighting | --hour survives LightSet changes: no repro on main, regression test (#59, PR #244) | sekiro-rs | Yama | 2026-10-22 | [d7c9f29](https://github.com/AKJama/sekiro-rs/commit/d7c9f29) |
 | enemies | Patrol MoveTo: strict arrival, the route steps once per point, FwLo trace (#114, PR #243) | sekiro-rs | Yama | 2026-10-22 | [a8d511f](https://github.com/AKJama/sekiro-rs/commit/a8d511f) |
 | perf | Wall-contact probe reads its cells once and pushes out only near triangles (#167, PR #241) | sekiro-rs | Yama | 2026-10-22 | [4bcbd84](https://github.com/AKJama/sekiro-rs/commit/4bcbd84) |
