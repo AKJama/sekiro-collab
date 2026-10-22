@@ -33,7 +33,6 @@ Who's working on what right now, and what's done.
 | movement | Wolf stays on the first tree trunk all round ([#155](https://github.com/AKJama/sekiro-rs/issues/155)) | sekiro-rs | Yama | 2026-10-22 |
 | fx | Falling snow stops under roofs ([#79](https://github.com/AKJama/sekiro-rs/issues/79)), waits on a real-game check of the Sculptor's hall | sekiro-rs | Yama | 2026-10-22 |
 | render | Drawn katana held at the game's angle ([#103](https://github.com/AKJama/sekiro-rs/issues/103)) | sekiro-rs | Yama | 2026-10-22 |
-| fx | Steady snowfall around Wolf, no waves ([#84](https://github.com/AKJama/sekiro-rs/issues/84)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
@@ -45,10 +44,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (206)</summary>
+<summary>Done (207)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| fx | Snow falls steadily: weather emitters thin evenly to fit the particle pool (#84, PR #246) | sekiro-rs | Yama | 2026-10-22 | [760cd86](https://github.com/AKJama/sekiro-rs/commit/760cd86) |
 | fx | FXR lights use their own falloff distance: item glint is a small glow, fires tighter (#141, PR #245) | sekiro-rs | Yama | 2026-10-22 | [7bdfd17](https://github.com/AKJama/sekiro-rs/commit/7bdfd17) |
 | lighting | --hour survives LightSet changes: no repro on main, regression test (#59, PR #244) | sekiro-rs | Yama | 2026-10-22 | [d7c9f29](https://github.com/AKJama/sekiro-rs/commit/d7c9f29) |
 | enemies | Patrol MoveTo: strict arrival, the route steps once per point, FwLo trace (#114, PR #243) | sekiro-rs | Yama | 2026-10-22 | [a8d511f](https://github.com/AKJama/sekiro-rs/commit/a8d511f) |
