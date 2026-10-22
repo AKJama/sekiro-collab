@@ -31,7 +31,8 @@ Who's working on what right now, and what's done.
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
 | collision | Head never enters geometry on jumps or wire flights: one capsule move ([#168](https://github.com/AKJama/sekiro-rs/issues/168)) | sekiro-rs | Yama | 2026-10-22 |
-| idols | Rest effect: blue burst and dark fade, world reset under the dark ([#153](https://github.com/AKJama/sekiro-rs/issues/153)) | sekiro-rs | Yama | 2026-10-22 |
+| enemies | Lost map foes walk back to their post ([#217](https://github.com/AKJama/sekiro-rs/issues/217)) | sekiro-rs | Yama | 2026-10-22 |
+| tools | `--script` stick follows the script's yaw ([#215](https://github.com/AKJama/sekiro-rs/issues/215)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
@@ -43,10 +44,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (188)</summary>
+<summary>Done (189)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| idols | Rest at an idol plays the idol's burst (FFX 1022) and a dark fade; world resets under the dark (#153, PR #222) | sekiro-rs | Yama | 2026-10-22 | [917fd6e](https://github.com/AKJama/sekiro-rs/commit/917fd6e) |
 | enemies | Map foes keep sight of Wolf at close range: perceive cone once targeted, ported from FwLo (#216, PR #221) | sekiro-rs | Yama | 2026-10-22 | [9cd130b](https://github.com/AKJama/sekiro-rs/commit/9cd130b) |
 | collision | Wedged body never pushed through a thin wall: order-independent least push, wedge slide, embedded escape (#176, PR #220) | sekiro-rs | Yama | 2026-10-22 | [72e9ad7](https://github.com/AKJama/sekiro-rs/commit/72e9ad7) |
 | enemies | Standing guards stay at their post (GetSmallActAnimId -1, Stay turn target); close-range sight loss, walk home and hearing filed (#115, PR #219) | sekiro-rs | Yama | 2026-10-22 | [c90cb73](https://github.com/AKJama/sekiro-rs/commit/c90cb73) |
