@@ -32,7 +32,6 @@ Who's working on what right now, and what's done.
 |---|---|---|---|---|
 | fx | Falling snow stops under roofs ([#79](https://github.com/AKJama/sekiro-rs/issues/79)), waits on a real-game check of the Sculptor's hall | sekiro-rs | Yama | 2026-10-22 |
 | render | Floating rock fragment in the gully ([#31](https://github.com/AKJama/sekiro-rs/issues/31)), waits for the user's exact view | sekiro-rs | Yama | 2026-10-22 |
-| idols | First rest finds an idol in any order ([#262](https://github.com/AKJama/sekiro-rs/issues/262)) | sekiro-rs | Yama | 2026-10-22 |
 | fx | Ground fire smoke rises instead of spreading sideways ([#264](https://github.com/AKJama/sekiro-rs/issues/264)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
@@ -45,10 +44,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (218)</summary>
+<summary>Done (219)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| idols | First real kneel finds an idol in any order (#262, PR #267) | sekiro-rs | Yama | 2026-10-22 | [b05405a](https://github.com/AKJama/sekiro-rs/commit/b05405a) |
 | collision | Hooks on story-switched-off objects are not offered (#261, PR #265) | sekiro-rs | Yama | 2026-10-22 | [efdf495](https://github.com/AKJama/sekiro-rs/commit/efdf495) |
 | collision | Arenas and the grapple wire collide with placed objects (#18, PR #259) | sekiro-rs | Yama | 2026-10-22 | [dac5988](https://github.com/AKJama/sekiro-rs/commit/dac5988) |
 | lighting | Post effects refresh when only the scene overlay changes (#42, PR #258) | sekiro-rs | Yama | 2026-10-22 | [c25a6b7](https://github.com/AKJama/sekiro-rs/commit/c25a6b7) |
