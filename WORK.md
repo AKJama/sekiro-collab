@@ -32,7 +32,6 @@ Who's working on what right now, and what's done.
 |---|---|---|---|---|
 | enemies | Map patrols walk their full route, not a short back-and-forth ([#116](https://github.com/AKJama/sekiro-rs/issues/116)) | sekiro-rs | Yama | 2026-10-22 |
 | collision | Wedged Wolf never pushed through a thin wall ([#176](https://github.com/AKJama/sekiro-rs/issues/176)) | sekiro-rs | Yama | 2026-10-22 |
-| items | Rest refills full-supply goods without Storage, e.g. Five-color Rice ([#208](https://github.com/AKJama/sekiro-rs/issues/208)) | sekiro-rs | Yama | 2026-10-22 |
 | perf | Outskirts fence corner drops to 7-10 fps, GPU-bound ([#121](https://github.com/AKJama/sekiro-rs/issues/121)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
@@ -45,10 +44,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (182)</summary>
+<summary>Done (183)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| items | Rest refills full-supply goods (Five-color Rice, prevention goods) to their limit, from FwLo's refill_rested (#208, PR #212) | sekiro-rs | Yama | 2026-10-22 | [89ef54d](https://github.com/AKJama/sekiro-rs/commit/89ef54d) |
 | perf | Castle start holds 60 fps: about 5 ms of per-frame main-thread work cut (mesh rescans, wireframe check, LOD walk) (#70, PR #211) | sekiro-rs | Yama | 2026-10-22 | [6bfbc9c](https://github.com/AKJama/sekiro-rs/commit/6bfbc9c) |
 | collision | Fall-assist bands hold attacks, not walks, like the exe: no invisible wall on flat ground (#203, PR #210) | sekiro-rs | Yama | 2026-10-22 | [87f7bff](https://github.com/AKJama/sekiro-rs/commit/87f7bff) |
 | items | Rest restock checked: no Pellet loss (menu OK uses one); Rest logs what it restocked (#202, PR #209) | sekiro-rs | Yama | 2026-10-22 | [9344e06](https://github.com/AKJama/sekiro-rs/commit/9344e06) |
