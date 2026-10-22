@@ -31,7 +31,6 @@ Who's working on what right now, and what's done.
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
 | render | Floating rock fragment in the gully ([#31](https://github.com/AKJama/sekiro-rs/issues/31)), waits for the user's exact view | sekiro-rs | Yama | 2026-10-22 |
-| idols | Kneel at an idol from a walk ([#266](https://github.com/AKJama/sekiro-rs/issues/266)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
@@ -43,10 +42,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (227)</summary>
+<summary>Done (228)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| idols | Kneel at an idol from a walk, run or quick turn (#266, PR #275) | sekiro-rs | Yama | 2026-10-23 | [f20e9e7](https://github.com/AKJama/sekiro-rs/commit/f20e9e7) |
 | fx | Ground fire smoke is grey: FXR levels of detail draw one level (#268, PR #274) | sekiro-rs | Yama | 2026-10-23 | [1252c05](https://github.com/AKJama/sekiro-rs/commit/1252c05) |
 | traversal | Ledge hang: shimmy runs its loop (the script's docking stop reads DockingStickAngle / Selector_DockingMoveDir), climb plays out, wall side from the collision; cloth no longer restarts in long falls; lock-on needs sight (camera ray, hidden target let go after 2 s); Retry respawns at the start idol | RustSekiro | FwLo | 2026-10-23 | [c3093ed](https://github.com/FFwLo/RustSekiro/commit/c3093ed) |
 | integration | Fork rustsekiro-combat on sekiro-rs main 2468571; `--rustsekiro` grapple aimed through the play world's collision (Wire::load, #259); fork main merged too (ba9169e) | sekiro-rs fork | FwLo | 2026-10-23 | [6ae273a](https://github.com/FFwLo/sekiro-rs/commit/6ae273a) |
