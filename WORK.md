@@ -31,7 +31,6 @@ Who's working on what right now, and what's done.
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
 | perf | Wall-jump contact probe gathers triangles once ([#167](https://github.com/AKJama/sekiro-rs/issues/167)) | sekiro-rs | Yama | 2026-10-22 |
-| tests | Find extracted data through cache::root everywhere ([#180](https://github.com/AKJama/sekiro-rs/issues/180)) | sekiro-rs | Yama | 2026-10-22 |
 | enemies | Patrol MoveTo: one arrival rule, advance only through StepNextMovePoint ([#114](https://github.com/AKJama/sekiro-rs/issues/114)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
@@ -44,10 +43,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (201)</summary>
+<summary>Done (202)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| tests | Extracted data found through cache::root everywhere (#180, PR #240) | sekiro-rs | Yama | 2026-10-22 | [1c588df](https://github.com/AKJama/sekiro-rs/commit/1c588df) |
 | idols | A lit idol shows its flame above the hands, not the unlit embers (#154, PR #239) | sekiro-rs | Yama | 2026-10-22 | [5b518cd](https://github.com/AKJama/sekiro-rs/commit/5b518cd) |
 | enemies | Foes that fall into death walls or fall too long die (#234, PR #238) | sekiro-rs | Yama | 2026-10-22 | [f1782cf](https://github.com/AKJama/sekiro-rs/commit/f1782cf) |
 | tests | Grapple live check spawns on a floor; a floorless start fails at once (#231, PR #237) | sekiro-rs | Yama | 2026-10-22 | [15f3fd4](https://github.com/AKJama/sekiro-rs/commit/15f3fd4) |
