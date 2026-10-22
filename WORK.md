@@ -31,7 +31,6 @@ Who's working on what right now, and what's done.
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
 | collision | Wedged Wolf never pushed through a thin wall ([#176](https://github.com/AKJama/sekiro-rs/issues/176)) | sekiro-rs | Yama | 2026-10-22 |
-| perf | Outskirts fence corner drops to 7-10 fps, GPU-bound ([#121](https://github.com/AKJama/sekiro-rs/issues/121)) | sekiro-rs | Yama | 2026-10-22 |
 | enemies | Map foes that stand still instead of idling, patrolling or reacting ([#115](https://github.com/AKJama/sekiro-rs/issues/115)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
@@ -44,10 +43,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (184)</summary>
+<summary>Done (185)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| perf | Fence-corner frame drop confirmed fixed by #159 and #161 (3.5 to 60 fps); step-cost guard added (#121, PR #214) | sekiro-rs | Yama | 2026-10-22 | [46b5f85](https://github.com/AKJama/sekiro-rs/commit/46b5f85) |
 | enemies | Patrolling foes walk their route and wait at its points: AI goal params as floats, GetLastResult per slot (#116, PR #213) | sekiro-rs | Yama | 2026-10-22 | [b3a7f6e](https://github.com/AKJama/sekiro-rs/commit/b3a7f6e) |
 | items | Rest refills full-supply goods (Five-color Rice, prevention goods) to their limit, from FwLo's refill_rested (#208, PR #212) | sekiro-rs | Yama | 2026-10-22 | [89ef54d](https://github.com/AKJama/sekiro-rs/commit/89ef54d) |
 | perf | Castle start holds 60 fps: about 5 ms of per-frame main-thread work cut (mesh rescans, wireframe check, LOD walk) (#70, PR #211) | sekiro-rs | Yama | 2026-10-22 | [6bfbc9c](https://github.com/AKJama/sekiro-rs/commit/6bfbc9c) |
