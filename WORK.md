@@ -30,7 +30,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| enemies | Patrol MoveTo: one arrival rule, advance only through StepNextMovePoint ([#114](https://github.com/AKJama/sekiro-rs/issues/114)) | sekiro-rs | Yama | 2026-10-22 |
 | movement | Wolf stays on the first tree trunk all round ([#155](https://github.com/AKJama/sekiro-rs/issues/155)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
@@ -43,10 +42,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (203)</summary>
+<summary>Done (204)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| enemies | Patrol MoveTo: strict arrival, the route steps once per point, FwLo trace (#114, PR #243) | sekiro-rs | Yama | 2026-10-22 | [a8d511f](https://github.com/AKJama/sekiro-rs/commit/a8d511f) |
 | perf | Wall-contact probe reads its cells once and pushes out only near triangles (#167, PR #241) | sekiro-rs | Yama | 2026-10-22 | [4bcbd84](https://github.com/AKJama/sekiro-rs/commit/4bcbd84) |
 | tests | Extracted data found through cache::root everywhere (#180, PR #240) | sekiro-rs | Yama | 2026-10-22 | [1c588df](https://github.com/AKJama/sekiro-rs/commit/1c588df) |
 | idols | A lit idol shows its flame above the hands, not the unlit embers (#154, PR #239) | sekiro-rs | Yama | 2026-10-22 | [5b518cd](https://github.com/AKJama/sekiro-rs/commit/5b518cd) |
