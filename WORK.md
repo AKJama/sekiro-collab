@@ -30,7 +30,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| enemies | Foes that fall off a ledge die like the game ([#234](https://github.com/AKJama/sekiro-rs/issues/234)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol flame above the hands at every idol ([#154](https://github.com/AKJama/sekiro-rs/issues/154)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
@@ -43,10 +42,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (199)</summary>
+<summary>Done (200)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| enemies | Foes that fall into death walls or fall too long die (#234, PR #238) | sekiro-rs | Yama | 2026-10-22 | [f1782cf](https://github.com/AKJama/sekiro-rs/commit/f1782cf) |
 | tests | Grapple live check spawns on a floor; a floorless start fails at once (#231, PR #237) | sekiro-rs | Yama | 2026-10-22 | [15f3fd4](https://github.com/AKJama/sekiro-rs/commit/15f3fd4) |
 | tests | Castle open-floor deathblow test re-recorded after the movement port (#164, PR #236) | sekiro-rs | Yama | 2026-10-22 | [6aa5c34](https://github.com/AKJama/sekiro-rs/commit/6aa5c34) |
 | enemies | Map foes hear Wolf and search in caution, FwLo port (#218, PR #235) | sekiro-rs | Yama | 2026-10-22 | [1f8058a](https://github.com/AKJama/sekiro-rs/commit/1f8058a) |
