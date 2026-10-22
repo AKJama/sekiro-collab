@@ -30,7 +30,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| mobility | Wire perch floor cleared once Wolf leaves it ([#230](https://github.com/AKJama/sekiro-rs/issues/230)) | sekiro-rs | Yama | 2026-10-22 |
 | enemies | Chasing foes never fall out of the map ([#227](https://github.com/AKJama/sekiro-rs/issues/227)) | sekiro-rs | Yama | 2026-10-22 |
 | enemies | Foes hear Wolf and grow cautious ([#218](https://github.com/AKJama/sekiro-rs/issues/218)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
@@ -44,10 +43,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (194)</summary>
+<summary>Done (195)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| mobility | Wire perch clears once Wolf leaves its footprint or fires again, FwLo's rule (#230, PR #232) | sekiro-rs | Yama | 2026-10-22 | [c2078a7](https://github.com/AKJama/sekiro-rs/commit/c2078a7) |
 | collision | Ground wrappers forward every query by default; wire perch keeps water, triggers and wall-hug floors (#169, PR #229) | sekiro-rs | Yama | 2026-10-22 | [93ea070](https://github.com/AKJama/sekiro-rs/commit/93ea070) |
 | idols | Unlit idols prompt 'Commune with Sculptor's Idol', lit ones 'Rest' (#187, PR #228) | sekiro-rs | Yama | 2026-10-22 | [297e85d](https://github.com/AKJama/sekiro-rs/commit/297e85d) |
 | enemies | Lost map foes walk back to their post: traced GetMovePointEffectRange, BackToHome goal (#217, PR #226) | sekiro-rs | Yama | 2026-10-22 | [71f7ab8](https://github.com/AKJama/sekiro-rs/commit/71f7ab8) |
