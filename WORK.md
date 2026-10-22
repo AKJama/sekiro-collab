@@ -30,7 +30,7 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| idols | Idol mechanics left: Travel, Acquire Skills, rest effect and refills ([#148](https://github.com/AKJama/sekiro-rs/issues/148), [#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
+| idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
 | hks | Merge the HKS env answers and engine events into sekiro-rs from a fork ([#162](https://github.com/AKJama/sekiro-rs/issues/162)); may let us drop the #144 MoveDirection hold | sekiro-rs (fork) | FwLo | 2026-10-21 |
@@ -41,10 +41,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (175)</summary>
+<summary>Done (176)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| idols | Travel between Sculptor's Idols: found-idol list by area, warp points, same-map reset and cross-map relaunch with the kit (#148, PR #200) | sekiro-rs | Yama | 2026-10-22 | [e821bfd](https://github.com/AKJama/sekiro-rs/commit/e821bfd) |
 | collision | Characters walk on the l collision mesh like the game; swim hits are the only water; snake pit hug reaches the end (#189, PR #199) | sekiro-rs | Yama | 2026-10-22 | [2ca829f](https://github.com/AKJama/sekiro-rs/commit/2ca829f) |
 | grapple | Grapple only targets hooks the camera can see, using the game's view box, bands and soft lock; deterministic sim camera (#178, PR #198) | sekiro-rs | Yama | 2026-10-22 | [a7f95ed](https://github.com/AKJama/sekiro-rs/commit/a7f95ed) |
 | perf | Collision grid split by height; deathblow search 5x cheaper, less heap on every map (#163, PR #196) | sekiro-rs | Yama | 2026-10-21 | [3a7ff3f](https://github.com/AKJama/sekiro-rs/commit/3a7ff3f) |
