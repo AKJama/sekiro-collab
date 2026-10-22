@@ -31,7 +31,6 @@ Who's working on what right now, and what's done.
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
 | enemies | Lost map foes walk back to their post ([#217](https://github.com/AKJama/sekiro-rs/issues/217)) | sekiro-rs | Yama | 2026-10-22 |
-| tools | `--script` stick follows the script's yaw ([#215](https://github.com/AKJama/sekiro-rs/issues/215)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
@@ -43,10 +42,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (190)</summary>
+<summary>Done (191)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| tools | `--script` rows and routes share one stick conversion; yaw convention documented, no bug (#215, PR #225) | sekiro-rs | Yama | 2026-10-22 | [7ea5453](https://github.com/AKJama/sekiro-rs/commit/7ea5453) |
 | collision | Head stays out of off-centre beams, wire-flight overhangs and roof undersides (#168, PR #223) | sekiro-rs | Yama | 2026-10-22 | [70949f8](https://github.com/AKJama/sekiro-rs/commit/70949f8) |
 | idols | Rest at an idol plays the idol's burst (FFX 1022) and a dark fade; world resets under the dark (#153, PR #222) | sekiro-rs | Yama | 2026-10-22 | [917fd6e](https://github.com/AKJama/sekiro-rs/commit/917fd6e) |
 | enemies | Map foes keep sight of Wolf at close range: perceive cone once targeted, ported from FwLo (#216, PR #221) | sekiro-rs | Yama | 2026-10-22 | [9cd130b](https://github.com/AKJama/sekiro-rs/commit/9cd130b) |
