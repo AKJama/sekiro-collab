@@ -31,7 +31,6 @@ Who's working on what right now, and what's done.
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
 | fx | Falling snow stops under roofs ([#79](https://github.com/AKJama/sekiro-rs/issues/79)), waits on a real-game check of the Sculptor's hall | sekiro-rs | Yama | 2026-10-22 |
-| fx | Ground steam by the first gate drifts like the game ([#60](https://github.com/AKJama/sekiro-rs/issues/60)) | sekiro-rs | Yama | 2026-10-22 |
 | movement | Wolf walks stairs smoothly ([#104](https://github.com/AKJama/sekiro-rs/issues/104)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
@@ -44,10 +43,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (209)</summary>
+<summary>Done (210)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| fx | FXR InitialDirection 6 is local +Z: blowing snow and mist drift sideways, FwLo enum (#60, PR #249) | sekiro-rs | Yama | 2026-10-22 | [6ec5167](https://github.com/AKJama/sekiro-rs/commit/6ec5167) |
 | render | Katana held on its WepAbsorpPosParam dummy, curve up, FwLo rule (#103, PR #248) | sekiro-rs | Yama | 2026-10-22 | [1e452fe](https://github.com/AKJama/sekiro-rs/commit/1e452fe) |
 | movement | Wolf rests on a round trunk's crown, first pine no longer leaks (#155, PR #247) | sekiro-rs | Yama | 2026-10-22 | [e7c7afa](https://github.com/AKJama/sekiro-rs/commit/e7c7afa) |
 | fx | Snow falls steadily: weather emitters thin evenly to fit the particle pool (#84, PR #246) | sekiro-rs | Yama | 2026-10-22 | [760cd86](https://github.com/AKJama/sekiro-rs/commit/760cd86) |
