@@ -30,7 +30,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| enemies | Lost map foes walk back to their post ([#217](https://github.com/AKJama/sekiro-rs/issues/217)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Unlit idols prompt 'Commune with Sculptor's Idol' ([#187](https://github.com/AKJama/sekiro-rs/issues/187)) | sekiro-rs | Yama | 2026-10-22 |
 | collision | Wire perch ground forwards water and trigger queries ([#169](https://github.com/AKJama/sekiro-rs/issues/169)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
@@ -44,10 +43,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (191)</summary>
+<summary>Done (192)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| enemies | Lost map foes walk back to their post: traced GetMovePointEffectRange, BackToHome goal (#217, PR #226) | sekiro-rs | Yama | 2026-10-22 | [71f7ab8](https://github.com/AKJama/sekiro-rs/commit/71f7ab8) |
 | tools | `--script` rows and routes share one stick conversion; yaw convention documented, no bug (#215, PR #225) | sekiro-rs | Yama | 2026-10-22 | [7ea5453](https://github.com/AKJama/sekiro-rs/commit/7ea5453) |
 | collision | Head stays out of off-centre beams, wire-flight overhangs and roof undersides (#168, PR #223) | sekiro-rs | Yama | 2026-10-22 | [70949f8](https://github.com/AKJama/sekiro-rs/commit/70949f8) |
 | idols | Rest at an idol plays the idol's burst (FFX 1022) and a dark fade; world resets under the dark (#153, PR #222) | sekiro-rs | Yama | 2026-10-22 | [917fd6e](https://github.com/AKJama/sekiro-rs/commit/917fd6e) |
