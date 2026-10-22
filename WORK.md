@@ -31,6 +31,8 @@ Who's working on what right now, and what's done.
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
 | perf | Wall-jump contact probe gathers triangles once ([#167](https://github.com/AKJama/sekiro-rs/issues/167)) | sekiro-rs | Yama | 2026-10-22 |
+| tests | Find extracted data through cache::root everywhere ([#180](https://github.com/AKJama/sekiro-rs/issues/180)) | sekiro-rs | Yama | 2026-10-22 |
+| perf | Fog surface materials written only when changed ([#44](https://github.com/AKJama/sekiro-rs/issues/44)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
