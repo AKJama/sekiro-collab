@@ -32,7 +32,6 @@ Who's working on what right now, and what's done.
 |---|---|---|---|---|
 | fx | Falling snow stops under roofs ([#79](https://github.com/AKJama/sekiro-rs/issues/79)), waits on a real-game check of the Sculptor's hall | sekiro-rs | Yama | 2026-10-22 |
 | render | Floating rock fragment in the gully ([#31](https://github.com/AKJama/sekiro-rs/issues/31)), waits for the user's exact view | sekiro-rs | Yama | 2026-10-22 |
-| fx | Fog wall fills only the door opening ([#78](https://github.com/AKJama/sekiro-rs/issues/78)), needs the soft-sprite pull traced in the exe | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
@@ -44,10 +43,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (213)</summary>
+<summary>Done (214)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| fx | Soft sprites pull by the exe's rule; Genichiro fog wall stays in the door (#78, PR #256) | sekiro-rs | Yama | 2026-10-22 | [91ea6d3](https://github.com/AKJama/sekiro-rs/commit/91ea6d3) |
 | fx | Unlit idol embers stay at the idol: FXR node accelerations integrated (#250, PR #254) | sekiro-rs | Yama | 2026-10-22 | [9c89a68](https://github.com/AKJama/sekiro-rs/commit/9c89a68) |
 | lighting | Sun shadow cascades follow light-file and hour changes (#65, PR #253) | sekiro-rs | Yama | 2026-10-22 | [c02c5c9](https://github.com/AKJama/sekiro-rs/commit/c02c5c9) |
 | movement | Stairs smooth on the l collision since #189, regression test (#104, PR #251) | sekiro-rs | Yama | 2026-10-22 | [ce6923c](https://github.com/AKJama/sekiro-rs/commit/ce6923c) |
