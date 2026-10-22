@@ -32,7 +32,6 @@ Who's working on what right now, and what's done.
 |---|---|---|---|---|
 | fx | Falling snow stops under roofs ([#79](https://github.com/AKJama/sekiro-rs/issues/79)), waits on a real-game check of the Sculptor's hall | sekiro-rs | Yama | 2026-10-22 |
 | render | Floating rock fragment in the gully ([#31](https://github.com/AKJama/sekiro-rs/issues/31)), waits for the user's exact view | sekiro-rs | Yama | 2026-10-22 |
-| extract | Character and parts meshes bound to their normal-W nodes ([#11](https://github.com/AKJama/sekiro-rs/issues/11)) | sekiro-rs | Yama | 2026-10-22 |
 | lighting | Overlay-only collision changes refresh tone map, bloom and LUT ([#42](https://github.com/AKJama/sekiro-rs/issues/42)) | sekiro-rs | Yama | 2026-10-22 |
 | collision | Arenas and the grapple wire collide with objects ([#18](https://github.com/AKJama/sekiro-rs/issues/18)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
@@ -46,10 +45,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (214)</summary>
+<summary>Done (215)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| extract | Character and parts meshes bound to their normal-W nodes (#11, PR #257) | sekiro-rs | Yama | 2026-10-22 | [a3f4224](https://github.com/AKJama/sekiro-rs/commit/a3f4224) |
 | fx | Soft sprites pull by the exe's rule; Genichiro fog wall stays in the door (#78, PR #256) | sekiro-rs | Yama | 2026-10-22 | [91ea6d3](https://github.com/AKJama/sekiro-rs/commit/91ea6d3) |
 | fx | Unlit idol embers stay at the idol: FXR node accelerations integrated (#250, PR #254) | sekiro-rs | Yama | 2026-10-22 | [9c89a68](https://github.com/AKJama/sekiro-rs/commit/9c89a68) |
 | lighting | Sun shadow cascades follow light-file and hour changes (#65, PR #253) | sekiro-rs | Yama | 2026-10-22 | [c02c5c9](https://github.com/AKJama/sekiro-rs/commit/c02c5c9) |
