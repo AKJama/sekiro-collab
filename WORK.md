@@ -31,7 +31,6 @@ Who's working on what right now, and what's done.
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
 | perf | Castle fps with the GPU half used ([#70](https://github.com/AKJama/sekiro-rs/issues/70)) | sekiro-rs | Yama | 2026-10-22 |
-| items | Rest restock and pellet storage counts ([#202](https://github.com/AKJama/sekiro-rs/issues/202)) | sekiro-rs | Yama | 2026-10-22 |
 | collision | Edge hold blocks walking on flat ground ([#203](https://github.com/AKJama/sekiro-rs/issues/203)) | sekiro-rs | Yama | 2026-10-22 |
 | enemies | Map patrols walk their full route, not a short back-and-forth ([#116](https://github.com/AKJama/sekiro-rs/issues/116)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
@@ -45,10 +44,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (179)</summary>
+<summary>Done (180)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| items | Rest restock checked: no Pellet loss (menu OK uses one); Rest logs what it restocked (#202, PR #209) | sekiro-rs | Yama | 2026-10-22 | [9344e06](https://github.com/AKJama/sekiro-rs/commit/9344e06) |
 | play | `--play` without `--map` starts the flat-floor fight again; map-only placement flags fail clearly (#139, PR #207) | sekiro-rs | Yama | 2026-10-22 | [2bf76dd](https://github.com/AKJama/sekiro-rs/commit/2bf76dd) |
 | combat | Guard breaks count as posture breaks in the hit report, so the brain and tests see them (#192, PR #206) | sekiro-rs | Yama | 2026-10-22 | [1388ed0](https://github.com/AKJama/sekiro-rs/commit/1388ed0) |
 | ci | Issue link check passes on PRs merged before it runs, no more failure emails on fast merges (#204, PR #205) | sekiro-rs | Yama | 2026-10-22 | [1bb3370](https://github.com/AKJama/sekiro-rs/commit/1bb3370) |
