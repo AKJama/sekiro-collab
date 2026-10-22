@@ -31,6 +31,8 @@ Who's working on what right now, and what's done.
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
 | enemies | Lost map foes walk back to their post ([#217](https://github.com/AKJama/sekiro-rs/issues/217)) | sekiro-rs | Yama | 2026-10-22 |
+| idols | Unlit idols prompt 'Commune with Sculptor's Idol' ([#187](https://github.com/AKJama/sekiro-rs/issues/187)) | sekiro-rs | Yama | 2026-10-22 |
+| collision | Wire perch ground forwards water and trigger queries ([#169](https://github.com/AKJama/sekiro-rs/issues/169)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
