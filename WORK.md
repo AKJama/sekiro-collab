@@ -31,7 +31,7 @@ Who's working on what right now, and what's done.
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
 | fx | Falling snow stops under roofs ([#79](https://github.com/AKJama/sekiro-rs/issues/79)), waits on a real-game check of the Sculptor's hall | sekiro-rs | Yama | 2026-10-22 |
-| render | Floating rock fragment in the gully ([#31](https://github.com/AKJama/sekiro-rs/issues/31)) | sekiro-rs | Yama | 2026-10-22 |
+| render | Floating rock fragment in the gully ([#31](https://github.com/AKJama/sekiro-rs/issues/31)), waits for the user's exact view | sekiro-rs | Yama | 2026-10-22 |
 | fx | Fog wall fills only the door opening ([#78](https://github.com/AKJama/sekiro-rs/issues/78)) | sekiro-rs | Yama | 2026-10-22 |
 | lighting | Sun cascades follow light-file changes ([#65](https://github.com/AKJama/sekiro-rs/issues/65)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
