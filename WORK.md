@@ -30,7 +30,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| enemies | Chasing foes never fall out of the map ([#227](https://github.com/AKJama/sekiro-rs/issues/227)) | sekiro-rs | Yama | 2026-10-22 |
 | enemies | Foes hear Wolf and grow cautious ([#218](https://github.com/AKJama/sekiro-rs/issues/218)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
@@ -43,10 +42,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (195)</summary>
+<summary>Done (196)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| enemies | Walking map foes keep to the navmesh and stop at drops (#227, PR #233) | sekiro-rs | Yama | 2026-10-22 | [766a077](https://github.com/AKJama/sekiro-rs/commit/766a077) |
 | mobility | Wire perch clears once Wolf leaves its footprint or fires again, FwLo's rule (#230, PR #232) | sekiro-rs | Yama | 2026-10-22 | [c2078a7](https://github.com/AKJama/sekiro-rs/commit/c2078a7) |
 | collision | Ground wrappers forward every query by default; wire perch keeps water, triggers and wall-hug floors (#169, PR #229) | sekiro-rs | Yama | 2026-10-22 | [93ea070](https://github.com/AKJama/sekiro-rs/commit/93ea070) |
 | idols | Unlit idols prompt 'Commune with Sculptor's Idol', lit ones 'Rest' (#187, PR #228) | sekiro-rs | Yama | 2026-10-22 | [297e85d](https://github.com/AKJama/sekiro-rs/commit/297e85d) |
