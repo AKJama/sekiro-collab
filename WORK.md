@@ -30,7 +30,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| perf | Castle fps with the GPU half used ([#70](https://github.com/AKJama/sekiro-rs/issues/70)) | sekiro-rs | Yama | 2026-10-22 |
 | enemies | Map patrols walk their full route, not a short back-and-forth ([#116](https://github.com/AKJama/sekiro-rs/issues/116)) | sekiro-rs | Yama | 2026-10-22 |
 | collision | Wedged Wolf never pushed through a thin wall ([#176](https://github.com/AKJama/sekiro-rs/issues/176)) | sekiro-rs | Yama | 2026-10-22 |
 | items | Rest refills full-supply goods without Storage, e.g. Five-color Rice ([#208](https://github.com/AKJama/sekiro-rs/issues/208)) | sekiro-rs | Yama | 2026-10-22 |
@@ -45,10 +44,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (181)</summary>
+<summary>Done (182)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| perf | Castle start holds 60 fps: about 5 ms of per-frame main-thread work cut (mesh rescans, wireframe check, LOD walk) (#70, PR #211) | sekiro-rs | Yama | 2026-10-22 | [6bfbc9c](https://github.com/AKJama/sekiro-rs/commit/6bfbc9c) |
 | collision | Fall-assist bands hold attacks, not walks, like the exe: no invisible wall on flat ground (#203, PR #210) | sekiro-rs | Yama | 2026-10-22 | [87f7bff](https://github.com/AKJama/sekiro-rs/commit/87f7bff) |
 | items | Rest restock checked: no Pellet loss (menu OK uses one); Rest logs what it restocked (#202, PR #209) | sekiro-rs | Yama | 2026-10-22 | [9344e06](https://github.com/AKJama/sekiro-rs/commit/9344e06) |
 | play | `--play` without `--map` starts the flat-floor fight again; map-only placement flags fail clearly (#139, PR #207) | sekiro-rs | Yama | 2026-10-22 | [2bf76dd](https://github.com/AKJama/sekiro-rs/commit/2bf76dd) |
@@ -121,7 +121,6 @@ Who's working on what right now, and what's done.
 | ui | Death screen after the game's: 死 fades in white over DEATH and turns red as the screen darkens, ": Die" / ": Resurrect" while a node is left, fade to black into the Dead screen | RustSekiro | Fireguy32 | 2026-10-18 | [fcedcd8](https://github.com/Fireguy32/RustSekiro/commit/fcedcd8) |
 | combat | Two resurrection nodes (base and extra); after a resurrection the rest are locked (greyed) until a deathblow, resting unlocks them | RustSekiro | Fireguy32 | 2026-10-18 | [fcedcd8](https://github.com/Fireguy32/RustSekiro/commit/fcedcd8) |
 | movement | Swimming and diving with the game's clips: surface swim, fast kicks, Ctrl dive / F rise with the Mibu Breathing Technique (goods 2420), camera-steered diving under a ceiling, the swim jump, water entry / exit clips, the water combo (tap cut / hold thrust), gourd and Homeward Idol in the water, the game's swim prompts; a pool on the Construct | RustSekiro | Fireguy32 | 2026-10-18 | [76c5c2b](https://github.com/Fireguy32/RustSekiro/commit/76c5c2b) |
-| performance | Frame rate: FXR rework, shared materials (21.8k to 2.7k), static map batching, parallel shadow encoders, pipeline warmup behind loading, menu keeps --uncapped; start 3 47 to 60 fps, worst traversal frame 160 to 48 ms; fog depth fix and batching direction from RustSekiro d6c5e406 ([#70](https://github.com/AKJama/sekiro-rs/issues/70)) | sekiro-rs | Yama | 2026-10-18 | [2ad2539](https://github.com/AKJama/sekiro-rs/commit/2ad2539) |
 | tests | Merged Fireguy32's PR 2 (swimming, Sculptor, items, falls) into main with this week's map work; animation and effect data re-exported; 657 tests pass | RustSekiro | FwLo | 2026-10-18 | [61c21e2](https://github.com/FFwLo/RustSekiro/commit/61c21e2) |
 | world | A map picked in the debug menu clears the checkered test floor, its pillars and lights (they stayed under every map) | RustSekiro | FwLo | 2026-10-17 | [c31dac1](https://github.com/FFwLo/RustSekiro/commit/c31dac1) |
 | rendering | Map lights: each map's BTL bank 0000 lamps, torches and fires as point / spot lights, MapOffset applied (after sekiro-rs, credited) | RustSekiro | FwLo | 2026-10-17 | [6785dae](https://github.com/FFwLo/RustSekiro/commit/6785dae) |
@@ -142,7 +141,6 @@ Who's working on what right now, and what's done.
 | cloth | Cape and boss cloth tuning; 1/60 s steps and the exe's volume constraint (ff9326e) | RustSekiro | FwLo | 2026-10-16 | [4f91f3b](https://github.com/FFwLo/RustSekiro/commit/4f91f3b) |
 | ai | SpEffect watches fire only from the named character (the Headless Ape no longer backsteps all fight); main bosses' perilous attacks per minute checked against the all-bosses clip | RustSekiro | FwLo | 2026-10-15 | [3f14683](https://github.com/FFwLo/RustSekiro/commit/3f14683) |
 | bosses | Boss fixes, clash rows, blend-in root motion, HUD layout from the HUD movie, perf tools, encounter-swap crash fix | RustSekiro | FwLo | 2026-10-14 | [4a23edd](https://github.com/FFwLo/RustSekiro/commit/4a23edd) |
-| performance | Frame rate quick wins: main schedule 3.5-4 ms faster (cached draw-group selection, settled LOD skipped, change-only visibility/fog writes, exact idle interpolation, player-only step without an enemy) ([#70](https://github.com/AKJama/sekiro-rs/issues/70)) | sekiro-rs | Yama | 2026-10-17 | [2a82d6a](https://github.com/AKJama/sekiro-rs/commit/2a82d6a) |
 | movement | Wall jump (env 3020) and air ledge catch (env 3045) into the existing hang, foothold ledges, hang position and climb end from the clips, adapted from Fireguy32's RustSekiro PR 1 ([#16](https://github.com/AKJama/sekiro-rs/issues/16)) | sekiro-rs | Yama | 2026-10-17 | [8cdaea4](https://github.com/AKJama/sekiro-rs/commit/8cdaea4) |
 | camera | Wolf's camera keeps the game's 43 degree camFovY (the map plugin forced 60), and camera slots read their own LockCamParam rows ([#46](https://github.com/AKJama/sekiro-rs/issues/46)) | sekiro-rs | Yama | 2026-10-17 | [124131f](https://github.com/AKJama/sekiro-rs/commit/124131f) |
 | rendering | GLB textures sample with 8x anisotropic trilinear filtering: rock faces sharp up close ([#45](https://github.com/AKJama/sekiro-rs/issues/45)) | sekiro-rs | Yama | 2026-10-17 | [312953d](https://github.com/AKJama/sekiro-rs/commit/312953d) |
