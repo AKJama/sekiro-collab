@@ -30,7 +30,6 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| enemies | Map patrols walk their full route, not a short back-and-forth ([#116](https://github.com/AKJama/sekiro-rs/issues/116)) | sekiro-rs | Yama | 2026-10-22 |
 | collision | Wedged Wolf never pushed through a thin wall ([#176](https://github.com/AKJama/sekiro-rs/issues/176)) | sekiro-rs | Yama | 2026-10-22 |
 | perf | Outskirts fence corner drops to 7-10 fps, GPU-bound ([#121](https://github.com/AKJama/sekiro-rs/issues/121)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
@@ -44,10 +43,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (183)</summary>
+<summary>Done (184)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| enemies | Patrolling foes walk their route and wait at its points: AI goal params as floats, GetLastResult per slot (#116, PR #213) | sekiro-rs | Yama | 2026-10-22 | [b3a7f6e](https://github.com/AKJama/sekiro-rs/commit/b3a7f6e) |
 | items | Rest refills full-supply goods (Five-color Rice, prevention goods) to their limit, from FwLo's refill_rested (#208, PR #212) | sekiro-rs | Yama | 2026-10-22 | [89ef54d](https://github.com/AKJama/sekiro-rs/commit/89ef54d) |
 | perf | Castle start holds 60 fps: about 5 ms of per-frame main-thread work cut (mesh rescans, wireframe check, LOD walk) (#70, PR #211) | sekiro-rs | Yama | 2026-10-22 | [6bfbc9c](https://github.com/AKJama/sekiro-rs/commit/6bfbc9c) |
 | collision | Fall-assist bands hold attacks, not walks, like the exe: no invisible wall on flat ground (#203, PR #210) | sekiro-rs | Yama | 2026-10-22 | [87f7bff](https://github.com/AKJama/sekiro-rs/commit/87f7bff) |
