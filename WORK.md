@@ -32,7 +32,6 @@ Who's working on what right now, and what's done.
 |---|---|---|---|---|
 | render | Floating rock fragment in the gully ([#31](https://github.com/AKJama/sekiro-rs/issues/31)), waits for the user's exact view | sekiro-rs | Yama | 2026-10-22 |
 | idols | Kneel at an idol from a walk ([#266](https://github.com/AKJama/sekiro-rs/issues/266)) | sekiro-rs | Yama | 2026-10-22 |
-| fx | Ground fire smoke grey, not glowing orange ([#268](https://github.com/AKJama/sekiro-rs/issues/268)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
@@ -53,6 +52,7 @@ Who's working on what right now, and what's done.
 | hud | Sculptor's Idol Found banner on the first kneel (BonfireLit keyframes, after sekiro-rs idol_found.rs, credited) | RustSekiro | FwLo | 2026-10-22 | [fe62843](https://github.com/FFwLo/RustSekiro/commit/fe62843) |
 | integration | `embed` feature: RustSekiro's combat, camera, HUD, menus and sound inside sekiro-rs's game (`--rustsekiro`) | RustSekiro | FwLo | 2026-10-22 | [8079c2f](https://github.com/FFwLo/RustSekiro/commit/8079c2f) |
 | combat | Combat core split from the host (0 links); enemies guard and deflect Wolf's sword; fall damage, ninjutsu, swim water, Snap Seed | RustSekiro | FwLo | 2026-10-22 | [63bd071](https://github.com/FFwLo/RustSekiro/commit/63bd071) |
+| fx | Ground fire smoke is grey: FXR levels of detail draw one level (#268, PR #274) | sekiro-rs | Yama | 2026-10-23 | [1252c05](https://github.com/AKJama/sekiro-rs/commit/1252c05) |
 | fx | Falling snow stops under roofs (#79, PR #270) | sekiro-rs | Yama | 2026-10-22 | [2468571](https://github.com/AKJama/sekiro-rs/commit/2468571) |
 | fx | Disk emitters emit along +Z; ground fire smoke rises (#264, PR #269) | sekiro-rs | Yama | 2026-10-22 | [cd2831e](https://github.com/AKJama/sekiro-rs/commit/cd2831e) |
 | idols | First real kneel finds an idol in any order (#262, PR #267) | sekiro-rs | Yama | 2026-10-22 | [b05405a](https://github.com/AKJama/sekiro-rs/commit/b05405a) |
