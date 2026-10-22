@@ -33,6 +33,7 @@ Who's working on what right now, and what's done.
 | movement | Wolf stays on the first tree trunk all round ([#155](https://github.com/AKJama/sekiro-rs/issues/155)) | sekiro-rs | Yama | 2026-10-22 |
 | fx | Falling snow stops under roofs ([#79](https://github.com/AKJama/sekiro-rs/issues/79)), waits on a real-game check of the Sculptor's hall | sekiro-rs | Yama | 2026-10-22 |
 | render | Drawn katana held at the game's angle ([#103](https://github.com/AKJama/sekiro-rs/issues/103)) | sekiro-rs | Yama | 2026-10-22 |
+| fx | Ground steam by the first gate drifts like the game ([#60](https://github.com/AKJama/sekiro-rs/issues/60)) | sekiro-rs | Yama | 2026-10-22 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
