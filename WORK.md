@@ -37,7 +37,7 @@ Who's working on what right now, and what's done.
 | render | Arena draw groups apply at load without hiding the roof ([#301](https://github.com/AKJama/sekiro-rs/issues/301)) | sekiro-rs | Yama | 2026-10-23 |
 | anim | Cloth steps in 1/60 s pieces with no world inertia ([#305](https://github.com/AKJama/sekiro-rs/issues/305)) | sekiro-rs | Yama | 2026-10-23 |
 | render | Each map part lit by its own authored light set row ([#67](https://github.com/AKJama/sekiro-rs/issues/67)), draft PR #315 awaiting playtest | sekiro-rs | Yama | 2026-10-23 |
-| render | Gatehouse torches throw real light ([#323](https://github.com/AKJama/sekiro-rs/issues/323)) | sekiro-rs | Yama | 2026-10-23 |
+| render | Gatehouse torches throw real light, draft for playtest ([#323](https://github.com/AKJama/sekiro-rs/issues/323), PR #329) | sekiro-rs | Yama | 2026-10-23 |
 | perf | Map enemies hide past their draw distance, draft for playtest ([#312](https://github.com/AKJama/sekiro-rs/issues/312), PR #327) | sekiro-rs | Yama | 2026-10-23 |
 | render | Morning light warmth on the Outskirts ([#322](https://github.com/AKJama/sekiro-rs/issues/322)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
