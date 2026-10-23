@@ -35,7 +35,6 @@ Who's working on what right now, and what's done.
 | map | Free map blocks the player has left ([#271](https://github.com/AKJama/sekiro-rs/issues/271)) | sekiro-rs | Yama | 2026-10-23 |
 | tools | Bevy B0004 hierarchy warnings flood the log ([#295](https://github.com/AKJama/sekiro-rs/issues/295)) | sekiro-rs | Yama | 2026-10-23 |
 | fx | FXR levels of detail switch by distance ([#273](https://github.com/AKJama/sekiro-rs/issues/273)) | sekiro-rs | Yama | 2026-10-23 |
-| hud | Boss bars clear of the debug text ([#294](https://github.com/AKJama/sekiro-rs/issues/294)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
@@ -51,10 +50,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (237)</summary>
+<summary>Done (238)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| hud | Debug text moves under the boss HUD; boss name at the movie's size (#294, PR #300) | sekiro-rs | Yama | 2026-10-23 | [55ce174](https://github.com/AKJama/sekiro-rs/commit/55ce174) |
 | lighting | Effect lights fade out past their view distance, no 16-light cap (#83, PR #299) | sekiro-rs | Yama | 2026-10-23 | [556cce2](https://github.com/AKJama/sekiro-rs/commit/556cce2) |
 | render | Distant terrain gets the game's far depth of field (#99, PR #298) | sekiro-rs | Yama | 2026-10-23 | [e2e0f45](https://github.com/AKJama/sekiro-rs/commit/e2e0f45) |
 | sim | Floor hit material feeds a timed SpEffect store; 4100 gates the tree walls (#134, PR #293) | sekiro-rs | Yama | 2026-10-23 | [cb8d848](https://github.com/AKJama/sekiro-rs/commit/cb8d848) |
