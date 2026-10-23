@@ -32,7 +32,6 @@ Who's working on what right now, and what's done.
 |---|---|---|---|---|
 | render | Floating rock fragment in the gully ([#31](https://github.com/AKJama/sekiro-rs/issues/31)), waits for the user's exact view | sekiro-rs | Yama | 2026-10-22 |
 | lighting | No lighting snap at the shack doorway, and the outside looks the same from inside ([#52](https://github.com/AKJama/sekiro-rs/issues/52), [#81](https://github.com/AKJama/sekiro-rs/issues/81)) | sekiro-rs | Yama | 2026-10-23 |
-| idols | Movement right after standing up from a rest ([#277](https://github.com/AKJama/sekiro-rs/issues/277)) | sekiro-rs | Yama | 2026-10-23 |
 | anim | Foot IK onto uneven ground, Wolf floats over the Stairway idol platform ([#276](https://github.com/AKJama/sekiro-rs/issues/276)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
@@ -45,10 +44,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (228)</summary>
+<summary>Done (229)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| idols | Wolf moves as soon as the idol stand-up allows it (#277, PR #282) | sekiro-rs | Yama | 2026-10-23 | [dbaedb5](https://github.com/AKJama/sekiro-rs/commit/dbaedb5) |
 | idols | Kneel at an idol from a walk, run or quick turn (#266, PR #275) | sekiro-rs | Yama | 2026-10-23 | [f20e9e7](https://github.com/AKJama/sekiro-rs/commit/f20e9e7) |
 | fx | Ground fire smoke is grey: FXR levels of detail draw one level (#268, PR #274) | sekiro-rs | Yama | 2026-10-23 | [1252c05](https://github.com/AKJama/sekiro-rs/commit/1252c05) |
 | traversal | Ledge hang: shimmy runs its loop (the script's docking stop reads DockingStickAngle / Selector_DockingMoveDir), climb plays out, wall side from the collision; cloth no longer restarts in long falls; lock-on needs sight (camera ray, hidden target let go after 2 s); Retry respawns at the start idol | RustSekiro | FwLo | 2026-10-23 | [c3093ed](https://github.com/FFwLo/RustSekiro/commit/c3093ed) |
