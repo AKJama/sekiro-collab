@@ -35,7 +35,6 @@ Who's working on what right now, and what's done.
 | map | Free map blocks the player has left ([#271](https://github.com/AKJama/sekiro-rs/issues/271)) | sekiro-rs | Yama | 2026-10-23 |
 | lighting | Lights pop in by area instead of fading ([#83](https://github.com/AKJama/sekiro-rs/issues/83)) | sekiro-rs | Yama | 2026-10-23 |
 | render | Distant terrain hazier and softer like the game ([#99](https://github.com/AKJama/sekiro-rs/issues/99)) | sekiro-rs | Yama | 2026-10-23 |
-| sim | Timed SpEffect store fed by floor hit material ([#134](https://github.com/AKJama/sekiro-rs/issues/134)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
@@ -47,10 +46,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (234)</summary>
+<summary>Done (235)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| sim | Floor hit material feeds a timed SpEffect store; 4100 gates the tree walls (#134, PR #293) | sekiro-rs | Yama | 2026-10-23 | [cb8d848](https://github.com/AKJama/sekiro-rs/commit/cb8d848) |
 | anim | Foot IK reads h floor tiles from the mapped cache, no extra memory (#285, PR #292) | sekiro-rs | Yama | 2026-10-23 | [4f6a1dc](https://github.com/AKJama/sekiro-rs/commit/4f6a1dc) |
 | lighting | SceneGparam overlay byte 0 selects no file (#287, PR #291) | sekiro-rs | Yama | 2026-10-23 | [8596329](https://github.com/AKJama/sekiro-rs/commit/8596329) |
 | idols | Lit idol flame sits on its raised hands (#278, PR #289) | sekiro-rs | Yama | 2026-10-23 | [6776d44](https://github.com/AKJama/sekiro-rs/commit/6776d44) |
