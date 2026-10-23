@@ -35,6 +35,7 @@ Who's working on what right now, and what's done.
 | anim | Foot IK loads h tiles lazily ([#285](https://github.com/AKJama/sekiro-rs/issues/285)) | sekiro-rs | Yama | 2026-10-23 |
 | map | Free map blocks the player has left ([#271](https://github.com/AKJama/sekiro-rs/issues/271)) | sekiro-rs | Yama | 2026-10-23 |
 | lighting | Lights pop in by area instead of fading ([#83](https://github.com/AKJama/sekiro-rs/issues/83)) | sekiro-rs | Yama | 2026-10-23 |
+| render | Fog keeps depth sampleable after a map switch: device loss check ([#94](https://github.com/AKJama/sekiro-rs/issues/94)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
