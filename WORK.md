@@ -39,6 +39,10 @@ Who's working on what right now, and what's done.
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
+| fx | FXR levels of detail follow their switch distances ([#273](https://github.com/AKJama/sekiro-rs/issues/273)), upstream PR from the fork | sekiro-rs | FwLo | 2026-10-23 |
+| sim | Enemies slide on the map with their own NpcParam body size ([#191](https://github.com/AKJama/sekiro-rs/issues/191)), upstream PR from the fork | sekiro-rs | FwLo | 2026-10-23 |
+| movement | Fall return never saves a spot over a wall too steep to stand on ([#201](https://github.com/AKJama/sekiro-rs/issues/201)), upstream PR from the fork | sekiro-rs | FwLo | 2026-10-23 |
+| anim | Foot IK for the NPCs whose behaviour carries it ([#252](https://github.com/AKJama/sekiro-rs/issues/252)), upstream PR from the fork | sekiro-rs | FwLo | 2026-10-23 |
 | hks | Merge the HKS env answers and engine events into sekiro-rs from a fork ([#162](https://github.com/AKJama/sekiro-rs/issues/162)); may let us drop the #144 MoveDirection hold | sekiro-rs (fork) | FwLo | 2026-10-21 |
 | integration | Audit a native Wolf model in actual Elden Ring and define the RustSekiro in-process integration contract (local claim; push pending user approval) | RustSekiro / private ER workspace | Fireguy32 | 2026-10-18 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
