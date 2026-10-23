@@ -35,7 +35,6 @@ Who's working on what right now, and what's done.
 | map | Free map blocks the player has left ([#271](https://github.com/AKJama/sekiro-rs/issues/271)) | sekiro-rs | Yama | 2026-10-23 |
 | fx | FXR levels of detail switch by distance ([#273](https://github.com/AKJama/sekiro-rs/issues/273)) | sekiro-rs | Yama | 2026-10-23 |
 | render | Arena draw groups apply at load without hiding the roof ([#301](https://github.com/AKJama/sekiro-rs/issues/301)) | sekiro-rs | Yama | 2026-10-23 |
-| render | Fog surface materials re-prepared every frame ([#44](https://github.com/AKJama/sekiro-rs/issues/44)) | sekiro-rs | Yama | 2026-10-23 |
 | ui | One window from the start menu to the loading bar ([#8](https://github.com/AKJama/sekiro-rs/issues/8)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
@@ -52,10 +51,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (240)</summary>
+<summary>Done (241)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| render | Actor lightning tint and sky horizons write materials only on change (#44, PR #306) | sekiro-rs | Yama | 2026-10-23 | [1fefa57](https://github.com/AKJama/sekiro-rs/commit/1fefa57) |
 | anim | Cloth links apply their stored stiffness; Owl's ponytail no longer flails (#39, PR #304, FwLo's finding) | sekiro-rs | Yama | 2026-10-23 | [0117a73](https://github.com/AKJama/sekiro-rs/commit/0117a73) |
 | tools | Grass gives part roots Visibility, no more B0004 log flood (#295, PR #302) | sekiro-rs | Yama | 2026-10-23 | [8869677](https://github.com/AKJama/sekiro-rs/commit/8869677) |
 | hud | Debug text moves under the boss HUD; boss name at the movie's size (#294, PR #300) | sekiro-rs | Yama | 2026-10-23 | [55ce174](https://github.com/AKJama/sekiro-rs/commit/55ce174) |
