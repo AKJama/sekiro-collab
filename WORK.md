@@ -33,7 +33,7 @@ Who's working on what right now, and what's done.
 | render | Floating rock fragment in the gully ([#31](https://github.com/AKJama/sekiro-rs/issues/31)), waits for the user's exact view | sekiro-rs | Yama | 2026-10-22 |
 | lighting | No lighting snap at the shack doorway, and the outside looks the same from inside ([#52](https://github.com/AKJama/sekiro-rs/issues/52), [#81](https://github.com/AKJama/sekiro-rs/issues/81)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Movement right after standing up from a rest ([#277](https://github.com/AKJama/sekiro-rs/issues/277)) | sekiro-rs | Yama | 2026-10-23 |
-| collision | Wolf floats over the Stairway idol platform ([#276](https://github.com/AKJama/sekiro-rs/issues/276)) | sekiro-rs | Yama | 2026-10-23 |
+| anim | Foot IK onto uneven ground, Wolf floats over the Stairway idol platform ([#276](https://github.com/AKJama/sekiro-rs/issues/276)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
