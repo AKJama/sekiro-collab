@@ -43,10 +43,11 @@ Who's working on what right now, and what's done.
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
-| fx | FXR levels of detail follow their switch distances ([#273](https://github.com/AKJama/sekiro-rs/issues/273)), upstream PR from the fork | sekiro-rs | FwLo | 2026-10-23 |
+| fx | FXR levels of detail follow their switch distances ([#273](https://github.com/AKJama/sekiro-rs/issues/273)), upstream draft [PR #296](https://github.com/AKJama/sekiro-rs/pull/296) | sekiro-rs | FwLo | 2026-10-23 |
 | sim | Enemies slide on the map with their own NpcParam body size ([#191](https://github.com/AKJama/sekiro-rs/issues/191)), upstream PR from the fork | sekiro-rs | FwLo | 2026-10-23 |
 | movement | Fall return never saves a spot over a wall too steep to stand on ([#201](https://github.com/AKJama/sekiro-rs/issues/201)), upstream PR from the fork | sekiro-rs | FwLo | 2026-10-23 |
 | anim | Foot IK for the NPCs whose behaviour carries it ([#252](https://github.com/AKJama/sekiro-rs/issues/252)), upstream PR from the fork | sekiro-rs | FwLo | 2026-10-23 |
+| lib | Game crate as a library too, `map::APP_HOOKS` ([#193](https://github.com/AKJama/sekiro-rs/issues/193)): review answered, rebased, [PR #185](https://github.com/AKJama/sekiro-rs/pull/185) waits on merge | sekiro-rs | FwLo | 2026-10-23 |
 | hks | Merge the HKS env answers and engine events into sekiro-rs from a fork ([#162](https://github.com/AKJama/sekiro-rs/issues/162)); may let us drop the #144 MoveDirection hold | sekiro-rs (fork) | FwLo | 2026-10-21 |
 | integration | Audit a native Wolf model in actual Elden Ring and define the RustSekiro in-process integration contract (local claim; push pending user approval) | RustSekiro / private ER workspace | Fireguy32 | 2026-10-18 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
@@ -55,10 +56,25 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (245)</summary>
+<summary>Done (260)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| anim | Cloth culling bounds follow each frame's vertices: Wolf's cape no longer vanishes and comes back away from where he spawned | RustSekiro | FwLo | 2026-10-23 | [3151a65](https://github.com/FFwLo/RustSekiro/commit/3151a65) |
+| integration | Fork rustsekiro-combat on sekiro-rs main 8869677 (#293's SpEffect 4100 endurance kept in the `--rustsekiro` ride-wall slide); RustSekiro pinned at 3151a65 | sekiro-rs fork | FwLo | 2026-10-23 | [a8cf245](https://github.com/FFwLo/sekiro-rs/commit/a8cf245) |
+| sim | Enemies slide on the map with their NpcParam hitRadius / hitHeight body (BodySize), from #191 | RustSekiro + fork | FwLo | 2026-10-23 | [c012327](https://github.com/FFwLo/RustSekiro/commit/c012327), [dff5e9b](https://github.com/FFwLo/sekiro-rs/commit/dff5e9b) |
+| anim | Enemies whose behaviour carries foot IK place their feet with their own behbnd values (39 two-legged characters), cast on the detailed ground kept around Wolf | RustSekiro + fork | FwLo | 2026-10-23 | [c6db752](https://github.com/FFwLo/RustSekiro/commit/c6db752), [08a44b6](https://github.com/FFwLo/sekiro-rs/commit/08a44b6) |
+| anim | Wolf's foot IK with the game's values; `--rustsekiro` casts his feet on the detailed h collision | RustSekiro + fork | FwLo | 2026-10-23 | [c4f6f25](https://github.com/FFwLo/RustSekiro/commit/c4f6f25), [ce18988](https://github.com/FFwLo/sekiro-rs/commit/ce18988) |
+| movement | Fall return to the oldest of the last 5 grounded ticks, as the exe, and only to spots over a walkable floor (#201) | RustSekiro | FwLo | 2026-10-23 | [76b42fc](https://github.com/FFwLo/RustSekiro/commit/76b42fc), [017fe49](https://github.com/FFwLo/RustSekiro/commit/017fe49) |
+| fx | FXR levels of detail follow the camera distance (#273; upstream draft PR #296) | RustSekiro + fork | FwLo | 2026-10-23 | [06d66f5](https://github.com/FFwLo/RustSekiro/commit/06d66f5), [0053bb8](https://github.com/FFwLo/sekiro-rs/commit/0053bb8) |
+| enemies | Enemies walk the game's navmesh on sekiro-rs's map (loader in the combat core) | RustSekiro + fork | FwLo | 2026-10-23 | [6363e83](https://github.com/FFwLo/RustSekiro/commit/6363e83), [9925289](https://github.com/FFwLo/RustSekiro/commit/9925289), [5196396](https://github.com/FFwLo/sekiro-rs/commit/5196396) |
+| enemies | Many enemies at once (shared character assets, asleep culling, every character in the world); MSB part flags gate spawns by story state | RustSekiro | FwLo | 2026-10-23 | [2dbcf94](https://github.com/FFwLo/RustSekiro/commit/2dbcf94), [74a0c8c](https://github.com/FFwLo/RustSekiro/commit/74a0c8c) |
+| enemies | Enemy drops in embed builds; an unpaid event death pays nothing | RustSekiro | FwLo | 2026-10-23 | [7482cde](https://github.com/FFwLo/RustSekiro/commit/7482cde) |
+| idol | Idol stand-up hands Wolf back at its move window (frame 24), not its end | RustSekiro | FwLo | 2026-10-23 | [2514106](https://github.com/FFwLo/RustSekiro/commit/2514106) |
+| perf | Each param table parsed once and warmed at start; AI chunks shared | RustSekiro | FwLo | 2026-10-23 | [b8524a6](https://github.com/FFwLo/RustSekiro/commit/b8524a6) |
+| map | Map blocks the player has left are retired (#271), block residency as one state | sekiro-rs fork | FwLo | 2026-10-23 | [c936048](https://github.com/FFwLo/sekiro-rs/commit/c936048), [39d9142](https://github.com/FFwLo/sekiro-rs/commit/39d9142) |
+| perf | Map GLBs load with 16-bit indices and 8-bit colour / blend streams; one mesh per layout uploaded before the pipeline warmup | sekiro-rs fork | FwLo | 2026-10-23 | [c7b2979](https://github.com/FFwLo/sekiro-rs/commit/c7b2979), [bc38678](https://github.com/FFwLo/sekiro-rs/commit/bc38678) |
+| tools | Every system in the map viewer timed with profile-spans | sekiro-rs fork | FwLo | 2026-10-23 | [48cdf40](https://github.com/FFwLo/sekiro-rs/commit/48cdf40) |
 | perf | Frame drops measured (filed #311-#313); live walk guards p99 and worst frame (#10, PR #314) | sekiro-rs | Yama | 2026-10-23 | [649d2b8](https://github.com/AKJama/sekiro-rs/commit/649d2b8) |
 | tools | Gates take their story from the fixture; Outskirts opening (morning) gate (#62, PR #310) | sekiro-rs | Yama | 2026-10-23 | [7587c7b](https://github.com/AKJama/sekiro-rs/commit/7587c7b) |
 | render | Multiple variant 18 reads its slot-17 metal mask (#43, PR #308) | sekiro-rs | Yama | 2026-10-23 | [675fe8d](https://github.com/AKJama/sekiro-rs/commit/675fe8d) |
