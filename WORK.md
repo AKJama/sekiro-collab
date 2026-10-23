@@ -35,7 +35,6 @@ Who's working on what right now, and what's done.
 | map | Free map blocks the player has left ([#271](https://github.com/AKJama/sekiro-rs/issues/271)) | sekiro-rs | Yama | 2026-10-23 |
 | fx | FXR levels of detail switch by distance ([#273](https://github.com/AKJama/sekiro-rs/issues/273)) | sekiro-rs | Yama | 2026-10-23 |
 | render | Arena draw groups apply at load without hiding the roof ([#301](https://github.com/AKJama/sekiro-rs/issues/301)) | sekiro-rs | Yama | 2026-10-23 |
-| render | Layered material variant 18 samples its F0 from slot 17 ([#43](https://github.com/AKJama/sekiro-rs/issues/43)) | sekiro-rs | Yama | 2026-10-23 |
 | anim | Cloth steps in 1/60 s pieces with no world inertia ([#305](https://github.com/AKJama/sekiro-rs/issues/305)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
@@ -52,10 +51,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (242)</summary>
+<summary>Done (243)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| render | Multiple variant 18 reads its slot-17 metal mask (#43, PR #308) | sekiro-rs | Yama | 2026-10-23 | [675fe8d](https://github.com/AKJama/sekiro-rs/commit/675fe8d) |
 | ui | Loading steps only rise as work is found (#37, PR #307) | sekiro-rs | Yama | 2026-10-23 | [b368098](https://github.com/AKJama/sekiro-rs/commit/b368098) |
 | render | Actor lightning tint and sky horizons write materials only on change (#44, PR #306) | sekiro-rs | Yama | 2026-10-23 | [1fefa57](https://github.com/AKJama/sekiro-rs/commit/1fefa57) |
 | anim | Cloth links apply their stored stiffness; Owl's ponytail no longer flails (#39, PR #304, FwLo's finding) | sekiro-rs | Yama | 2026-10-23 | [0117a73](https://github.com/AKJama/sekiro-rs/commit/0117a73) |
