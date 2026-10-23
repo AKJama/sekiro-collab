@@ -39,6 +39,7 @@ Who's working on what right now, and what's done.
 | render | Each map part lit by its own authored light set row ([#67](https://github.com/AKJama/sekiro-rs/issues/67)), draft PR #315 awaiting playtest | sekiro-rs | Yama | 2026-10-23 |
 | perf | 73 ms pick_groups stall on collision part change ([#311](https://github.com/AKJama/sekiro-rs/issues/311)) | sekiro-rs | Yama | 2026-10-23 |
 | tools | Index the pre-Gyoubu reference shots and compare the morning state ([#62](https://github.com/AKJama/sekiro-rs/issues/62) follow-up) | sekiro-rs | Yama | 2026-10-23 |
+| perf | Map enemies skinned and drawn only within the game's distance ([#312](https://github.com/AKJama/sekiro-rs/issues/312)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
