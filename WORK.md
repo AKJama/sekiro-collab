@@ -36,8 +36,6 @@ Who's working on what right now, and what's done.
 | render | Arena draw groups apply at load without hiding the roof ([#301](https://github.com/AKJama/sekiro-rs/issues/301)) | sekiro-rs | Yama | 2026-10-23 |
 | render | Each map part lit by its own authored light set row ([#67](https://github.com/AKJama/sekiro-rs/issues/67)), draft PR #315 awaiting playtest | sekiro-rs | Yama | 2026-10-23 |
 | perf | Map enemies hide past their draw distance, draft for playtest ([#312](https://github.com/AKJama/sekiro-rs/issues/312), PR #327) | sekiro-rs | Yama | 2026-10-23 |
-| render | Sun glow halo, draft PR #332 ([#288](https://github.com/AKJama/sekiro-rs/issues/288)) | sekiro-rs | Yama | 2026-10-23 |
-| ui | One window: title menu (New Game, Chapter, Exit), loading in place, draft PR #333 ([#8](https://github.com/AKJama/sekiro-rs/issues/8)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
@@ -54,10 +52,12 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (268)</summary>
+<summary>Done (270)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| render | Sun glow halo from the game's glow filter (#288, PR #332) | sekiro-rs | Yama | 2026-10-23 | [3fffd42](https://github.com/AKJama/sekiro-rs/commit/3fffd42) |
+| ui | One window: title menu (New Game, Chapter, Exit) loads play in the same window (#8, PR #333) | sekiro-rs | Yama | 2026-10-23 | [9f12829](https://github.com/AKJama/sekiro-rs/commit/9f12829) |
 | cloth | Cloth rides with its character and steps in 1/60 s pieces (#305, PR #309) | sekiro-rs | Yama | 2026-10-23 | [27d38b4](https://github.com/AKJama/sekiro-rs/commit/27d38b4) |
 | fx | Snow keeps falling in the yard seen from inside the Sculptor's hall (#281, PR #283) | sekiro-rs | Yama | 2026-10-23 | [32796bf](https://github.com/AKJama/sekiro-rs/commit/32796bf) |
 | render | Torches light their pools: effect lights drop the by-eye residual (#323, PR #329) | sekiro-rs | Yama | 2026-10-23 | [1565800](https://github.com/AKJama/sekiro-rs/commit/1565800) |
