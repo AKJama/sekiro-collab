@@ -37,7 +37,6 @@ Who's working on what right now, and what's done.
 | render | Arena draw groups apply at load without hiding the roof ([#301](https://github.com/AKJama/sekiro-rs/issues/301)) | sekiro-rs | Yama | 2026-10-23 |
 | anim | Cloth steps in 1/60 s pieces with no world inertia ([#305](https://github.com/AKJama/sekiro-rs/issues/305)) | sekiro-rs | Yama | 2026-10-23 |
 | render | Each map part lit by its own authored light set row ([#67](https://github.com/AKJama/sekiro-rs/issues/67)), draft PR #315 awaiting playtest | sekiro-rs | Yama | 2026-10-23 |
-| perf | First landing after a fall spikes FXR by 22 ms ([#313](https://github.com/AKJama/sekiro-rs/issues/313)) | sekiro-rs | Yama | 2026-10-23 |
 | render | Gatehouse torches throw real light ([#323](https://github.com/AKJama/sekiro-rs/issues/323)) | sekiro-rs | Yama | 2026-10-23 |
 | perf | Map enemies hide past their draw distance, draft for playtest ([#312](https://github.com/AKJama/sekiro-rs/issues/312), PR #327) | sekiro-rs | Yama | 2026-10-23 |
 | render | Morning light warmth on the Outskirts ([#322](https://github.com/AKJama/sekiro-rs/issues/322)) | sekiro-rs | Yama | 2026-10-23 |
@@ -57,10 +56,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (262)</summary>
+<summary>Done (263)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| perf | FXR warms the fighters' effects and textures on a background thread; load FXR spikes 93 -> 27 ms (#313, PR #328) | sekiro-rs | Yama | 2026-10-23 | [0bc5f94](https://github.com/AKJama/sekiro-rs/commit/0bc5f94) |
 | tools | Pre-Gyoubu morning reference collection; tools read each collection's story (#321, PR #320); look gaps filed as #322-#326 | sekiro-rs | Yama | 2026-10-23 | [10c5525](https://github.com/AKJama/sekiro-rs/commit/10c5525) |
 | perf | Collision lighting parsed once at load; no part-change stalls (#311) | sekiro-rs | Yama | 2026-10-23 | [7dec182](https://github.com/AKJama/sekiro-rs/commit/7dec182) |
 | anim | Cloth culling bounds follow each frame's vertices: Wolf's cape no longer vanishes and comes back away from where he spawned | RustSekiro | FwLo | 2026-10-23 | [3151a65](https://github.com/FFwLo/RustSekiro/commit/3151a65) |
