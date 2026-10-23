@@ -32,7 +32,6 @@ Who's working on what right now, and what's done.
 |---|---|---|---|---|
 | render | Floating rock fragment in the gully ([#31](https://github.com/AKJama/sekiro-rs/issues/31)), waits for the user's exact view | sekiro-rs | Yama | 2026-10-22 |
 | fx | Snow keeps falling outside, seen from inside the Sculptor's hall ([#281](https://github.com/AKJama/sekiro-rs/issues/281)) | sekiro-rs | Yama | 2026-10-23 |
-| idols | Lit idol flame in the right place ([#278](https://github.com/AKJama/sekiro-rs/issues/278)) | sekiro-rs | Yama | 2026-10-23 |
 | anim | Foot IK loads h tiles lazily ([#285](https://github.com/AKJama/sekiro-rs/issues/285)) | sekiro-rs | Yama | 2026-10-23 |
 | lighting | Overlay byte 0 means no file ([#287](https://github.com/AKJama/sekiro-rs/issues/287)) | sekiro-rs | Yama | 2026-10-23 |
 | map | Free map blocks the player has left ([#271](https://github.com/AKJama/sekiro-rs/issues/271)) | sekiro-rs | Yama | 2026-10-23 |
@@ -48,10 +47,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (231)</summary>
+<summary>Done (232)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| idols | Lit idol flame sits on its raised hands ([#278](https://github.com/AKJama/sekiro-rs/issues/278)) | sekiro-rs | Yama | [6776d44](https://github.com/AKJama/sekiro-rs/commit/6776d44) |
 | lighting | Doorway lighting fades over the collision's transition time (#52, PR #286) | sekiro-rs | Yama | 2026-10-23 | [7b5e3b3](https://github.com/AKJama/sekiro-rs/commit/7b5e3b3) |
 | anim | Foot IK: Wolf's feet meet uneven ground (#276, PR #284) | sekiro-rs | Yama | 2026-10-23 | [3a12b87](https://github.com/AKJama/sekiro-rs/commit/3a12b87) |
 | idols | Wolf moves as soon as the idol stand-up allows it (#277, PR #282) | sekiro-rs | Yama | 2026-10-23 | [dbaedb5](https://github.com/AKJama/sekiro-rs/commit/dbaedb5) |
