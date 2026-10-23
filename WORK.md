@@ -39,7 +39,6 @@ Who's working on what right now, and what's done.
 | render | Each map part lit by its own authored light set row ([#67](https://github.com/AKJama/sekiro-rs/issues/67)), draft PR #315 awaiting playtest | sekiro-rs | Yama | 2026-10-23 |
 | render | Gatehouse torches throw real light, draft for playtest ([#323](https://github.com/AKJama/sekiro-rs/issues/323), PR #329) | sekiro-rs | Yama | 2026-10-23 |
 | perf | Map enemies hide past their draw distance, draft for playtest ([#312](https://github.com/AKJama/sekiro-rs/issues/312), PR #327) | sekiro-rs | Yama | 2026-10-23 |
-| render | Morning ground shade: alpha-masked sun shadow casters ([#322](https://github.com/AKJama/sekiro-rs/issues/322)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
