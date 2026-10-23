@@ -34,6 +34,8 @@ Who's working on what right now, and what's done.
 | fx | Snow keeps falling outside, seen from inside the Sculptor's hall ([#281](https://github.com/AKJama/sekiro-rs/issues/281)) | sekiro-rs | Yama | 2026-10-23 |
 | map | Free map blocks the player has left ([#271](https://github.com/AKJama/sekiro-rs/issues/271)) | sekiro-rs | Yama | 2026-10-23 |
 | tools | Bevy B0004 hierarchy warnings flood the log ([#295](https://github.com/AKJama/sekiro-rs/issues/295)) | sekiro-rs | Yama | 2026-10-23 |
+| fx | FXR levels of detail switch by distance ([#273](https://github.com/AKJama/sekiro-rs/issues/273)) | sekiro-rs | Yama | 2026-10-23 |
+| hud | Boss bars clear of the debug text ([#294](https://github.com/AKJama/sekiro-rs/issues/294)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
