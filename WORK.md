@@ -39,8 +39,8 @@ Who's working on what right now, and what's done.
 | render | Each map part lit by its own authored light set row ([#67](https://github.com/AKJama/sekiro-rs/issues/67)), draft PR #315 awaiting playtest | sekiro-rs | Yama | 2026-10-23 |
 | render | Gatehouse torches throw real light, draft for playtest ([#323](https://github.com/AKJama/sekiro-rs/issues/323), PR #329) | sekiro-rs | Yama | 2026-10-23 |
 | perf | Map enemies hide past their draw distance, draft for playtest ([#312](https://github.com/AKJama/sekiro-rs/issues/312), PR #327) | sekiro-rs | Yama | 2026-10-23 |
-| render | Sun glow halo with a stand-in blur ([#288](https://github.com/AKJama/sekiro-rs/issues/288)) | sekiro-rs | Yama | 2026-10-23 |
-| ui | One window: splash, main menu (New Game, Chapter, Exit), loading in place ([#8](https://github.com/AKJama/sekiro-rs/issues/8)) | sekiro-rs | Yama | 2026-10-23 |
+| render | Sun glow halo, draft PR #332 ([#288](https://github.com/AKJama/sekiro-rs/issues/288)) | sekiro-rs | Yama | 2026-10-23 |
+| ui | One window: title menu (New Game, Chapter, Exit), loading in place, draft PR #333 ([#8](https://github.com/AKJama/sekiro-rs/issues/8)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
@@ -57,10 +57,12 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (263)</summary>
+<summary>Done (265)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| sim | Enemies collide with the map at their own NpcParam size (#191, PR #316) | sekiro-rs fork | FwLo | 2026-10-23 | [ee72a69](https://github.com/AKJama/sekiro-rs/commit/ee72a69) |
+| movement | Fall return only saves spots over a walkable floor (#201 follow-up, PR #317) | sekiro-rs fork | FwLo | 2026-10-23 | [89bfe81](https://github.com/AKJama/sekiro-rs/commit/89bfe81) |
 | perf | FXR warms the fighters' effects and textures on a background thread; load FXR spikes 93 -> 27 ms (#313, PR #328) | sekiro-rs | Yama | 2026-10-23 | [0bc5f94](https://github.com/AKJama/sekiro-rs/commit/0bc5f94) |
 | tools | Pre-Gyoubu morning reference collection; tools read each collection's story (#321, PR #320); look gaps filed as #322-#326 | sekiro-rs | Yama | 2026-10-23 | [10c5525](https://github.com/AKJama/sekiro-rs/commit/10c5525) |
 | perf | Collision lighting parsed once at load; no part-change stalls (#311) | sekiro-rs | Yama | 2026-10-23 | [7dec182](https://github.com/AKJama/sekiro-rs/commit/7dec182) |
