@@ -35,7 +35,6 @@ Who's working on what right now, and what's done.
 | map | Free map blocks the player has left ([#271](https://github.com/AKJama/sekiro-rs/issues/271)) | sekiro-rs | Yama | 2026-10-23 |
 | fx | FXR levels of detail switch by distance ([#273](https://github.com/AKJama/sekiro-rs/issues/273)) | sekiro-rs | Yama | 2026-10-23 |
 | render | Arena draw groups apply at load without hiding the roof ([#301](https://github.com/AKJama/sekiro-rs/issues/301)) | sekiro-rs | Yama | 2026-10-23 |
-| ui | One window from the start menu to the loading bar ([#8](https://github.com/AKJama/sekiro-rs/issues/8)) | sekiro-rs | Yama | 2026-10-23 |
 | render | Layered material variant 18 samples its F0 from slot 17 ([#43](https://github.com/AKJama/sekiro-rs/issues/43)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
