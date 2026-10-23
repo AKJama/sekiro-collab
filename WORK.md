@@ -36,7 +36,6 @@ Who's working on what right now, and what's done.
 | fx | FXR levels of detail switch by distance ([#273](https://github.com/AKJama/sekiro-rs/issues/273)) | sekiro-rs | Yama | 2026-10-23 |
 | render | Arena draw groups apply at load without hiding the roof ([#301](https://github.com/AKJama/sekiro-rs/issues/301)) | sekiro-rs | Yama | 2026-10-23 |
 | render | Layered material variant 18 samples its F0 from slot 17 ([#43](https://github.com/AKJama/sekiro-rs/issues/43)) | sekiro-rs | Yama | 2026-10-23 |
-| ui | Loading bar only grows ([#37](https://github.com/AKJama/sekiro-rs/issues/37)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
@@ -52,10 +51,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (241)</summary>
+<summary>Done (242)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| ui | Loading steps only rise as work is found (#37, PR #307) | sekiro-rs | Yama | 2026-10-23 | [b368098](https://github.com/AKJama/sekiro-rs/commit/b368098) |
 | render | Actor lightning tint and sky horizons write materials only on change (#44, PR #306) | sekiro-rs | Yama | 2026-10-23 | [1fefa57](https://github.com/AKJama/sekiro-rs/commit/1fefa57) |
 | anim | Cloth links apply their stored stiffness; Owl's ponytail no longer flails (#39, PR #304, FwLo's finding) | sekiro-rs | Yama | 2026-10-23 | [0117a73](https://github.com/AKJama/sekiro-rs/commit/0117a73) |
 | tools | Grass gives part roots Visibility, no more B0004 log flood (#295, PR #302) | sekiro-rs | Yama | 2026-10-23 | [8869677](https://github.com/AKJama/sekiro-rs/commit/8869677) |
