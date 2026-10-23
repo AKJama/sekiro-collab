@@ -54,7 +54,8 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
-| render | Map parts and fog cards use their own light set row (#67, PR #315) | sekiro-rs | Yama | 2026-10-23 | [67afb95](https://github.com/AKJama/sekiro-rs/commit/67afb95) || perf | Map enemies hide past the game's character draw distance (#312, PR #327) | sekiro-rs | Yama | 2026-10-23 | [dcc907e](https://github.com/AKJama/sekiro-rs/commit/dcc907e) |
+| render | Map parts and fog cards use their own light set row (#67, PR #315) | sekiro-rs | Yama | 2026-10-23 | [67afb95](https://github.com/AKJama/sekiro-rs/commit/67afb95) |
+| perf | Map enemies hide past the game's character draw distance (#312, PR #327) | sekiro-rs | Yama | 2026-10-23 | [dcc907e](https://github.com/AKJama/sekiro-rs/commit/dcc907e) |
 | render | Sun glow halo from the game's glow filter (#288, PR #332) | sekiro-rs | Yama | 2026-10-23 | [3fffd42](https://github.com/AKJama/sekiro-rs/commit/3fffd42) |
 | ui | One window: title menu (New Game, Chapter, Exit) loads play in the same window (#8, PR #333) | sekiro-rs | Yama | 2026-10-23 | [9f12829](https://github.com/AKJama/sekiro-rs/commit/9f12829) |
 | cloth | Cloth rides with its character and steps in 1/60 s pieces (#305, PR #309) | sekiro-rs | Yama | 2026-10-23 | [27d38b4](https://github.com/AKJama/sekiro-rs/commit/27d38b4) |
