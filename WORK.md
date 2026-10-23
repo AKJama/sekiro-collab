@@ -51,7 +51,7 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
-| idols | Lit idol flame sits on its raised hands ([#278](https://github.com/AKJama/sekiro-rs/issues/278)) | sekiro-rs | Yama | [6776d44](https://github.com/AKJama/sekiro-rs/commit/6776d44) |
+| idols | Lit idol flame sits on its raised hands (#278, PR #289) | sekiro-rs | Yama | 2026-10-23 | [6776d44](https://github.com/AKJama/sekiro-rs/commit/6776d44) |
 | lighting | Doorway lighting fades over the collision's transition time (#52, PR #286) | sekiro-rs | Yama | 2026-10-23 | [7b5e3b3](https://github.com/AKJama/sekiro-rs/commit/7b5e3b3) |
 | anim | Foot IK: Wolf's feet meet uneven ground (#276, PR #284) | sekiro-rs | Yama | 2026-10-23 | [3a12b87](https://github.com/AKJama/sekiro-rs/commit/3a12b87) |
 | idols | Wolf moves as soon as the idol stand-up allows it (#277, PR #282) | sekiro-rs | Yama | 2026-10-23 | [dbaedb5](https://github.com/AKJama/sekiro-rs/commit/dbaedb5) |
