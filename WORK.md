@@ -34,6 +34,7 @@ Who's working on what right now, and what's done.
 | lighting | No lighting snap at the shack doorway, and the outside looks the same from inside ([#52](https://github.com/AKJama/sekiro-rs/issues/52), [#81](https://github.com/AKJama/sekiro-rs/issues/81)) | sekiro-rs | Yama | 2026-10-23 |
 | anim | Foot IK onto uneven ground, Wolf floats over the Stairway idol platform ([#276](https://github.com/AKJama/sekiro-rs/issues/276)) | sekiro-rs | Yama | 2026-10-23 |
 | fx | Snow keeps falling outside, seen from inside the Sculptor's hall ([#281](https://github.com/AKJama/sekiro-rs/issues/281)) | sekiro-rs | Yama | 2026-10-23 |
+| perf | GPU at 99% after travelling back to the Stairway idol ([#279](https://github.com/AKJama/sekiro-rs/issues/279)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
