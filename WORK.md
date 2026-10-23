@@ -36,6 +36,7 @@ Who's working on what right now, and what's done.
 | lighting | Lights pop in by area instead of fading ([#83](https://github.com/AKJama/sekiro-rs/issues/83)) | sekiro-rs | Yama | 2026-10-23 |
 | render | Distant terrain hazier and softer like the game ([#99](https://github.com/AKJama/sekiro-rs/issues/99)) | sekiro-rs | Yama | 2026-10-23 |
 | owl | Castle roof frame rate drops to about 30 fps ([#106](https://github.com/AKJama/sekiro-rs/issues/106)) | sekiro-rs | Yama | 2026-10-23 |
+| tools | Bevy B0004 hierarchy warnings flood the log ([#295](https://github.com/AKJama/sekiro-rs/issues/295)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
