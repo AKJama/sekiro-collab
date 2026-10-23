@@ -33,7 +33,6 @@ Who's working on what right now, and what's done.
 | render | Floating rock fragment in the gully ([#31](https://github.com/AKJama/sekiro-rs/issues/31)), waits for the user's exact view | sekiro-rs | Yama | 2026-10-22 |
 | fx | Snow keeps falling outside, seen from inside the Sculptor's hall ([#281](https://github.com/AKJama/sekiro-rs/issues/281)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Lit idol flame in the right place ([#278](https://github.com/AKJama/sekiro-rs/issues/278)) | sekiro-rs | Yama | 2026-10-23 |
-| rendering | Sun disc in the sky ([#61](https://github.com/AKJama/sekiro-rs/issues/61)) | sekiro-rs | Yama | 2026-10-23 |
 | anim | Foot IK loads h tiles lazily ([#285](https://github.com/AKJama/sekiro-rs/issues/285)) | sekiro-rs | Yama | 2026-10-23 |
 | lighting | Overlay byte 0 means no file ([#287](https://github.com/AKJama/sekiro-rs/issues/287)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
