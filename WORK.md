@@ -37,6 +37,7 @@ Who's working on what right now, and what's done.
 | render | Arena draw groups apply at load without hiding the roof ([#301](https://github.com/AKJama/sekiro-rs/issues/301)) | sekiro-rs | Yama | 2026-10-23 |
 | anim | Cloth steps in 1/60 s pieces with no world inertia ([#305](https://github.com/AKJama/sekiro-rs/issues/305)) | sekiro-rs | Yama | 2026-10-23 |
 | render | Each map part lit by its own authored light set row ([#67](https://github.com/AKJama/sekiro-rs/issues/67)) | sekiro-rs | Yama | 2026-10-23 |
+| perf | 73 ms pick_groups stall on collision part change ([#311](https://github.com/AKJama/sekiro-rs/issues/311)) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
