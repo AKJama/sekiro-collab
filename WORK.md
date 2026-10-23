@@ -36,7 +36,7 @@ Who's working on what right now, and what's done.
 | fx | FXR levels of detail switch by distance ([#273](https://github.com/AKJama/sekiro-rs/issues/273)) | sekiro-rs | Yama | 2026-10-23 |
 | render | Arena draw groups apply at load without hiding the roof ([#301](https://github.com/AKJama/sekiro-rs/issues/301)) | sekiro-rs | Yama | 2026-10-23 |
 | anim | Cloth steps in 1/60 s pieces with no world inertia ([#305](https://github.com/AKJama/sekiro-rs/issues/305)) | sekiro-rs | Yama | 2026-10-23 |
-| render | Each map part lit by its own authored light set row ([#67](https://github.com/AKJama/sekiro-rs/issues/67)) | sekiro-rs | Yama | 2026-10-23 |
+| render | Each map part lit by its own authored light set row ([#67](https://github.com/AKJama/sekiro-rs/issues/67)), draft PR #315 awaiting playtest | sekiro-rs | Yama | 2026-10-23 |
 | perf | 73 ms pick_groups stall on collision part change ([#311](https://github.com/AKJama/sekiro-rs/issues/311)) | sekiro-rs | Yama | 2026-10-23 |
 | tools | Index the pre-Gyoubu reference shots and compare the morning state ([#62](https://github.com/AKJama/sekiro-rs/issues/62) follow-up) | sekiro-rs | Yama | 2026-10-23 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
