@@ -35,7 +35,8 @@ Who's working on what right now, and what's done.
 | fx | FXR levels of detail switch by distance ([#273](https://github.com/AKJama/sekiro-rs/issues/273)) | sekiro-rs | Yama | 2026-10-23 |
 | render | Arena draw groups apply at load without hiding the roof ([#301](https://github.com/AKJama/sekiro-rs/issues/301)) | sekiro-rs | Yama | 2026-10-23 |
 | render | Morning light too cool: sunlit ground shaded ([#322](https://github.com/AKJama/sekiro-rs/issues/322), likely a 6.25 h sun; waits for the user's A/B) | sekiro-rs | Yama | 2026-10-24 |
-| render | Fog haze is not shadowed by the sun's shadows ([#345](https://github.com/AKJama/sekiro-rs/issues/345), draft [PR 348](https://github.com/AKJama/sekiro-rs/pull/348) awaiting playtest) | sekiro-rs | Yama | 2026-10-24 |
+| render | Fog haze is not shadowed by the sun's shadows ([#345](https://github.com/AKJama/sekiro-rs/issues/345), draft [PR 348](https://github.com/AKJama/sekiro-rs/pull/348) blocky shadows fixed, awaiting recheck) | sekiro-rs | Yama | 2026-10-24 |
+| fx | Item pickup glint looks like a strong sharp light ([#356](https://github.com/AKJama/sekiro-rs/issues/356)) | sekiro-rs | Yama | 2026-10-24 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
