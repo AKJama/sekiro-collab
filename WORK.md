@@ -37,7 +37,7 @@ Who's working on what right now, and what's done.
 | perf | Forest below the Castle gate at 45 fps ([#339](https://github.com/AKJama/sekiro-rs/issues/339)) | sekiro-rs | Yama | 2026-10-24 |
 | input | First attack presses after loading are ignored ([#336](https://github.com/AKJama/sekiro-rs/issues/336)) | sekiro-rs | Yama | 2026-10-24 |
 | fx | Snow can be outrun when sprinting ([#334](https://github.com/AKJama/sekiro-rs/issues/334)) | sekiro-rs | Yama | 2026-10-24 |
-| fx | Missing castle chimney and torch smoke ([#324](https://github.com/AKJama/sekiro-rs/issues/324)) | sekiro-rs | Yama | 2026-10-24 |
+| fx | Missing castle chimney and torch smoke ([#324](https://github.com/AKJama/sekiro-rs/issues/324), draft [PR 349](https://github.com/AKJama/sekiro-rs/pull/349) awaiting playtest) | sekiro-rs | Yama | 2026-10-24 |
 | render | Morning light too cool: sunlit ground shaded ([#322](https://github.com/AKJama/sekiro-rs/issues/322)) | sekiro-rs | Yama | 2026-10-24 |
 | render | Fog haze is not shadowed by the sun's shadows ([#345](https://github.com/AKJama/sekiro-rs/issues/345), draft [PR 348](https://github.com/AKJama/sekiro-rs/pull/348) awaiting playtest) | sekiro-rs | Yama | 2026-10-24 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
