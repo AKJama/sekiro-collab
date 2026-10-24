@@ -38,7 +38,7 @@ Who's working on what right now, and what's done.
 | input | First attack presses after loading are ignored ([#336](https://github.com/AKJama/sekiro-rs/issues/336)) | sekiro-rs | Yama | 2026-10-24 |
 | render | Castle render gate loses the GPU device ([#331](https://github.com/AKJama/sekiro-rs/issues/331)) | sekiro-rs | Yama | 2026-10-24 |
 | fx | Snow can be outrun when sprinting ([#334](https://github.com/AKJama/sekiro-rs/issues/334)) | sekiro-rs | Yama | 2026-10-24 |
-| camera | Genichiro arena west blind half-covers the lock-on view ([#330](https://github.com/AKJama/sekiro-rs/issues/330)) | sekiro-rs | Yama | 2026-10-24 |
+| fx | Missing castle chimney and torch smoke ([#324](https://github.com/AKJama/sekiro-rs/issues/324)) | sekiro-rs | Yama | 2026-10-24 |
 | render | Sun disc in the sky ([#61](https://github.com/AKJama/sekiro-rs/issues/61)) | sekiro-rs | Yama | 2026-10-24 |
 | render | Snow in shade too bright and blue; rock shadows lifted ([#325](https://github.com/AKJama/sekiro-rs/issues/325)) | sekiro-rs | Yama | 2026-10-24 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
