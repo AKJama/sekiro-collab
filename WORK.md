@@ -38,7 +38,6 @@ Who's working on what right now, and what's done.
 | input | First attack presses after loading are ignored ([#336](https://github.com/AKJama/sekiro-rs/issues/336)) | sekiro-rs | Yama | 2026-10-24 |
 | fx | Snow can be outrun when sprinting ([#334](https://github.com/AKJama/sekiro-rs/issues/334)) | sekiro-rs | Yama | 2026-10-24 |
 | fx | Missing castle chimney and torch smoke ([#324](https://github.com/AKJama/sekiro-rs/issues/324)) | sekiro-rs | Yama | 2026-10-24 |
-| render | Sun disc in the sky ([#61](https://github.com/AKJama/sekiro-rs/issues/61)) | sekiro-rs | Yama | 2026-10-24 |
 | render | Fog haze is not shadowed by the sun's shadows ([#345](https://github.com/AKJama/sekiro-rs/issues/345)) | sekiro-rs | Yama | 2026-10-24 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
