@@ -32,7 +32,6 @@ Who's working on what right now, and what's done.
 |---|---|---|---|---|
 | fx | Haze sheets: blocky holes ([#365](https://github.com/AKJama/sekiro-rs/issues/365)) and haze where the game has clear air at start 0 ([#366](https://github.com/AKJama/sekiro-rs/issues/366)) | sekiro-rs | Yama | 2026-10-25 |
 | render | Grass and foliage dark sides ([#367](https://github.com/AKJama/sekiro-rs/issues/367)) | sekiro-rs | Yama | 2026-10-25 |
-| tools | Live A/B switch for playtests, F5 ([#358](https://github.com/AKJama/sekiro-rs/issues/358)) | sekiro-rs | Yama | 2026-10-25 |
 | render | Floating rock fragment in the gully ([#31](https://github.com/AKJama/sekiro-rs/issues/31)), waits for the user's exact view | sekiro-rs | Yama | 2026-10-22 |
 | map | Free map blocks the player has left ([#271](https://github.com/AKJama/sekiro-rs/issues/271)) | sekiro-rs | Yama | 2026-10-23 |
 | fx | FXR levels of detail switch by distance ([#273](https://github.com/AKJama/sekiro-rs/issues/273)) | sekiro-rs | Yama | 2026-10-23 |
@@ -50,10 +49,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (280)</summary>
+<summary>Done (281)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| tools | Playtest A/B switch: F5 flips `--ab` variants (hour, fog shadow) live ([#358](https://github.com/AKJama/sekiro-rs/issues/358)) | sekiro-rs | Yama | 2026-10-25 | [baba89c](https://github.com/AKJama/sekiro-rs/commit/baba89c) |
 | render | Fog sun light follows the sun shadows, jittered and reprojected like the game ([#345](https://github.com/AKJama/sekiro-rs/issues/345)) | sekiro-rs | Yama | 2026-10-25 | [1ba88ca](https://github.com/AKJama/sekiro-rs/commit/1ba88ca) |
 | perf | Cut m11 load-time VRAM: one mesh per layout before warmup, packed map indices and colours (PR #263) | sekiro-rs | FwLo | 2026-10-25 | [3cdcadb](https://github.com/AKJama/sekiro-rs/commit/3cdcadb) |
 | fx | Item pickup glint rays rise from the item instead of lying on the floor ([#356](https://github.com/AKJama/sekiro-rs/issues/356)) | sekiro-rs | Yama | 2026-10-24 | [7c177e7](https://github.com/AKJama/sekiro-rs/commit/7c177e7) |
