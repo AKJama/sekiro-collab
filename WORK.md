@@ -24,6 +24,7 @@ Who's working on what right now, and what's done.
 | boss | Lady Butterfly: illusion homing, navigation and summon recreation; two illusions fall below the floor |
 | boss | Guardian Ape: grabs do not connect |
 | combat | TAE 705 facing correction for enemies (20 Demon of Hatred events use it) |
+| lib | Library follow-up from PR #185: map functions take `--story` / `--no-connected-blocks` as settings instead of reading the command line, and the `process_start` clock starts for library hosts |
 | world | Grapple tree fall prevention: walls hold where they cover, but only about 40% of the trunk, parked as draft [PR #33](https://github.com/AKJama/sekiro-rs/pull/33), [#17](https://github.com/AKJama/sekiro-rs/issues/17) |
 
 ## Claimed
@@ -41,7 +42,6 @@ Who's working on what right now, and what's done.
 | sim | Enemies slide on the map with their own NpcParam body size ([#191](https://github.com/AKJama/sekiro-rs/issues/191)), upstream draft [PR #316](https://github.com/AKJama/sekiro-rs/pull/316) | sekiro-rs | FwLo | 2026-10-23 |
 | movement | Fall return never saves a spot over a wall too steep to stand on ([#201](https://github.com/AKJama/sekiro-rs/issues/201)), upstream draft [PR #317](https://github.com/AKJama/sekiro-rs/pull/317) | sekiro-rs | FwLo | 2026-10-23 |
 | anim | Foot IK for the NPCs whose behaviour carries it ([#252](https://github.com/AKJama/sekiro-rs/issues/252)), upstream draft [PR #319](https://github.com/AKJama/sekiro-rs/pull/319) | sekiro-rs | FwLo | 2026-10-23 |
-| lib | Game crate as a library too, `map::APP_HOOKS` ([#193](https://github.com/AKJama/sekiro-rs/issues/193)): review answered, rebased, [PR #185](https://github.com/AKJama/sekiro-rs/pull/185) waits on merge | sekiro-rs | FwLo | 2026-10-23 |
 | hks | Merge the HKS env answers and engine events into sekiro-rs from a fork ([#162](https://github.com/AKJama/sekiro-rs/issues/162)); may let us drop the #144 MoveDirection hold | sekiro-rs (fork) | FwLo | 2026-10-21 |
 | integration | Audit a native Wolf model in actual Elden Ring and define the RustSekiro in-process integration contract (local claim; push pending user approval) | RustSekiro / private ER workspace | Fireguy32 | 2026-10-18 |
 | rendering | Afternoon scenes and snow 2-8x too bright: radiance scale, sun/ambient units, snow response (exposure row alongside FwLo) | sekiro-rs | Yama | 2026-10-15 |
@@ -50,10 +50,11 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (272)</summary>
+<summary>Done (273)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| lib | Game crate as a library too (`sekiro_rs`), `map::APP_HOOKS` (#193, PR #185) | sekiro-rs | FwLo | 2026-10-24 | [0a0c678](https://github.com/AKJama/sekiro-rs/commit/0a0c678) |
 | render | Map parts and fog cards use their own light set row (#67, PR #315) | sekiro-rs | Yama | 2026-10-23 | [67afb95](https://github.com/AKJama/sekiro-rs/commit/67afb95) |
 | perf | Map enemies hide past the game's character draw distance (#312, PR #327) | sekiro-rs | Yama | 2026-10-23 | [dcc907e](https://github.com/AKJama/sekiro-rs/commit/dcc907e) |
 | render | Sun glow halo from the game's glow filter (#288, PR #332) | sekiro-rs | Yama | 2026-10-23 | [3fffd42](https://github.com/AKJama/sekiro-rs/commit/3fffd42) |
