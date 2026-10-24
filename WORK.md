@@ -34,8 +34,6 @@ Who's working on what right now, and what's done.
 | map | Free map blocks the player has left ([#271](https://github.com/AKJama/sekiro-rs/issues/271)) | sekiro-rs | Yama | 2026-10-23 |
 | fx | FXR levels of detail switch by distance ([#273](https://github.com/AKJama/sekiro-rs/issues/273)) | sekiro-rs | Yama | 2026-10-23 |
 | render | Arena draw groups apply at load without hiding the roof ([#301](https://github.com/AKJama/sekiro-rs/issues/301)) | sekiro-rs | Yama | 2026-10-23 |
-| render | Morning light too cool: sunlit ground shaded ([#322](https://github.com/AKJama/sekiro-rs/issues/322), likely a 6.25 h sun; waits for the user's A/B) | sekiro-rs | Yama | 2026-10-24 |
-| render | Fog haze is not shadowed by the sun's shadows ([#345](https://github.com/AKJama/sekiro-rs/issues/345), draft [PR 348](https://github.com/AKJama/sekiro-rs/pull/348) blocky shadows fixed, awaiting recheck) | sekiro-rs | Yama | 2026-10-24 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
@@ -49,10 +47,12 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (278)</summary>
+<summary>Done (280)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| render | Fog sun light follows the sun shadows, jittered and reprojected like the game ([#345](https://github.com/AKJama/sekiro-rs/issues/345)) | sekiro-rs | Yama | 2026-10-25 | [1ba88ca](https://github.com/AKJama/sekiro-rs/commit/1ba88ca) |
+| perf | Cut m11 load-time VRAM: one mesh per layout before warmup, packed map indices and colours (PR #263) | sekiro-rs | FwLo | 2026-10-25 | [3cdcadb](https://github.com/AKJama/sekiro-rs/commit/3cdcadb) |
 | fx | Item pickup glint rays rise from the item instead of lying on the floor ([#356](https://github.com/AKJama/sekiro-rs/issues/356)) | sekiro-rs | Yama | 2026-10-24 | [7c177e7](https://github.com/AKJama/sekiro-rs/commit/7c177e7) |
 | fx | Lit effect particles take the sun, GI and point lights; grey gatehouse torch smoke ([#324](https://github.com/AKJama/sekiro-rs/issues/324), PR #349) | sekiro-rs | Yama | 2026-10-24 | [8772f6b](https://github.com/AKJama/sekiro-rs/commit/8772f6b) |
 | perf | BTL lights use the game's view-distance cull; Castle forest fps ([#339](https://github.com/AKJama/sekiro-rs/issues/339), PR #346) | sekiro-rs | Yama | 2026-10-24 | [65c4ea4](https://github.com/AKJama/sekiro-rs/commit/65c4ea4) |
