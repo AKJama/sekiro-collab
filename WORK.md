@@ -35,12 +35,12 @@ Who's working on what right now, and what's done.
 | fx | FXR levels of detail switch by distance ([#273](https://github.com/AKJama/sekiro-rs/issues/273)) | sekiro-rs | Yama | 2026-10-23 |
 | render | Arena draw groups apply at load without hiding the roof ([#301](https://github.com/AKJama/sekiro-rs/issues/301)) | sekiro-rs | Yama | 2026-10-23 |
 | perf | Forest below the Castle gate at 45 fps ([#339](https://github.com/AKJama/sekiro-rs/issues/339)) | sekiro-rs | Yama | 2026-10-24 |
-| perf | Frame drop for 5 s after an idol rest ([#335](https://github.com/AKJama/sekiro-rs/issues/335)) | sekiro-rs | Yama | 2026-10-24 |
 | input | First attack presses after loading are ignored ([#336](https://github.com/AKJama/sekiro-rs/issues/336)) | sekiro-rs | Yama | 2026-10-24 |
 | render | Castle render gate loses the GPU device ([#331](https://github.com/AKJama/sekiro-rs/issues/331)) | sekiro-rs | Yama | 2026-10-24 |
 | fx | Snow can be outrun when sprinting ([#334](https://github.com/AKJama/sekiro-rs/issues/334)) | sekiro-rs | Yama | 2026-10-24 |
 | camera | Genichiro arena west blind half-covers the lock-on view ([#330](https://github.com/AKJama/sekiro-rs/issues/330)) | sekiro-rs | Yama | 2026-10-24 |
 | render | Sun disc in the sky ([#61](https://github.com/AKJama/sekiro-rs/issues/61)) | sekiro-rs | Yama | 2026-10-24 |
+| render | Snow in shade too bright and blue; rock shadows lifted ([#325](https://github.com/AKJama/sekiro-rs/issues/325)) | sekiro-rs | Yama | 2026-10-24 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
 | items | Enemy drops on death, porting Fireguy32's drops ([#137](https://github.com/AKJama/sekiro-rs/issues/137)) | sekiro-rs | Yama | 2026-10-20 |
 | combat | Port combat pieces from RustSekiro that sekiro-rs lacks, one PR each | sekiro-rs | Yama | 2026-10-20 |
