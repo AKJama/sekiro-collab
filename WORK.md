@@ -34,10 +34,6 @@ Who's working on what right now, and what's done.
 | map | Free map blocks the player has left ([#271](https://github.com/AKJama/sekiro-rs/issues/271)) | sekiro-rs | Yama | 2026-10-23 |
 | fx | FXR levels of detail switch by distance ([#273](https://github.com/AKJama/sekiro-rs/issues/273)) | sekiro-rs | Yama | 2026-10-23 |
 | render | Arena draw groups apply at load without hiding the roof ([#301](https://github.com/AKJama/sekiro-rs/issues/301)) | sekiro-rs | Yama | 2026-10-23 |
-| perf | Forest below the Castle gate at 45 fps ([#339](https://github.com/AKJama/sekiro-rs/issues/339)) | sekiro-rs | Yama | 2026-10-24 |
-| input | First attack presses after loading are ignored ([#336](https://github.com/AKJama/sekiro-rs/issues/336)) | sekiro-rs | Yama | 2026-10-24 |
-| fx | Snow can be outrun when sprinting ([#334](https://github.com/AKJama/sekiro-rs/issues/334)) | sekiro-rs | Yama | 2026-10-24 |
-| fx | Missing castle chimney and torch smoke ([#324](https://github.com/AKJama/sekiro-rs/issues/324), draft [PR 349](https://github.com/AKJama/sekiro-rs/pull/349) awaiting playtest) | sekiro-rs | Yama | 2026-10-24 |
 | render | Morning light too cool: sunlit ground shaded ([#322](https://github.com/AKJama/sekiro-rs/issues/322), likely a 6.25 h sun; waits for the user's A/B) | sekiro-rs | Yama | 2026-10-24 |
 | render | Fog haze is not shadowed by the sun's shadows ([#345](https://github.com/AKJama/sekiro-rs/issues/345), draft [PR 348](https://github.com/AKJama/sekiro-rs/pull/348) awaiting playtest) | sekiro-rs | Yama | 2026-10-24 |
 | idols | Idol mechanics left: Acquire Skills, rest effect and refills ([#73](https://github.com/AKJama/sekiro-rs/issues/73)) | sekiro-rs | Yama | 2026-10-20 |
@@ -55,10 +51,14 @@ Who's working on what right now, and what's done.
 ## Done
 
 <details>
-<summary>Done (273)</summary>
+<summary>Done (277)</summary>
 
 | Area | Task | Repo | Who | Date | Commit |
 |---|---|---|---|---|---|
+| fx | Lit effect particles take the sun, GI and point lights; grey gatehouse torch smoke ([#324](https://github.com/AKJama/sekiro-rs/issues/324), PR #349) | sekiro-rs | Yama | 2026-10-24 | [8772f6b](https://github.com/AKJama/sekiro-rs/commit/8772f6b) |
+| perf | BTL lights use the game's view-distance cull; Castle forest fps ([#339](https://github.com/AKJama/sekiro-rs/issues/339), PR #346) | sekiro-rs | Yama | 2026-10-24 | [65c4ea4](https://github.com/AKJama/sekiro-rs/commit/65c4ea4) |
+| fx | Camera snow keeps up with a sprinting camera ([#334](https://github.com/AKJama/sekiro-rs/issues/334), PR #343) | sekiro-rs | Yama | 2026-10-24 | [1784419](https://github.com/AKJama/sekiro-rs/commit/1784419) |
+| input | First click after loading attacks ([#336](https://github.com/AKJama/sekiro-rs/issues/336), PR #342) | sekiro-rs | Yama | 2026-10-24 | [85d38c4](https://github.com/AKJama/sekiro-rs/commit/85d38c4) |
 | lib | Game crate as a library too (`sekiro_rs`), `map::APP_HOOKS` (#193, PR #185) | sekiro-rs | FwLo | 2026-10-24 | [0a0c678](https://github.com/AKJama/sekiro-rs/commit/0a0c678) |
 | render | Map parts and fog cards use their own light set row (#67, PR #315) | sekiro-rs | Yama | 2026-10-23 | [67afb95](https://github.com/AKJama/sekiro-rs/commit/67afb95) |
 | perf | Map enemies hide past the game's character draw distance (#312, PR #327) | sekiro-rs | Yama | 2026-10-23 | [dcc907e](https://github.com/AKJama/sekiro-rs/commit/dcc907e) |
