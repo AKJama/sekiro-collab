@@ -30,9 +30,9 @@ Who's working on what right now, and what's done.
 
 | Area | Task | Repo | Who | Since |
 |---|---|---|---|---|
-| fx | Idol flames vanish during the first sit, slightly bright ([#360](https://github.com/AKJama/sekiro-rs/issues/360)) | sekiro-rs | Yama | 2026-10-25 |
-| fx | Haze sheets: blocky holes ([#365](https://github.com/AKJama/sekiro-rs/issues/365)) and haze where the game has clear air at start 0 ([#366](https://github.com/AKJama/sekiro-rs/issues/366)) | sekiro-rs | Yama | 2026-10-25 |
-| render | Grass and foliage dark sides ([#367](https://github.com/AKJama/sekiro-rs/issues/367)) | sekiro-rs | Yama | 2026-10-25 |
+| fx | Idol flames vanish during the first sit, slightly bright ([#360](https://github.com/AKJama/sekiro-rs/issues/360), PR [#371](https://github.com/AKJama/sekiro-rs/pull/371) awaits playtest) | sekiro-rs | Yama | 2026-10-25 |
+| fx | Haze sheets: blocky holes ([#365](https://github.com/AKJama/sekiro-rs/issues/365)) and haze where the game has clear air at start 0 ([#366](https://github.com/AKJama/sekiro-rs/issues/366)), PR [#374](https://github.com/AKJama/sekiro-rs/pull/374) awaits playtest | sekiro-rs | Yama | 2026-10-25 |
+| render | Grass and foliage dark sides ([#367](https://github.com/AKJama/sekiro-rs/issues/367), PR [#373](https://github.com/AKJama/sekiro-rs/pull/373) awaits playtest) | sekiro-rs | Yama | 2026-10-25 |
 | render | Floating rock fragment in the gully ([#31](https://github.com/AKJama/sekiro-rs/issues/31)), waits for the user's exact view | sekiro-rs | Yama | 2026-10-22 |
 | map | Free map blocks the player has left ([#271](https://github.com/AKJama/sekiro-rs/issues/271)) | sekiro-rs | Yama | 2026-10-23 |
 | fx | FXR levels of detail switch by distance ([#273](https://github.com/AKJama/sekiro-rs/issues/273)) | sekiro-rs | Yama | 2026-10-23 |
